@@ -1,0 +1,24 @@
+name: "website"
+title: "Gustavo Diaz"
+theme: theme.css
+description: |
+  Postdoctoral Fellow, Center for Inter-American Policy and Research, Tulane University
+output_dir: "docs"
+navbar:
+  left:
+    - text: "Research"
+      href: index.html/#research
+    - text: "Teaching"
+      href: teaching.html
+    - text: "CV"
+      href: files/diaz_cv.pdf
+  right:
+    - icon: fab fa-github
+      href: https://github.com/gustavo-diaz
+    - icon: fab fa-twitter
+      href: https://twitter.com/Gusvalo
+    - icon: fab fa-google
+      href: https://scholar.google.com/citations?user=TVXK8-8AAAAJ
+    - icon: fas fa-envelope
+      href: mailto:gustavodiaz@tulane.edu
+output: distill::distill_article
