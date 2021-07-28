@@ -22,13 +22,15 @@ These are sample syllabi of courses that I plan to teach in the future. Feel fre
 
 ## Instructor
 
+### Tulane University
+
+Comparative Politics
+
 ### University of Illinois at Urbana-Champaign
 
-Comparative Politics in Developing Nations (Online)<br/>
-[`Syllabus`](files/teaching/cpdev_online_syllabus.pdf)
+Comparative Politics in Developing Nations (Online) [`Syllabus`](files/teaching/cpdev_online_syllabus.pdf)
 
-Math Camp for Political Scientists<br/>
-[`GitHub`](https://github.com/mathcamp-psgsa)
+Math Camp for Political Scientists [`GitHub`](https://github.com/mathcamp-psgsa)
 
 ## Teaching Assistant
 

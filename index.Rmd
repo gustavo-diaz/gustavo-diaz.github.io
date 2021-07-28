@@ -35,7 +35,7 @@ I received my PhD from the [Department of Political Science](https://pol.illinoi
 ## Working Papers
 
 ["A Model Selection Approach to Interference."](files/research/model_interference.pdf)<br/>
-[`Appendix`](files/research/model_interference_appendix.pdf)
+[`Appendix`](files/research/model_interference_appendix.pdf)  
 - *Best poster award. 2019 Latin American Political Methodology Meeting*
 
 ["Bad Neighbors Make Good Fences: How Politicians Mitigate the Electoral Consequences of Nearby Corruption in Brazil."](files/research/nearby_corruption.pdf)<br/>
