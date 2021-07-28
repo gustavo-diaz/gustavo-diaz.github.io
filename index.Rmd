@@ -14,7 +14,7 @@ knitr::opts_chunk$set(echo = FALSE, message = FALSE, warning = FALSE,
 ```{r, out.extra='style="float:left; padding:10px"'}
 knitr::include_graphics("images/profile2.png")
 ```
-I am a Postdoctoral Fellow in the [Center for Inter-American Policy and Research](http://cipr.tulane.edu/) at [Tulane University](https://tulane.edu/). I study comparative politics and political methodology.
+I am a Postdoctoral Fellow in the [Center for Inter-American Policy and Research](cipr.tulane.edu) at [Tulane University](https://tulane.edu/). I study comparative politics and political methodology.
 
 Substantively, I am interested in political economy and political behavior in developing countries, with a focus on how information shapes electoral accountability and representation. Methodologically, I use tools from design-based causal inference and machine learning to improve research design in experiments and observational studies.
 
