@@ -3,7 +3,9 @@ title: "Gustavo Diaz"
 theme: theme.css
 description: |
   Postdoctoral Fellow, Center for Inter-American Policy and Research, Tulane University
-output_dir: "docs"
+output_dir: "."
+base_url: https://gustavodiaz.org
+repository_url: https://github.com/gustavo-diaz/gustavo-diaz.github.io
 navbar:
   left:
     - text: "Research"
