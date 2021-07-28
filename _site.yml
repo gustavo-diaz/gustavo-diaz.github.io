@@ -6,8 +6,6 @@ description: |
 output_dir: "."
 navbar:
   left:
-    - text: "Research"
-      href: https://gustavodiaz.org/#research
     - text: "Teaching"
       href: teaching.html
     - text: "CV"
