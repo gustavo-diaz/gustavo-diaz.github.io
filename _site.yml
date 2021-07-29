@@ -6,17 +6,20 @@ description: |
 output_dir: "."
 navbar:
   left:
+    - text: "Research"
+      href: research.html
     - text: "Teaching"
       href: teaching.html
     - text: "CV"
       href: files/diaz_cv.pdf
   right:
-    - icon: fab fa-github
-      href: https://github.com/gustavo-diaz
-    - icon: fab fa-twitter
-      href: https://twitter.com/Gusvalo
-    - icon: fab fa-google
-      href: https://scholar.google.com/citations?user=TVXK8-8AAAAJ
     - icon: fas fa-envelope
       href: mailto:gustavodiaz@tulane.edu
+    - icon: fab fa-twitter
+      href: https://twitter.com/gusval
+    - icon: fab fa-github
+      href: https://github.com/gustavo-diaz
+    - icon: fab fa-google
+      href: https://scholar.google.com/citations?user=TVXK8-8AAAAJ
+    
 output: distill::distill_article

@@ -1,54 +1,46 @@
 ---
 title: "Gustavo Diaz"
-description: "Postdoctoral Fellow, Center for Inter-American Policy and Research, Tulane University"
+image: "images/profile2.png"
+links:
+  - label: '<i class="fas fa-envelope"></i> Email'
+    url: "mailto:gustavodiaz@tulane.edu"
+  - label: '<i class="fab fa-twitter"></i> Twitter'
+    url: "https://twitter.com/gusvalo"
+  - label: '<i class="fab fa-github"></i> GitHub'
+    url: "https://github.com/gustavo-diaz"
+  - label: '<i class="fab fa-google"></i> Scholar'
+
+output:
+  postcards::trestles
 site: distill::distill_website
 ---
 
+<!-- Remove double sidebar -->
+
 ```{r, include = FALSE}
-knitr::opts_chunk$set(echo = FALSE, message = FALSE, warning = FALSE, 
-                      results = "asis", out.width = "40%")
+trestles_orig <- readLines(
+  system.file("pandoc_templates/trestles.html",
+              package = "postcards")
+)
+trestles_mod <- trestles_orig
+trestles_mod[
+  which(
+    grepl(
+      'class="d-flex flex-column col px-5 align-items-center align-self-center mh-100" style="overflow-y: scroll;"',
+      trestles_mod
+    )
+  )
+] <- '<div class="d-flex flex-column col px-5 align-items-center align-self-center mh-100" style="overflow-y: none;">'
+trestles_mod <- gsub("'Roboto Slab'", '-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", Arial, sans-serif', trestles_mod)
+cat(paste(trestles_mod, collapse = "\n"), file = system.file("pandoc_templates/trestles.html",
+              package = "postcards"))
 ```
 
-::: {.floatting}
+# Welcome
 
-```{r, out.extra='style="float:left; padding:10px"'}
-knitr::include_graphics("images/profile2.png")
-```
 I am a Postdoctoral Fellow in the [Center for Inter-American Policy and Research](http://cipr.tulane.edu) at [Tulane University](https://tulane.edu/). I study comparative politics and political methodology.
 
 Substantively, I am interested in political economy and political behavior in developing countries, with a focus on how information shapes electoral accountability and representation. Methodologically, I use tools from design-based causal inference and machine learning to improve research design in experiments and observational studies.
 
 I received my PhD from the [Department of Political Science](https://pol.illinois.edu/) at the [University of Illinois at Urbana-Champaign](https://illinois.edu/) in 2021.
 
-:::
-
-# Research {#research}
-
-## Publications
-
-2020\. ["Light in the Midst of Chaos: COVID-19 and Female Political Representation."](https://doi.org/10.1016/j.worlddev.2020.105125) *World Development* 136: 105125 (with [Kelly Senters Piazza](https://www.usafa.edu/facultyprofile/?smid=23816))
-
-2020\. ["Survey Experiments and the Quest for Valid Interpretation."](files/research/sage_survey_experiments_chapter.pdf) In [*The SAGE Handbook of Research Methods in Political Science and International Relations*](https://us.sagepub.com/en-us/nam/the-sage-handbook-of-research-methods-in-political-science-and-international-relations/book262875), edited by Luigi Curini and Robert Franzese. London: Sage (with [Christopher Grady](https://publish.illinois.edu/cdgrady2/) and [James H. Kuklinski](https://pol.illinois.edu/directory/profile/kuklinsk))
-
-2014\. ["Civic Education and Voter Turnout Under Voluntary Voting."](https://revistapolitica.uchile.cl/index.php/RP/article/view/33099/34813) *Política* 52(1): 61-91 (In Spanish)
-
-## Working Papers
-
-["A Model Selection Approach to Interference."](files/research/model_interference.pdf)<br/>
-[`Appendix`](files/research/model_interference_appendix.pdf)  
-- *Best poster award. 2019 Latin American Political Methodology Meeting*
-
-["Bad Neighbors Make Good Fences: How Politicians Mitigate the Electoral Consequences of Nearby Corruption in Brazil."](files/research/nearby_corruption.pdf)<br/>
-[`Appendix`](files/research/nearby_corruption_appendix.pdf)
-
-["Women Held Back: The Depressing Effect of Institutional and Norms-Based Barriers on Female Representation in Corrupt Contexts."](files/research/gender_corruption.pdf)
-(with [Kelly Senters Piazza](https://www.usafa.edu/facultyprofile/?smid=23816))
-
-## Work in Progress
-
-Against Rules of Thumb in the Estimation of Average Treatment Effects in Block Randomized Experiments (with [Jake Bowers](http://www.jakebowers.org/) and [Christopher Grady](https://publish.illinois.edu/cdgrady2/))<br/>
-[`EGAP resource`](https://egap.org/resource/sd-block-rand/)
-
-Do Politicians Try to Make Up for Corruption?
-
-Detecting Design Effects in Double List Experiments
