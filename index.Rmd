@@ -41,7 +41,7 @@ cat(paste(trestles_mod, collapse = "\n"), file = system.file("pandoc_templates/t
 
 I am a Postdoctoral Fellow at the [Center for Inter-American Policy and Research](http://cipr.tulane.edu) at [Tulane University](https://tulane.edu/). I study comparative politics and political methodology.
 
-Substantively, I am interested in political economy and political behavior in developing countries, with a focus on how information shapes electoral accountability and representation. Methodologically, I use tools from design-based causal inference and machine learning to improve research design in experiments and observational studies.
+Substantively, I am interested in political economy and political behavior in the Global South, with a focus on how information shapes electoral accountability and representation. Methodologically, I use tools from design-based causal inference and machine learning to improve research design in experiments and observational studies.
 
 I received my PhD from the [Department of Political Science](https://pol.illinois.edu/) at the [University of Illinois at Urbana-Champaign](https://illinois.edu/) in 2021.
 
