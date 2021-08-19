@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ---
 title: "What is Science?"
 subtitle: "Comparative Politics"  
@@ -80,4 +81,88 @@ Can there be a **SCIENCE** of **POLITICS**?
 ---
 class: inverse center middle
 
+=======
+---
+title: "What is Science?"
+subtitle: "Comparative Politics"  
+author: "POLC-2300-01"
+date: "August 23, 2021"
+output:
+  xaringan::moon_reader:
+    css: xaringan-themer.css
+    nature:
+      slideNumberFormat: "%current%"
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+---
+
+```{r setup, include=FALSE}
+options(htmltools.dir.version = FALSE)
+knitr::opts_chunk$set(
+  fig.width=9, fig.height=3.5, fig.retina=3,
+  out.width = "100%",
+  cache = FALSE,
+  echo = FALSE,
+  message = FALSE, 
+  warning = FALSE,
+  hiline = TRUE
+)
+```
+
+```{r xaringan-themer, include=FALSE, warning=FALSE}
+library(xaringanthemer)
+style_duo_accent(
+  base_font_size = "25px",
+  title_slide_background_image = "figs/logo.png",
+  title_slide_background_size = "8%",
+  title_slide_background_position = "50% 95%",
+  primary_color = "#336666",
+  secondary_color = "#71C5E8",
+  inverse_header_color = "#FFFFFF",
+  background_color = "#EAE9EA",
+  link_color = "#71C5E8"
+)
+```
+
+```{r other-options}
+library(knitr)
+library(tidyverse)
+library(kableExtra)
+library(fontawesome)
+```
+
+
+## Last time
+
+--
+
+Comparative politics is a subfield of **Political** **Science**
+
+--
+
+Some philosophers may think this is an oxymoron:
+
+--
+
+1. **Politics:** Normative opinions
+
+2. **Science:** True, unquestionable knowledge
+
+--
+
+Can there be a **SCIENCE** of **POLITICS**?
+
+--
+
+**Today:** Focus on the **Science** part
+
+--
+
+**Tuesday:** Focus on **Politics**
+
+---
+class: inverse center middle
+
+>>>>>>> c79f288f9e5b2e307a22fb1e36ee37080c13bbe1
 # Jamboard [`r fa("external-link-alt", fill = "#FFFFFF")`](https://jamboard.google.com/d/1wsoJHoA0-YtwEmDhQljlUK_K2YNRHIaVbVAR7W1-nRw/edit?usp=sharing)
