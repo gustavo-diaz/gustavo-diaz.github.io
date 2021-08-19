@@ -24,7 +24,7 @@ These are sample syllabi of courses that I plan to teach in the future. Feel fre
 
 ### Tulane University
 
-Comparative Politics
+[Comparative Politics](teaching/polc_2300_cp/syllabus/polc2300_syllabus.pdf)
 
 ### University of Illinois at Urbana-Champaign
 
