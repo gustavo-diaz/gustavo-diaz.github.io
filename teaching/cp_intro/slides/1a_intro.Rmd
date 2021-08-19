@@ -2,7 +2,7 @@
 title: "Comparative Politics"
 subtitle: "POLC-2300-01"  
 author: "Prof. Gustavo Diaz"
-date: "August 23, 2021"
+date: "August 24, 2021"
 output:
   xaringan::moon_reader:
     css: xaringan-themer.css
@@ -57,7 +57,7 @@ library(fontawesome)
 
 --
 
-Postdoc at the **Center for Inter-American Policy and Research** [`r fa("external-link-alt")`](http://cipr.tulane.edu/)
+Postdoc @ **Center for Inter-American Policy and Research** [`r fa("external-link-alt")`](http://cipr.tulane.edu/)
 
 --
 
@@ -194,6 +194,30 @@ layout: false
 4. Varieties of democracies and dictatorships
 
 ---
+## Who should take this course?
+
+--
+
+- PoliSci majors
+
+--
+
+- Those seeking academic careers (esp. in the social sciences)
+
+--
+
+- Interested in understanding world politics
+
+--
+
+- Politics/policy/consulting
+
+--
+
+- Everyone!
+
+
+---
 layout: false
 
 class: inverse center middle
@@ -287,6 +311,12 @@ dates %>%
   kbl() %>% 
   kable_classic(position = "center", bootstrap_options = c("condensed", "responsive"), font_size = 15)
 ```
+
+---
+class: inverse center middle
+
+# Canvas [`r fa("external-link-alt", fill = "#FFFFFF")`](https://tulane.instructure.com/courses/2237766)
+
 
 
 ---
