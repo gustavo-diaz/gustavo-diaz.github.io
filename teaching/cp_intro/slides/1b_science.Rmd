@@ -423,15 +423,20 @@ In any case, a valid critique implies:
 
 So...
 
-- When things go wrong, your theory is **rejected**
 - When things go well, your theory is **~~accepted~~** **not rejected**
+- When things go wrong, your theory is **~~rejected~~** **not accepted**
 - But future research can always flip things around!
 
 ---
 
-## Summary
+## Takeaways
 
-[CONINUE HERE]
+1. Science differs from other forms of knowledge generation in that it embraces uncertainty
+2. Scientific statements/arguments are falsifiable
+3. We can only test a few implications of an theory at a time
+4. Findings can align with many alternative theories
+5. Good science tries really hard to prove itself wrong
+
 
 ---
 class: inverse center middle
