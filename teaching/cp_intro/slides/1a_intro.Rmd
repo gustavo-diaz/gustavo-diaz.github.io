@@ -304,7 +304,7 @@ dates = data.frame(
                  "Quiz 5", "News Report 5", "Thanksgiving Break (NO CLASS)",
                  "Quiz 6", "News Report 6", "Final Exam"),
   Date = c("September 3", "September 10", "September 17", "September 24", "October 1", "October 4-8", "October 15",
-           "October 22", "October 29", "November 5", "November 12", "November 22-26", "December 3", "December 10", "TBD")
+           "October 22", "October 29", "November 5", "November 12", "November 22-26", "December 3", "December 10", "December 17")
 )
 
 dates %>% 

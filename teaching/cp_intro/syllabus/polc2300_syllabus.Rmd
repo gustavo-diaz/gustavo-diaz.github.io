@@ -228,7 +228,7 @@ dates = data.frame(
                  "Quiz 5", "News Report 5", "Thanksgiving Break (NO CLASS)",
                  "Quiz 6", "News Report 6", "Final Exam"),
   Date = c("September 3", "September 10", "September 17", "September 24", "October 1", "October 4-8", "October 15",
-           "October 22", "October 29", "November 5", "November 12", "November 22-26", "December 3", "December 10", "TBD")
+           "October 22", "October 29", "November 5", "November 12", "November 22-26", "December 3", "December 10", "December 17")
 )
 
 dates %>% 
@@ -404,8 +404,7 @@ dates %>%
 - Bawn, Kathleen and Frances Rosenbluth. 2006. "Short Versus Long Coalitions: Electoral Accountability and the Size of the Public Sector." *American Journal of Political Science* 50(2): 251-265
 - Iversen, Torben and David Soskice. 2006. "Electoral Institutions and the Politics of Coalitions: Why Some Democracies Redistribute More Than Others." *American Political Science Review* 100(2): 165-181
 
-## Final Exam Placeholder
-
+## Week 17 (December 17): FINAL EXAM 12:00 - 3:00 PM
 
 \newpage
 
