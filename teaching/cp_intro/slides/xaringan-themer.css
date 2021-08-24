@@ -61,6 +61,9 @@
   --secondary: #71C5E8;
   --white: #FFFFFF;
   --black: #000000;
+  --white: #FFFFFF;
+  --green: #336666;
+  --lblue: #71C5E8;
 }
 
 html {
@@ -268,5 +271,23 @@ table.dataTable.hover tbody tr:hover, table.dataTable.display tbody tr:hover {
 }
 .bg-black {
   background-color: var(--black);
+}
+.white {
+  color: var(--white);
+}
+.bg-white {
+  background-color: var(--white);
+}
+.green {
+  color: var(--green);
+}
+.bg-green {
+  background-color: var(--green);
+}
+.lblue {
+  color: var(--lblue);
+}
+.bg-lblue {
+  background-color: var(--lblue);
 }
 
