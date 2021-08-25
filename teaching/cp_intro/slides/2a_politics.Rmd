@@ -15,7 +15,9 @@ output:
 
 ```{r setup, include=FALSE}
 options(htmltools.dir.version = FALSE)
-knitr::opts_chunk$set(
+
+library(knitr)
+opts_chunk$set(
   fig.width=9, fig.height=3.5, fig.retina=3,
   out.width = "100%",
   cache = FALSE,
@@ -120,9 +122,10 @@ background-size: contain
 
 --
 
-- That doesn't mean it's useful to think of every human behavior as such
+- That doesn't mean it's useful to think of every human behavior as such `r fa("fire-alt")`
 
 ---
+
 ## Exit, Voice, and Loyalty (EVL)
 
 - A **model** to understand political interactions
@@ -204,6 +207,63 @@ kbl(games) %>%
 
 ---
 
+## EVL actions
+
+- **Exit:** You accept that there has been a negative change in your environment, and you alter your behavior to achieve the best outcome possible given your new environment
+
+- **Voice:** You use your "voice" to try to change the environment back to its original condition
+
+- **Loyalty:** You accept the fact that your environment has changed and make no change to your preexisting behavior
+
+---
+
+## EVL sequence
+
+- **Exogenous** change to environment
+
+- **C:** Citizen `(Exit, Voice, Loyalty)`
+
+- **G:** Government `(Respond, Ignore)`
+
+- **C:** `Exit, Loyalty`
+
+---
+
 ## EVL setup
 
-[CONTINUE HERE]
+- **C loyalty payoff** $= 0$
+
+- **G loyalty payoff** $= 1 + L$, $L > 0$
+
+- **E:** Citizen payoff from taking exit option
+
+- **c:** Cost of voice, $c > 0$
+
+--
+
+- **Equilibria** depends on values of $L$, $E$, $c$
+
+---
+
+## Game
+
+.center[
+```{r}
+include_graphics("figs/2a_evl_0.png")
+```
+]
+
+---
+
+## Scenario 1: $E < 1-c; L > 1$
+
+<!-- [CONTINUE HERE IMPLEMENT PLOT LAYOUTS] -->
+
+.center[
+```{r}
+include_graphics("figs/2a_evl_0.png")
+```
+]
+
+
+

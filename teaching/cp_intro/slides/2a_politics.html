@@ -90,9 +90,10 @@ background-size: contain
 
 --
 
-- That doesn't mean it's useful to think of every human behavior as such
+- That doesn't mean it's useful to think of every human behavior as such <svg aria-hidden="true" role="img" viewBox="0 0 448 512" style="height:1em;width:0.88em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:currentColor;overflow:visible;position:relative;"><path d="M323.56 51.2c-20.8 19.3-39.58 39.59-56.22 59.97C240.08 73.62 206.28 35.53 168 0 69.74 91.17 0 209.96 0 281.6 0 408.85 100.29 512 224 512s224-103.15 224-230.4c0-53.27-51.98-163.14-124.44-230.4zm-19.47 340.65C282.43 407.01 255.72 416 226.86 416 154.71 416 96 368.26 96 290.75c0-38.61 24.31-72.63 72.79-130.75 6.93 7.98 98.83 125.34 98.83 125.34l58.63-66.88c4.14 6.85 7.91 13.55 11.27 19.97 27.35 52.19 15.81 118.97-33.43 153.42z"/></svg>
 
 ---
+
 ## Exit, Voice, and Loyalty (EVL)
 
 - A **model** to understand political interactions
@@ -186,9 +187,62 @@ class: inverse
 
 ---
 
+## EVL actions
+
+- **Exit:** You accept that there has been a negative change in your environment, and you alter your behavior to achieve the best outcome possible given your new environment
+
+- **Voice:** You use your "voice" to try to change the environment back to its original condition
+
+- **Loyalty:** You accept the fact that your environment has changed and make no change to your preexisting behavior
+
+---
+
+## EVL sequence
+
+- **Exogenous** change to environment
+
+- **C:** Citizen `(Exit, Voice, Loyalty)`
+
+- **G:** Government `(Respond, Ignore)`
+
+- **C:** `Exit, Loyalty`
+
+---
+
 ## EVL setup
 
-[CONTINUE HERE]
+- **C loyalty payoff** `\(= 0\)`
+
+- **G loyalty payoff** `\(= 1 + L\)`, `\(L &gt; 0\)`
+
+- **E:** Citizen payoff from taking exit option
+
+- **c:** Cost of voice, `\(c &gt; 0\)`
+
+--
+
+- **Equilibria** depends on values of `\(L\)`, `\(E\)`, `\(c\)`
+
+---
+
+## Game
+
+.center[
+&lt;img src="figs/2a_evl_0.png" width="100%" /&gt;
+]
+
+---
+
+## Scenario 1: `\(E &lt; 1-c; L &gt; 1\)`
+
+&lt;!-- [CONTINUE HERE IMPLEMENT PLOT LAYOUTS] --&gt;
+
+.center[
+&lt;img src="figs/2a_evl_0.png" width="100%" /&gt;
+]
+
+
+
     </textarea>
 <style data-target="print-only">@media screen {.remark-slide-container{display:block;}.remark-slide-scaler{box-shadow:none;}}</style>
 <script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
