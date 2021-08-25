@@ -316,7 +316,7 @@ Person is not infertile
 
 ---
 
-## Example 3a
+## Example 3
 
 .left-column[
 **Premise**

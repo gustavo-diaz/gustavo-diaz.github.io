@@ -7,7 +7,7 @@ output:
   xaringan::moon_reader:
     css: xaringan-themer.css
     nature:
-      slideNumberFormat: "%current%"
+      slideNumberFormat: "%current%/%total%" 
       highlightStyle: github
       highlightLines: true
       countIncrementalSlides: false
@@ -57,7 +57,6 @@ library(knitr)
 library(tidyverse)
 library(kableExtra)
 library(fontawesome)
-library(igraph)
 ```
 
 
@@ -239,9 +238,14 @@ kbl(games) %>%
 
 - **c:** Cost of voice, $c > 0$
 
+- Assume $E < 1 - c$ 
+
+--
+`(You prefer government to fix things for you)`
+
 --
 
-- **Equilibria** depends on values of $L$, $E$, $c$
+- **Equilibrium** depends on values of $E$ and $L$
 
 ---
 
@@ -254,10 +258,11 @@ include_graphics("figs/2a_evl_0.png")
 ]
 
 ---
+layout: true
+## Scenario 1: $E > 0; L > 1$
 
-## Scenario 1: $E < 1-c; L > 1$
 
-<!-- [CONTINUE HERE IMPLEMENT PLOT LAYOUTS] -->
+---
 
 .center[
 ```{r}
@@ -265,5 +270,144 @@ include_graphics("figs/2a_evl_0.png")
 ```
 ]
 
+---
+count: false
 
+.center[
+```{r}
+include_graphics("figs/2a_evl_1_1.png")
+```
+]
 
+---
+count: false
+
+.center[
+```{r}
+include_graphics("figs/2a_evl_1_2.png")
+```
+]
+
+---
+count: false
+
+.center[
+```{r}
+include_graphics("figs/2a_evl_1_3.png")
+```
+]
+
+--
+
+- **Equilibrium:** (Voice, Exit; Respond)
+
+---
+layout: true
+## Scenario 2: $E < 0; L > 1$
+
+---
+
+.center[
+```{r}
+include_graphics("figs/2a_evl_0.png")
+```
+]
+
+---
+count: false
+
+.center[
+```{r}
+include_graphics("figs/2a_evl_2.png")
+```
+]
+
+- **Equilibrium:** (Loyalty, Loyalty; Ignore)
+
+---
+layout: true
+## Scenario 3: $E > 0; L < 1$
+
+---
+
+.center[
+```{r}
+include_graphics("figs/2a_evl_0.png")
+```
+]
+
+---
+count: false
+
+.center[
+```{r}
+include_graphics("figs/2a_evl_3.png")
+```
+]
+
+- **Equilibrium:** (Exit, Exit; Ignore)
+
+---
+layout: true
+## Scenario 4: $E < 0; L < 1$
+
+---
+
+.center[
+```{r}
+include_graphics("figs/2a_evl_0.png")
+```
+]
+
+---
+count: false
+
+.center[
+```{r}
+include_graphics("figs/2a_evl_4.png")
+```
+]
+
+- **Equilibrium:** (Loyalty, Loyalty; Ignore)
+
+---
+layout: false
+
+## Summary
+
+```{r}
+evl = data.frame(
+  Scenario = 1:4,
+  Values = c("\\(E > 0; L > 1\\)", "\\(E < 0; L > 1\\)", "\\(E > 0; L < 1\\)", "\\(E < 0; L < 1\\)"),
+  Outcome = c("(Voice, Exit; Respond)", "(Loyalty, Loyalty; Ignore)", "(Exit, Exit; Ignore)", "(Loyalty, Loyalty; Ignore)")
+)
+
+kbl(evl, escape = FALSE)
+```
+
+--
+
+- Government responds only if:
+
+--
+
+    - Citizen has credible exit option $(E > 0)$ `AND`
+    - Government depends on the citizen $(L > 1)$
+
+---
+
+## Takeaways
+
+- Politics is ubiquitous
+
+- Not always helpful to analyze something from a political lens
+
+- When it is, EVL is a useful model to understand political situations
+
+- One of **many** models we can use to understand social and political phenomena in a productive way
+
+---
+class: inverse center middle
+
+# Thursday:
+## What are States?

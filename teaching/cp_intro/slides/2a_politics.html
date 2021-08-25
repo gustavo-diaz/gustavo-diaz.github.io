@@ -219,9 +219,14 @@ class: inverse
 
 - **c:** Cost of voice, `\(c &gt; 0\)`
 
+- Assume `\(E &lt; 1 - c\)` 
+
+--
+`(You prefer government to fix things for you)`
+
 --
 
-- **Equilibria** depends on values of `\(L\)`, `\(E\)`, `\(c\)`
+- **Equilibrium** depends on values of `\(E\)` and `\(L\)`
 
 ---
 
@@ -232,22 +237,166 @@ class: inverse
 ]
 
 ---
+layout: true
+## Scenario 1: `\(E &gt; 0; L &gt; 1\)`
 
-## Scenario 1: `\(E &lt; 1-c; L &gt; 1\)`
 
-&lt;!-- [CONTINUE HERE IMPLEMENT PLOT LAYOUTS] --&gt;
+---
 
 .center[
 &lt;img src="figs/2a_evl_0.png" width="100%" /&gt;
 ]
 
+---
+count: false
 
+.center[
+&lt;img src="figs/2a_evl_1_1.png" width="100%" /&gt;
+]
 
+---
+count: false
+
+.center[
+&lt;img src="figs/2a_evl_1_2.png" width="100%" /&gt;
+]
+
+---
+count: false
+
+.center[
+&lt;img src="figs/2a_evl_1_3.png" width="100%" /&gt;
+]
+
+--
+
+- **Equilibrium:** (Voice, Exit; Respond)
+
+---
+layout: true
+## Scenario 2: `\(E &lt; 0; L &gt; 1\)`
+
+---
+
+.center[
+&lt;img src="figs/2a_evl_0.png" width="100%" /&gt;
+]
+
+---
+count: false
+
+.center[
+&lt;img src="figs/2a_evl_2.png" width="100%" /&gt;
+]
+
+- **Equilibrium:** (Loyalty, Loyalty; Ignore)
+
+---
+layout: true
+## Scenario 3: `\(E &gt; 0; L &lt; 1\)`
+
+---
+
+.center[
+&lt;img src="figs/2a_evl_0.png" width="100%" /&gt;
+]
+
+---
+count: false
+
+.center[
+&lt;img src="figs/2a_evl_3.png" width="100%" /&gt;
+]
+
+- **Equilibrium:** (Exit, Exit; Ignore)
+
+---
+layout: true
+## Scenario 4: `\(E &lt; 0; L &lt; 1\)`
+
+---
+
+.center[
+&lt;img src="figs/2a_evl_0.png" width="100%" /&gt;
+]
+
+---
+count: false
+
+.center[
+&lt;img src="figs/2a_evl_4.png" width="100%" /&gt;
+]
+
+- **Equilibrium:** (Loyalty, Loyalty; Ignore)
+
+---
+layout: false
+
+## Summary
+
+&lt;table&gt;
+ &lt;thead&gt;
+  &lt;tr&gt;
+   &lt;th style="text-align:right;"&gt; Scenario &lt;/th&gt;
+   &lt;th style="text-align:left;"&gt; Values &lt;/th&gt;
+   &lt;th style="text-align:left;"&gt; Outcome &lt;/th&gt;
+  &lt;/tr&gt;
+ &lt;/thead&gt;
+&lt;tbody&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:right;"&gt; 1 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; \(E &gt; 0; L &gt; 1\) &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; (Voice, Exit; Respond) &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:right;"&gt; 2 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; \(E &lt; 0; L &gt; 1\) &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; (Loyalty, Loyalty; Ignore) &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:right;"&gt; 3 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; \(E &gt; 0; L &lt; 1\) &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; (Exit, Exit; Ignore) &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:right;"&gt; 4 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; \(E &lt; 0; L &lt; 1\) &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; (Loyalty, Loyalty; Ignore) &lt;/td&gt;
+  &lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+--
+
+- Government responds only if:
+
+--
+
+    - Citizen has credible exit option `\((E &gt; 0)\)` `AND`
+    - Government depends on the citizen `\((L &gt; 1)\)`
+
+---
+
+## Takeaways
+
+- Politics is ubiquitous
+
+- Not always helpful to analyze something from a political lens
+
+- When it is, EVL is a useful model to understand political situations
+
+- One of **many** models we can use to understand social and political phenomena in a productive way
+
+---
+class: inverse center middle
+
+# Thursday:
+## What are States?
     </textarea>
 <style data-target="print-only">@media screen {.remark-slide-container{display:block;}.remark-slide-scaler{box-shadow:none;}}</style>
 <script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
 <script>var slideshow = remark.create({
-"slideNumberFormat": "%current%",
+"slideNumberFormat": "%current%/%total%",
 "highlightStyle": "github",
 "highlightLines": true,
 "countIncrementalSlides": false
