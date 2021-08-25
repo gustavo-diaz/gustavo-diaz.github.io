@@ -180,8 +180,6 @@ class: inverse
 
 ## Types of games and equilibria
 
-[CONTINUE HERE DO CELL SPEC]
-
 ```{r}
 games = data.frame(
   moves = c("Simultaneous", "Extensive"),
@@ -198,4 +196,14 @@ kbl(games) %>%
 
 --
 
-- [HERE SUBGAME PERFECT EQUILIBRIUM]
+- EVL is an extensive game with perfect information
+
+--
+
+- **Equilibrium:** No player has unilateral incentives to change strategy
+
+---
+
+## EVL setup
+
+[CONTINUE HERE]
