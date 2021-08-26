@@ -1,7 +1,6 @@
 ---
 title: "What is Politics?"
 subtitle: "Comparative Politics"  
-author: "POLC-2300-01"
 date: "August 31, 2021"
 output:
   xaringan::moon_reader:
@@ -411,3 +410,4 @@ class: inverse center middle
 
 # Thursday:
 ## What are States?
+### Tip: Focus on the examples of failed states
