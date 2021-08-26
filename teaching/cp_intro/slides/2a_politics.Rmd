@@ -410,4 +410,3 @@ class: inverse center middle
 
 # Thursday:
 ## What are States?
-### Tip: Focus on the examples of failed states
