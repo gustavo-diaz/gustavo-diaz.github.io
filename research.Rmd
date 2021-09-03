@@ -28,7 +28,7 @@ knitr::opts_chunk$set(echo = FALSE)
 
 ## Work in Progress
 
-Against Rules of Thumb in the Estimation of Average Treatment Effects in Block Randomized Experiments (with [Jake Bowers](http://www.jakebowers.org/) and [Christopher Grady](https://publish.illinois.edu/cdgrady2/))<br/>
+When Should We Use Biased Estimators of the Average Treatment Effect? (with [Jake Bowers](http://www.jakebowers.org/) and [Christopher Grady](https://publish.illinois.edu/cdgrady2/))<br/>
 [`[EGAP resource]`](https://egap.org/resource/sd-block-rand/)
 
 Do Politicians Try to Make Up for Corruption?
