@@ -1,7 +1,7 @@
 ---
 title: "What is Politics?"
 subtitle: "Comparative Politics"  
-date: "August 31, 2021"
+date: "September 13-17, 2021"
 output:
   xaringan::moon_reader:
     css: xaringan-themer.css
@@ -30,7 +30,6 @@ opts_chunk$set(
 ```{r xaringan-themer, include=FALSE, warning=FALSE}
 library(xaringanthemer)
 style_duo_accent(
-  base_font_size = "25px",
   title_slide_background_image = "figs/logo.png",
   title_slide_background_size = "8%",
   title_slide_background_position = "50% 95%",
@@ -46,9 +45,6 @@ style_duo_accent(
     lblue = "#71C5E8"
     )
 )
-
-
-
 ```
 
 ```{r other-options}
@@ -57,12 +53,48 @@ library(tidyverse)
 library(kableExtra)
 library(fontawesome)
 ```
+class: inverse
+
+## Revised syllabus!
+
+Highlights:
+
+- Switch to flipped classroom
+- Use Tuesday time to watch lecture video and do reading
+- Meet on Thursday to discuss questions, comments, etc
+- Online only until further notice
+- Fall break date TBD
+- Now only 5 news reports and quizzes (no dropped scores)
+
+---
+class: inverse
+
+## Important dates (revised)
 
 
+```{r}
+dates = data.frame(
+  Assignment = c("News Report 1", "Quiz 1", "Fall Break (NO CLASS)", 
+                 "News Report 2", "Quiz 2",
+                 "News Report 3", "Quiz 3",
+                 "News Report 4", "Thanksgiving Break (NO CLASS)", "Quiz 4",
+                 "News Report 5", "Quiz 5", "Final Exam Due"),
+  Date = c("September 24", "October 1", "October 4-8", "October 15", "October 22", "October 29", "November 5", "November 12", "November 22-26", "December 3",
+           "December 10", "December 17", "December 21")
+)
+
+dates %>% 
+  kbl() %>%
+  kable_styling(font_size = 15) %>% 
+  column_spec(1:2, background = "#EAE9EA")
+```
+
+
+---
 
 ## Last time
 
-- Focus on the **science** part of Political Science
+- Comparative politics is the **scientific** study of **politics** *predominantly* within countries
 
 --
 
@@ -79,15 +111,6 @@ library(fontawesome)
 --
 
 - When is it `useful` to think of something as a political situation?
-
----
-class: inverse center middle
-
-# Jamboard [`r fa("external-link-alt", fill = "#FFFFFF")`](https://jamboard.google.com/d/1wsoJHoA0-YtwEmDhQljlUK_K2YNRHIaVbVAR7W1-nRw/viewer?f=1)
-
-```
-(again)
-```
 
 ---
 class: center bottom
@@ -301,78 +324,9 @@ include_graphics("figs/2a_evl_1_3.png")
 - **Equilibrium:** (Voice, Exit; Respond)
 
 ---
-layout: true
-## Scenario 2: $E < 0; L > 1$
-
----
-
-.center[
-```{r}
-include_graphics("figs/2a_evl_0.png")
-```
-]
-
----
-count: false
-
-.center[
-```{r}
-include_graphics("figs/2a_evl_2.png")
-```
-]
-
-- **Equilibrium:** (Loyalty, Loyalty; Ignore)
-
----
-layout: true
-## Scenario 3: $E > 0; L < 1$
-
----
-
-.center[
-```{r}
-include_graphics("figs/2a_evl_0.png")
-```
-]
-
----
-count: false
-
-.center[
-```{r}
-include_graphics("figs/2a_evl_3.png")
-```
-]
-
-- **Equilibrium:** (Exit, Exit; Ignore)
-
----
-layout: true
-## Scenario 4: $E < 0; L < 1$
-
----
-
-.center[
-```{r}
-include_graphics("figs/2a_evl_0.png")
-```
-]
-
----
-count: false
-
-.center[
-```{r}
-include_graphics("figs/2a_evl_4.png")
-```
-]
-
-- **Equilibrium:** (Loyalty, Loyalty; Ignore)
-
----
 layout: false
 
-## Summary
+## EVL Summary
 
 ```{r}
 evl = data.frame(
@@ -405,8 +359,10 @@ kbl(evl, escape = FALSE)
 
 - One of **many** models we can use to understand social and political phenomena in a productive way
 
+- **Hint:** Be prepared to solve the EVL game!
+
 ---
 class: inverse center middle
 
-# Thursday:
-## What are States?
+# Next Week:
+## The Origins of the Modern State

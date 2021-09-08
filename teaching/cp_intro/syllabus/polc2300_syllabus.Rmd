@@ -2,7 +2,7 @@
 title: | 
        | Comparative Politics^[This syllabus is heavily inspired by similar courses by [Graeme Blair](https://graemeblair.com/), [Virginia Oliveros](https://virginiaoliveros.com/), and [Yujeong Yang](http://yujeongyang.weebly.com/).]
        | POLC 2300-01 (3 credits)
-       | Fall 2021
+       | Fall 2021 (Revised)
        | Tuesdays and Thursdays, 9:30 - 10:45 AM
        | 118 Norman Mayer Building
 output:
@@ -44,7 +44,7 @@ theme_set(theme_classic(base_size = 20))
 
 # Course Description
 
-This course offers an introduction to comparative politics. Comparative politics is the subfield of Political Science that tries to understand variation in political institutions, political behavior, public policies, and their outcomes. 
+This course offers an introduction to comparative politics. Comparative politics is the subfield of Political Science that tries to understand variation within countries in political institutions, political behavior, public policies, and their outcomes. 
 
 The course focuses on building the analytical tools to understand comparative politics, as well as the central questions in the subfield. These central questions include:
 
@@ -54,6 +54,14 @@ The course focuses on building the analytical tools to understand comparative po
 4. How do these institutional arrangements affect economic and political outcomes?
 
 We start with a discussion of the origins of comparative politics and its current role within Political Science. Then, we explore the origins of nation-states, governments, and regime types. From there, we address the causes and consequences of different regime types, including variation within democracies and autocracies.
+
+**Note:** This syllabus was revised due to the impact of Hurricane Ida. Some parts have been crossed ~~like this~~ to highlight key changes.
+
+The most important change is that the course will now use a flipped classroom approach. To accommodate for those impacted by Hurricane Ida, we will now convene only once a week, on Thursdays. I will upload lecture videos and slides early in the week, and I expect you to use the scheduled meeting time on Tuesdays to watch them. We will then meet on Thursdays to discuss the material. I have incorporated many avenues in case you need to engage with the course asynchronously.
+
+The main reason for this change is that I imagine some of you are experiencing unique hardships as a result of the global pandemic and Hurricane Ida. Rather than trying to anticipate unforeseen circumstances, I opted for the most flexible format I can work with.
+
+We will meet online only until the school allows us to resume in person.
 
 # Course Goals
 
@@ -106,7 +114,7 @@ Your grade will depend on the following assignments:
 
 ```{r}
 assignments = data.frame(
-  Assignment = c("Quizzes (6)", "News Reports (6)", "Participation", "Final Exam"),
+  Assignment = c("Quizzes (5)", "News Reports (5)", "Participation", "Final Exam"),
   Percentage = c("40%", "40%", "20%", "30% of final grade")
 )
 
@@ -118,13 +126,13 @@ assignments %>%
 
 ## Quizzes (40%)
 
-We will have six online quizzes every other week. These are a combination of selection and short answer questions including material from the textbook and lectures. Every quiz will cover the material discussed after the last quiz. 
+We will have ~~six~~ five online quizzes every other week. These are a combination of selection and short answer questions including material from the textbook and lectures. Every quiz will cover the material discussed after the last quiz. 
 
-Quizzes become available on Canvas on Thursdays at noon CT and are due on Fridays of the same week by 5pm CT. Each quiz is worth 10 points and only your best five quizzes count towards your final grade.
+Quizzes become available on Canvas on Thursdays at noon CT and are due on Fridays of the same week by 5pm CT. Each quiz is worth 10 points ~~and only your best five quizzes count towards your final grade~~.
 
 ## News reports (40%)
 
-On the weeks without Quizzes (except for weeks 1 and 13), you will submit a news report covering recent political events in a region of the world of your choosing. I encourage you to be creative about the meaning of "political" and "region." The purpose of news reports is to apply the course material to current world events and to practice short-form communication. You will submit six reports in total.
+On the weeks without Quizzes (except for weeks 1 and 11), you will submit a news report covering recent political events in a region of the world of your choosing. I encourage you to be creative about the meaning of "political" and "region." The purpose of news reports is to apply the course material to current world events and to practice short-form communication. You will submit ~~six~~ five reports in total.
 
 Except for the first report, you can use any creative medium to deliver your news report. If you write a short essay, your report should be no longer than two pages (12pt font, double spaced). Some examples of alternative creative mediums include: audio, video, drawing, painting, infographics, concept maps, and flowcharts.
 
@@ -136,7 +144,7 @@ Your first news report will propose a region of the world to follow, explain why
 
 Every subsequent news report should contain a brief summary of events or opinions surrounding them, a justification of why these are important events, and your own thoughts or opinions regarding the events in question. If any of those aspects is not immediately obvious, you should clarify it in an attachment. An excellent news report uses the course material to shed new light on recent events.
 
-News reports are due on the Friday of the week they appear as due in the course schedule by 5pm CT. You will upload or share a link to your report using the corresponding space on Canvas. Each report is worth 10 points and only your best five reports count towards your final grade. 
+News reports are due on the Friday of the week they appear as due in the course schedule by 5pm CT. You will upload or share a link to your report using the corresponding space on Canvas. Each report is worth 10 points ~~and only your best five reports count towards your final grade~~. 
 
 ## Participation (20%)
 
@@ -144,23 +152,23 @@ I expect you to engage actively in this class. At a minimum, I expect you to com
 
 We all have different learning styles, so I will keep an open mind about what constitutes good participation, and I encourage you to be proactive about pursuing the participation avenues that are most productive for you. 
 
-You will receive a temporary participation grade during Fall break along with feedback on how to improve. As a rule of thumb, if I remember your name, you are likely in the right track. Participation scores range from 0 to 100.
+You will receive a temporary participation grade during ~~Fall~~ Thanksgiving break along with feedback on how to improve. As a rule of thumb, if I remember your name, you are likely in the right track. Participation scores range from 0 to 100.
 
 ## Final Exam (30% of final grade)
 
-We will have final exam on the scheduled final examination date for the course (TBD). The final exam is required only for those without a passing grade. For everyone else, the final exam is optional.
+We will have a **take home** final exam ~~on the scheduled final examination date for the course~~ due on December 21 (the last day of instruction in the revised school calendar). The final exam is required only for those without a passing grade. For everyone else, the final exam is optional. If you wish to opt-in for the final exam, you must let me know by Friday, December 17, at 5:00 PM, at which time the exam prompt goes live.
 
-The final covers the entirety of the course material and uses a format similar to the quizzes. Your exam will be graded from 0 to 100. If public health conditions allow, we will hold the final exam in person.
+The final covers the entirety of the course material and uses a format similar to the quizzes. Your exam will be graded from 0 to 100. ~~If public health conditions allow, we will hold the final exam in person.~~ Since the final exam is due too close to Winter break, I will upload it to Canvas and you will upload your answers in PDF or word format.
 
 ## Late work policy
 
-For each day an assignment is late without excuse, I will deduct 10% of your grade for that assignment. If your assignment is late for more than 3 days, your assignment will be graded with zero.
+~~For each day an assignment is late without excuse, I will deduct 10% of your grade for that assignment.~~ If your assignment is late for more than ~~3~~ 2 days, your assignment will be graded with zero. I will no longer penalize your grade for late submissions, but in return I expect you to submit assignments within 48 hours of the due date.
 
 That said, this course is taking place during extraordinary times. If exceptional circumstances require you to ask for an extension or other accommodations, reach out to me as soon as possible. If you anticipate prolonged issues, ask your academic advisor (or equivalent) to send me an e-mail detailing the extent of required accommodations. For accessibility or religious accommodations, please read the appropriate sections below.
 
 Please note that you never owe me personal information about your mental or physical health, nor about any other aspect of your personal life. For example, I will not ask for documentation if you need to quarantine because of a close contact tested positive. However, I do expect you to be accountable for coursework and reach out if you expect complications that prevent you from keeping up. 
 
- I aim to establish a learning community based on empathy about our varied circumstances during this time. You are always welcome to talk to me about what you are going through. I will not judge nor think less of you, and I hope you will extend me the same courtesy. If I can't help you, I will help you find the resources on campus that you need. 
+I aim to establish a learning community based on empathy about our varied circumstances during this time. You are always welcome to talk to me about what you are going through. I will not judge nor think less of you, and I hope you will extend me the same courtesy. If I can't help you, I will help you find the resources on campus that you need. 
 
 ## Grading
 
@@ -191,17 +199,21 @@ Final grades with decimal numbers will be truncated to the highest integer (e.g.
 
 I do not take attendance, but attendance is a basic component of your participation grade and some topics may be covered during lecture but not on the textbook. I trust that you will balance attendance and participation according to your priorities.
 
+I encourage those unable to attend in person to participate via Canvas using the Discussion or Chat sections, as well as the Google form linked in the Syllabus section of the course website.
+
 # Remote Course Policies
 
 <!-- Think about allowing a number of hours on zoom -->
-As long as we are meeting in person, I will not allow remote attendance unless a formal accessibility request requires so. This is mostly because I find it hard to give equal attention to two audiences. If we are required to move the class online, we will convene via Zoom. 
+As long as we are meeting in person, I will not allow remote attendance unless a formal accessibility request requires so. This is mostly because I find it hard to give equal attention to two audiences. If you cannot attend in person to one or more lectures, I encourage you to engage with the course asynchronously instead. If we are required to move the class online, we will convene via Zoom.
 
-The public health situation is still evolving. I ask for your patience and flexibility as conditions are likely to change under short notice.
+The public health situation is still evolving, and the recovery from Hurricane Ida complicates things even further. I ask for your patience and flexibility as conditions are likely to change under short notice.
 
 
 # Recording of class sessions
 
-I will record lecture audio and slides and upload them to Canvas by the end of the day. I will also upload slides separately no later than the night before lecture.
+~~I will record in person lecture audio and slides and upload them to Canvas by the end of the day. I will also upload slides separately no later than the night before lecture.~~
+
+I will record one or more lecture videos in advance for each week and upload them to Canvas no later than Monday by 5:00 PM. I expect you to use the scheduled meeting time on Tuesdays to watch those and come ready to discuss on Thursday. I will also upload slides separately.
 
 # ADA/Accessibility Statement
 
@@ -223,12 +235,13 @@ As per Tulane policy, please notify me within the first two weeks of the semeste
 
 ```{r}
 dates = data.frame(
-  Assignment = c("Quiz 1", "News Report 1", "Quiz 2", "News Report 2", "Quiz 3", "Fall Break (NO CLASS)",
-                 "News Report 3", "Quiz 4", "News Report 4",
-                 "Quiz 5", "News Report 5", "Thanksgiving Break (NO CLASS)",
-                 "Quiz 6", "News Report 6", "Final Exam"),
-  Date = c("September 3", "September 10", "September 17", "September 24", "October 1", "October 4-8", "October 15",
-           "October 22", "October 29", "November 5", "November 12", "November 22-26", "December 3", "December 10", "December 17")
+  Assignment = c("News Report 1", "Quiz 1", "Fall Break (NO CLASS)", 
+                 "News Report 2", "Quiz 2",
+                 "News Report 3", "Quiz 3",
+                 "News Report 4", "Thanksgiving Break (NO CLASS)", "Quiz 4",
+                 "News Report 5", "Quiz 5", "Final Exam Due"),
+  Date = c("September 24", "October 1", "October 4-8", "October 15", "October 22", "October 29", "November 5", "November 12", "November 22-26", "December 3",
+           "December 10", "December 17", "December 21")
 )
 
 dates %>% 
@@ -246,11 +259,20 @@ dates %>%
 - Lijphart, Arend. 1971. "Comparative Politics and the Comparative Method." *American Political Science Review* 65(3): 682-693
 - Fearon, James. 1991. "Counterfactuals and Hypothesis Testing in Political Science." *World Politics* 43: 169-195
 
-## Week 2 (August 31/September 2): What is Politics? What are States?
 
-**Reading:** CGG Chapters 3-4 
+## Week 2 (September 13-17): What is Politics?
 
-**Due:** Quiz 1
+**Reading:** CGG Chapter 3
+
+**Recommended:**
+
+- Foucault, Michel. 1977. *Discipline and Punish: The Birth of the Prison*. New York: Pantheon Books
+
+## Week 3 (September 20-24): What are States?
+
+**Reading:** CGG Chapter 4
+
+**Due:** News report 1
 
 **Recommended:**
 
@@ -259,11 +281,11 @@ dates %>%
 - Grzymala-Busse, Anna. 2020. "Beyond War and Contracts: The Medieval and Religious Roots of the European State." *Annual Review of Political Science* 23: 19-36
 
 
-## Week 3 (September 7/9): Democracy and Dictatorship
+## Week 4 (September 27 - October 1): Democracy and Dictatorship
 
 **Reading:** CGG Chapter 5
 
-**Due:** News report 1
+**Due:** Quiz 1
 
 **Recommended:**
 
@@ -272,12 +294,13 @@ dates %>%
 - Cheibub, José Antonio, Jennifer Gandhi, and James R. Vreeland. 2010. "Democracy and Dictatorship Revisited." *Public Choice* 143: 67-191
 
 
+## Week 5 (October 4-8, TO BE CONFIRMED): Fall Break - NO CLASS
 
-## Week 4 (September 14/16): Economic Determinants of Democracy and Dictatorship
+## Week 6 (October 11-15): Economic Determinants of Democracy and Dictatorship
 
 **Reading:** CGG Chapter 6
 
-**Due:** Quiz 2
+**Due:** News report 2
 
 **Recommended:**
 
@@ -286,11 +309,12 @@ dates %>%
 - Inglehart, Ronald, and Christian Welzel. 2009. "How Development Leads to Democracy: What We Know About Modernization." *Foreign Affairs* 88(2): 33-48
 - Ross, Michael L. 2015. "What Have We Learned About the Resource Curse?" *Annual Review of Political Science* 18: 239-259
 
-## Week 5 (September 21/23): Cultural Determinants of Democracy and Dictatorship
+
+## Week 7 (October 18-22): Cultural Determinants of Democracy and Dictatorship
 
 **Reading:** CGG Chapter 7
 
-**Due:** News report 2
+**Due:** Quiz 2
 
 **Recommended:**
 
@@ -298,42 +322,34 @@ dates %>%
 - Fish, Steven M. 2002. "Islam and Authoritarianism." *World Politics* 55(1): 4-37
 - Habyarimana, James, Macartan Humphreys, Daniel N. Posner, and Jeremy M. Weinstein. 2007. "Why Does Ethnic Diversity Undermine Public Goods Provision." *American Political Science Review* 101(4): 709-725
 
-## Week 6 (September 28/30): Democratic Transitions
+
+## Week 8 (October 25-29): Democratic Transitions
 
 **Reading:** CGG Chapter 8
 
-**Due:** Quiz 3
+**Due:** News report 3
 
 **Recommended:**
 
 - Boix, Carles and Susan C. Stokes. 2003. "Endogenous Democratization." *World Politics* 55(4): 517-539
 - Bellin, Eva. 2012. "Reconsidering the Robustness of Authoritarianism in the Middle East: Lessons from the Arab Spring." *Comparative Politics* 44(2): 127-149 
 
-## Week 7 (October 5/7): Fall Break - NO CLASS
 
-## Week 8 (October 12/14): Democracy vs. Dictatorship
+## Week 9 (November 1-5): Democracy vs. Dictatorship
 
 **Reading:** CGG Chapter 9
 
-**Due:** News report 3
+**Due:** Quiz 3
 
 **Recommended:**
 
 - Olson, Mancur. 1993. "Dictatorship, Democracy, and Development." *American Political Science Review* 87(3): 567-576
 - Gallagher, Mary E. and Jonathan K. Hanson. 2015. "Power Tool or Dull Blade? Selectorate Theory for Autocracies." *Annual Review of Political Science* 18: 367-385
-
-## Week 9 (October 19/21): Varieties of Dictatorship
-
-**Reading:** CGG Chapter 10
-
-**Due:** Quiz 4
-
-**Recommended:**
-
 - Geddes, Barbara. 1999. "What Do We Know About Democratization After Twenty Years?" *Annual Review of Political Science* 2: 115-144
 - Levistky, Steven and Lucan Way. 2002. "Elections Without Democracy: The Rise and Fall of Competitive Authoritarianism." *Journal of Democracy* 13(2): 51-65
 
-## Week 10 (October 26/28): Problems with Group-Decision Making
+
+## Week 10 (November 8-12): Problems with Group-Decision Making
 
 **Reading:** CGG Chapter 11
 
@@ -345,11 +361,9 @@ dates %>%
 - Ostrom, Elinor. 2009. "Collective Action Theory." In Carles Boix and Susan Stokes (eds). *The Oxford Handbook of Comparative Politics*, pp. 186-208
 - Andrews, Talbot M. and John Barry Ryan. 2021. "Preferences for Prevention: People Assume Expensive Problems Have Expensive Solutions." *Risk Analysis* 
 
-## Week 11 (November 2/4): Parliamentary, Presidential, and Semi-Presidential Democracies
+## Week 11 (November 15-19): Parliamentary, Presidential, and Semi-Presidential Democracies
 
 **Reading:** CGG Chapter 12
-
-**Due:** Quiz 5
 
 **Recommended:**
 
@@ -357,35 +371,35 @@ dates %>%
 - Cheibub, José Antonio, Adam Przeworski, and Sebastián M. Saiegh. 2004. "Government Coalitions and Legislative Success Under Presidentialism and Parliamentarism." *British Journal of Political Science* 34(4): 565-587
 - Cheibub, José Antonio, Zachary Elkins, and Tom Ginsburg. 2014. "Beyond Presidentialism and Parliamentarism." *British Journal of Political Science* 44(3): 515-544 
 
-## Week 12 (November 9/11): Elections and Electoral Systems
+## Week 12 (November 22-26): Thanksgiving Break - NO CLASS
+
+## Week 13 (November 29-December 3): Elections and Electoral Systems
 
 **Reading:** CGG Chapter 13
 
-**Due:** News report 5
+**Due:** Quiz 4
 
 **Recommended:**
 
 - Boix, Carles. 1999. "Setting the Rules of the Game: The Choice of Electoral Systems in Advanced Democracies." *American Political Science Review* 93(3): 609-624
 - Carey, John M., and Simon Hix. 2011. "The Electoral Sweet Spot: Low-Magnitude Proportional Electoral Systems." *American Journal of Political Science* 55(2): 383-397
 
-## Week 13 (November 16/18): Social Cleavages and Party Systems
+## Week 14 (December 6-10): Social Cleavages and Party Systems
 
 **Reading:** CGG Chapter 14
 
-**Due:** Make-Up Assignment (if needed)
+**Due:** News Report 5
 
 **Recommended:**
 
 - Kitschelt, Herbert. 2000. "Linkages between Citizens and Politicians in Democratic Polities." *Comparative Political Studies* 33(6-7): 845-879
 - Luna, Juan Pablo and David Altman. 2011. "Uprooted but Stable: Chilean Parties and the Concept of Party System Institutionalization." *Latin American Politics and Society* 53(2): 1-28
 
-## Week 14 (November 23/25): Thanksgiving Break - NO CLASS
-
-## Week 15 (November 30/December 2): Institutional Veto Players
+## Week 15 (December 13-17): Institutional Veto Players
 
 **Reading:** CGG Chapter 15
 
-**Due:** Quiz 6
+**Due:** Quiz 5
 
 **Recommended:**
 
@@ -393,18 +407,7 @@ dates %>%
 - Palanza, Valeria and Gisela Sin. 2013. "Item Vetoes and Attempts to Override Them in Multiparty Legislatures." *Journal of Politics in Latin America* 5(1): 37-66
 - Magar, Eric, Valeria Palanza, and Gisela Sin. 2021. "Presidents on the Fast Track: Fighting Floor Amendments with Restrictive Rules." *The Journal of Politics* 83(2): 633-646
 
-## Week 16 (December 7/9): Varieties of Democracy and their Consequences
-
-**Reading:** CGG Chapter 16
-
-**Due:** News report 6
-
-**Recommended:**
-
-- Bawn, Kathleen and Frances Rosenbluth. 2006. "Short Versus Long Coalitions: Electoral Accountability and the Size of the Public Sector." *American Journal of Political Science* 50(2): 251-265
-- Iversen, Torben and David Soskice. 2006. "Electoral Institutions and the Politics of Coalitions: Why Some Democracies Redistribute More Than Others." *American Political Science Review* 100(2): 165-181
-
-## Week 17 (December 17): FINAL EXAM 12:00 - 3:00 PM
+## Week 16 (December 21): FINAL EXAM DUE 11:59 PM
 
 \newpage
 
