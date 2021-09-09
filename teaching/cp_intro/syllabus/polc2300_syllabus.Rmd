@@ -235,12 +235,13 @@ As per Tulane policy, please notify me within the first two weeks of the semeste
 
 ```{r}
 dates = data.frame(
-  Assignment = c("News Report 1", "Quiz 1", "Fall Break (NO CLASS)", 
+  Assignment = c("Fall Break (NO CLASS)",
+                 "News Report 1", "Quiz 1",  
                  "News Report 2", "Quiz 2",
                  "News Report 3", "Quiz 3",
                  "News Report 4", "Thanksgiving Break (NO CLASS)", "Quiz 4",
                  "News Report 5", "Quiz 5", "Final Exam Due"),
-  Date = c("September 24", "October 1", "October 4-8", "October 15", "October 22", "October 29", "November 5", "November 12", "November 22-26", "December 3",
+  Date = c("September 20-24", "October 1", "October 8", "October 15", "October 22", "October 29", "November 5", "November 12", "November 22-26", "December 3",
            "December 10", "December 17", "December 21")
 )
 
@@ -268,7 +269,9 @@ dates %>%
 
 - Foucault, Michel. 1977. *Discipline and Punish: The Birth of the Prison*. New York: Pantheon Books
 
-## Week 3 (September 20-24): What are States?
+## Week 3 (September 20-24): FALL BREAK (NO CLASS)
+
+## Week 4 (September 27- October 1): What are States?
 
 **Reading:** CGG Chapter 4
 
@@ -281,7 +284,7 @@ dates %>%
 - Grzymala-Busse, Anna. 2020. "Beyond War and Contracts: The Medieval and Religious Roots of the European State." *Annual Review of Political Science* 23: 19-36
 
 
-## Week 4 (September 27 - October 1): Democracy and Dictatorship
+## Week 5 (September 4 - October 8): Democracy and Dictatorship
 
 **Reading:** CGG Chapter 5
 
@@ -293,8 +296,6 @@ dates %>%
 - Diamond, Larry. 2002. "Elections Without Democracy: Thinking About Hybrid Regimes." *Journal of Democracy* 13(2): 21-35
 - Cheibub, José Antonio, Jennifer Gandhi, and James R. Vreeland. 2010. "Democracy and Dictatorship Revisited." *Public Choice* 143: 67-191
 
-
-## Week 5 (October 4-8, TO BE CONFIRMED): Fall Break - NO CLASS
 
 ## Week 6 (October 11-15): Economic Determinants of Democracy and Dictatorship
 

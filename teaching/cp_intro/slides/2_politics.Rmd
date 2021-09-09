@@ -74,12 +74,13 @@ class: inverse
 
 ```{r}
 dates = data.frame(
-  Assignment = c("News Report 1", "Quiz 1", "Fall Break (NO CLASS)", 
+  Assignment = c("Fall Break (NO CLASS)",
+                 "News Report 1", "Quiz 1",  
                  "News Report 2", "Quiz 2",
                  "News Report 3", "Quiz 3",
                  "News Report 4", "Thanksgiving Break (NO CLASS)", "Quiz 4",
                  "News Report 5", "Quiz 5", "Final Exam Due"),
-  Date = c("September 24", "October 1", "October 4-8", "October 15", "October 22", "October 29", "November 5", "November 12", "November 22-26", "December 3",
+  Date = c("September 20-24", "October 1", "October 8", "October 15", "October 22", "October 29", "November 5", "November 12", "November 22-26", "December 3",
            "December 10", "December 17", "December 21")
 )
 

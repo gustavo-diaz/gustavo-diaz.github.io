@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2021.8.5)  8 SEP 2021 13:36
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2021.8.5)  9 SEP 2021 15:47
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -771,7 +771,7 @@ Package pdftex.def Info: polc2300_syllabus_files/figure-latex/unnamed-chunk-2-1
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [6] [7]
-Underfull \hbox (badness 10000) in paragraph at lines 594--597
+Underfull \hbox (badness 10000) in paragraph at lines 598--601
 
  []
 
@@ -795,12 +795,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 883--885
 [12 <./figs/emergency.png>] (./polc2300_syllabus.aux) ) 
 Here is how much of TeX's memory you used:
  14426 strings out of 480502
- 219129 string characters out of 5898082
- 578871 words of memory out of 5000000
+ 219115 string characters out of 5898082
+ 578865 words of memory out of 5000000
  31462 multiletter control sequences out of 15000+600000
  454245 words of font info for 278 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 74i,9n,80p,1076b,406s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 74i,9n,80p,1076b,396s stack positions out of 5000i,500n,10000p,200000b,80000s
  <c:/Users/gdiaz/AppData
 /Roaming/TinyTeX/texmf-var/fonts/pk/ljfour/jknappen/ec/ectt1095.600pk>{c:/Users
 /gdiaz/AppData/Roaming/TinyTeX/texmf-dist/fonts/enc/dvips/base/8r.enc}<c:/Users
@@ -808,7 +808,7 @@ Here is how much of TeX's memory you used:
 c:/Users/gdiaz/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/urw/palatino/uplr
 8a.pfb><c:/Users/gdiaz/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/urw/palat
 ino/uplri8a.pfb>
-Output written on polc2300_syllabus.pdf (12 pages, 1066272 bytes).
+Output written on polc2300_syllabus.pdf (12 pages, 1066512 bytes).
 PDF statistics:
  357 PDF objects out of 1000 (max. 8388607)
  311 compressed objects within 4 object streams
