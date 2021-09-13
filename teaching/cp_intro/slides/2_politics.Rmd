@@ -63,7 +63,7 @@ Highlights:
 - Use Tuesday time to watch lecture video and do reading
 - Meet on Thursday to discuss questions, comments, etc
 - Online only until further notice
-- Fall break date TBD
+- Fall break September 20-24
 - Now only 5 news reports and quizzes (no dropped scores)
 
 ---
@@ -145,6 +145,10 @@ background-size: contain
 --
 
 - That doesn't mean it's useful to think of every human behavior as such `r fa("fire-alt")`
+
+--
+
+- Only useful if it leads to valuable insights
 
 ---
 
@@ -365,5 +369,5 @@ kbl(evl, escape = FALSE)
 ---
 class: inverse center middle
 
-# Next Week:
+# After Fall Break:
 ## The Origins of the Modern State
