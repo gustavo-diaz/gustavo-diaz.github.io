@@ -1,7 +1,7 @@
 ---
 title: "The Origins of the Modern State"
 subtitle: "Comparative Politics"  
-date: "August 31, 2021"
+date: "September 27-October 1, 2021"
 output:
   xaringan::moon_reader:
     css: xaringan-themer.css
@@ -30,7 +30,6 @@ opts_chunk$set(
 ```{r xaringan-themer, include=FALSE, warning=FALSE}
 library(xaringanthemer)
 style_duo_accent(
-  base_font_size = "25px",
   title_slide_background_image = "figs/logo.png",
   title_slide_background_size = "8%",
   title_slide_background_position = "50% 95%",
