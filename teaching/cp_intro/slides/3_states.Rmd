@@ -62,6 +62,7 @@ library(rnaturalearthdata)
 # library(rnaturalearthhires)
 library(countrycode)
 library(plotly)
+library(widgetframe)
 ```
 
 class: inverse
@@ -292,7 +293,7 @@ sfi = sfi %>%
                       breaks = c(0, 29.9, 59.9, 89.9, 120),
                       labels = c("Sustainable", "Stable", "Warning", "Alert")))
 
-world = ne_countries(scale = "medium", returnclass = "sf")
+world = ne_countries(scale = "small", returnclass = "sf")
 
 sfi_map = left_join(world, sfi, by = c("iso_a3" = "iso3c"))
 
@@ -305,21 +306,43 @@ sfi_plot = ggplot(sfi_map) +
 ```
 
 ```{r}
-ggplotly(sfi_plot, 
-         tooltip = c("text", "label", "fill"),
-         width = 800, height = 500) %>% 
+map = ggplotly(sfi_plot, width = 800, height = 450) %>% 
   layout(showlegend = FALSE)
+
+frameWidget(map)
 ```
 
+.foonote[**Source:** [fragilestatesindex.org](https://fragilestatesindex.org/)]
 
+---
 
+## State Fragility Indicators
 
+- Aggregate Cohesion, Economic, Political, and Social indicators
 
+--
 
+- Measured through:
 
+    1. Content Analysis
+    2. Quantitative Data
+    3. Qualitative Review
 
+--
 
+- **Critiques:**
 
+  - Measures more than just **stateness** (maximalist definition)
+  - Ultimately relies on `"expert"` judgment
+  - Labels imposed over continuous measure are misleading `(Kenya: 89.2, North Korea: 90, Venezuela: 92.6)`
+  
+.footnote[Read more about the methodology [here `r fa("external-link-alt")`](https://fragilestatesindex.org/methodology/)]
+
+---
+class: center middle
+
+# What Explains Variation in State Fragility?
+## Why are some states weaker or stronger?
 
 
 
