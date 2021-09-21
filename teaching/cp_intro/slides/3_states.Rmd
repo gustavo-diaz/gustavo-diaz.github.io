@@ -45,17 +45,108 @@ style_duo_accent(
     lblue = "#71C5E8"
     )
 )
-
-
-
 ```
 
 ```{r other-options}
-library(knitr)
 library(tidyverse)
 library(kableExtra)
 library(fontawesome)
+
+# ggplot global options
+theme_set(theme_bw(base_size = 20))
+
+# world map
+library(sf)
+library(rnaturalearth)
+library(rnaturalearthdata)
+# library(rnaturalearthhires)
+library(countrycode)
+library(plotly)
 ```
+
+class: inverse
+
+## News Reports
+
+```{r}
+dates = data.frame(
+  Assignment = c("News Report 1", "News Report 2", "News Report 3", 
+                 "News Report 4", "News Report 5"),
+  Date = c("October 1", "October 15","October 29", "November 12", "December 10")
+)
+
+dates %>% 
+  kbl() %>% 
+  column_spec(1:2, background = "#EAE9EA")
+```
+
+---
+class: inverse
+
+## Goal
+
+- Apply course material to current **"political"** events of a **"region"** of your choosing
+
+- **Political:** Anything interesting to approach from a power imbalance/struggle perspective
+
+- **Region:** Need not to be countries `(e.g. Latin America, China, Louisiana, New Orleans, Orleans Parish)`
+
+- Free to change original focus after consulting with me
+
+---
+class: inverse
+
+## Delivery
+
+- Use any creative medium to deliver your report `(e.g. audio, video, illustration)`
+
+- Be creative, only requisites are:
+
+    - Report can be uploaded or linked to Canvas
+    - If linked, has to stay live for the rest of the semester
+    - Can be graded within a week
+
+- Meet with me if you want to discuss group proposals
+
+- Don't overdo it!
+
+---
+class: inverse
+
+## First report
+
+- Must be in paper (about 2-3 pages)
+- Propose a region of the world and topic
+- Explain why it's interesting to apply course material
+- Include list of five potential news sources
+- Outline the creative media you will use to deliver the report
+
+---
+class: inverse 
+## Subsequent reports must include
+
+1. Summary of events/opinions
+2. Justify why these are important
+3. Your own thoughts or opinions `(use course material!)`
+
+--
+
+- If any of this is not obvious from your delivery, attach a short document explaining your thinking
+
+--
+
+- An excellent news report uses the course material to shed new light on our understanding of recent events
+
+---
+class: inverse
+
+## Not sure what to do?
+
+- The default would be a written analysis piece (2-3 pages) similar to a **Monkey Cage article** [`r fa("external-link-alt", fill = "white")`](https://www.washingtonpost.com/monkey-cage/)
+
+- Meet with me to discuss your interest/skills
+
+---
 
 ## Last time
 
@@ -124,7 +215,7 @@ layout: true
 --
 
     - **Centralized, differentiated:** Some form of government
-    - **Control over chief means of violence:** Recognizes monopoly is high bar
+    - **Control over chief means of violence:** Recognizes monopoly is a high bar
     - **Large contiguous territory:** Small countries? Indonesia? France?
 
 ---
@@ -133,7 +224,7 @@ layout: true
 
 --
 
-    - **Comparative advantage:** Recognizes monopoly is hard
+    - **Comparative advantage:** Recognizes that monopoly is hard
     - **Geographic area:** Territory
     - **Taxation:** Control (violence) + legitimacy
     
@@ -150,6 +241,11 @@ layout: false
 
 --
 `(single nation?)`
+
+--
+
+- Many **multi-ethnic** states can be considered robust nation-states `(e.g. Belgium)`
+- **Amendment to CGG:** A state in which `one or more nations` have a meaningful connections to the state `r fa("fire-alt")`
 
 ---
 class: inverse
@@ -169,6 +265,52 @@ class: inverse
 ## Failed states
 
 - `State-like` entities that `cannot coerce` and are `unable to successfully control` the inhabitants of a given territory
+
+--
+
+- Textbook examples: Somalia, Syria
+
+--
+
+- Beyond these cases, we can think of **state fragility** or **stateness** as a continuum
+
+---
+
+## State Fragility Index (2021)
+
+```{r, results = 'hide'}
+sfi = read.csv("data/fsi-2021.csv")
+
+sfi$iso3c = countrycode(sfi$Country, origin = "country.name", destination = "iso3c")
+
+# sfi %>% filter(is.na(iso3c)) 
+# Micronesia is missing
+
+sfi = sfi %>% 
+  mutate(iso3c = ifelse(Country == "Micronesia", "FSM", iso3c)) %>% 
+  mutate(Status = cut(Total, 
+                      breaks = c(0, 29.9, 59.9, 89.9, 120),
+                      labels = c("Sustainable", "Stable", "Warning", "Alert")))
+
+world = ne_countries(scale = "medium", returnclass = "sf")
+
+sfi_map = left_join(world, sfi, by = c("iso_a3" = "iso3c"))
+
+sfi_plot = ggplot(sfi_map) +
+  geom_sf(aes(fill = Status, label = Total, text = Country)) +
+  scale_fill_manual(values = c("blue", "green", "yellow", "red")) +
+  theme_void() +
+  theme(axis.title = element_blank(),
+        axis.line = element_blank())
+```
+
+```{r}
+ggplotly(sfi_plot, 
+         tooltip = c("text", "label", "fill"),
+         width = 800, height = 500) %>% 
+  layout(showlegend = FALSE)
+```
+
 
 
 
