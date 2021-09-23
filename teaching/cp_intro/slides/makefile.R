@@ -9,6 +9,7 @@
 pagedown::chrome_print(here::here("teaching/cp_intro/slides/1a_intro.Rmd"))
 pagedown::chrome_print(here::here("teaching/cp_intro/slides/1b_science.Rmd"))
 pagedown::chrome_print(here::here("teaching/cp_intro/slides/2_politics.Rmd"))
+pagedown::chrome_print(here::here("teaching/cp_intro/slides/3_states.Rmd"))
 
 #This works as long as I don't care about interactive content nor incremental slides
 
