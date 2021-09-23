@@ -292,7 +292,7 @@ dates %>%
 
 **Recommended:**
 
-- Dahl, Robert. 1971. *Polyarchy: Participation and Opposition*. New Haven: Yale University Press   
+- Dahl, Robert. 1971. *Polyarchy: Participation and Opposition*. New Haven: Yale University Press
 - Diamond, Larry. 2002. "Elections Without Democracy: Thinking About Hybrid Regimes." *Journal of Democracy* 13(2): 21-35
 - Cheibub, José Antonio, Jennifer Gandhi, and James R. Vreeland. 2010. "Democracy and Dictatorship Revisited." *Public Choice* 143: 67-191
 

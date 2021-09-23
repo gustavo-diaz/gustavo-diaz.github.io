@@ -1,14 +1,16 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2021.8.5)  9 SEP 2021 15:47
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2021.9.22)  22 SEP 2021 16:07
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **polc2300_syllabus.tex
 (./polc2300_syllabus.tex
 LaTeX2e <2021-06-01> patch level 1
-L3 programming layer <2021-07-12> (c:/Users/gdiaz/AppData/Roaming/TinyTeX/texmf
--dist/tex/latex/base/article.cls
+L3 programming layer <2021-08-27>
+(c:/Users/diazdia2/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/base/article.cl
+s
 Document Class: article 2021/02/12 v1.4n Standard LaTeX document class
-(c:/Users/gdiaz/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/base/size11.clo
+
+(c:/Users/diazdia2/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/base/size11.clo
 File: size11.clo 2021/02/12 v1.4n Standard LaTeX file (size option)
 )
 \c@part=\count182
@@ -23,26 +25,34 @@ File: size11.clo 2021/02/12 v1.4n Standard LaTeX file (size option)
 \belowcaptionskip=\skip48
 \bibindent=\dimen138
 )
-(c:/Users/gdiaz/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/amsmath/amsmath.st
-y
+(c:/Users/diazdia2/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/psnfss/mathpazo
+.sty
+Package: mathpazo 2020/03/25 PSNFSS-v9.3 Palatino w/ Pazo Math (D.Puga, WaS) 
+\symupright=\mathgroup4
+)
+(c:/Users/diazdia2/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/amsmath/amsmath
+.sty
 Package: amsmath 2021/04/20 v2.17j AMS math features
 \@mathmargin=\skip49
 For additional information on amsmath, use the `?' option.
 
-(c:/Users/gdiaz/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/amsmath/amstext.st
-y
+(c:/Users/diazdia2/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/amsmath/amstext
+.sty
 Package: amstext 2000/06/29 v2.01 AMS text
 
-(c:/Users/gdiaz/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/amsmath/amsgen.sty
+(c:/Users/diazdia2/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/amsmath/amsgen.
+sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
 \@emptytoks=\toks16
 \ex@=\dimen139
 ))
-(c:/Users/gdiaz/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/amsmath/amsbsy.sty
+(c:/Users/diazdia2/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/amsmath/amsbsy.
+sty
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 \pmbraise@=\dimen140
 )
-(c:/Users/gdiaz/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/amsmath/amsopn.sty
+(c:/Users/diazdia2/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/amsmath/amsopn.
+sty
 Package: amsopn 2016/03/08 v2.02 operator names
 )
 \inf@bad=\count190
@@ -83,115 +93,88 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
 LaTeX Info: Redefining \[ on input line 2923.
 LaTeX Info: Redefining \] on input line 2924.
 )
-(c:/Users/gdiaz/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/amsfonts/amssymb.s
-ty
-Package: amssymb 2013/01/14 v3.01 AMS font symbols
-
-(c:/Users/gdiaz/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/amsfonts/amsfonts.
-sty
-Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
-\symAMSa=\mathgroup4
-\symAMSb=\mathgroup5
-LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
-LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
-(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
-))
-(c:/Users/gdiaz/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/psnfss/mathpazo.st
-y
-Package: mathpazo 2020/03/25 PSNFSS-v9.3 Palatino w/ Pazo Math (D.Puga, WaS) 
-\symupright=\mathgroup6
-)
-(c:/Users/gdiaz/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/iftex/ifxetex.st
-y
+(c:/Users/diazdia2/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/iftex/ifxetex
+.sty
 Package: ifxetex 2019/10/25 v0.7 ifxetex legacy package. Use iftex instead.
-(c:/Users/gdiaz/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/iftex/iftex.sty
+
+(c:/Users/diazdia2/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/iftex/iftex.s
+ty
 Package: iftex 2020/03/06 v1.0d TeX engine tests
 ))
-(c:/Users/gdiaz/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/iftex/ifluatex.s
-ty
+(c:/Users/diazdia2/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/iftex/ifluate
+x.sty
 Package: ifluatex 2019/10/25 v1.5 ifluatex legacy package. Use iftex instead.
-) (c:/Users/gdiaz/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/base/fontenc.sty
+)
+(c:/Users/diazdia2/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/base/fontenc.st
+y
 Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
 LaTeX Font Info:    Trying to load font information for T1+ppl on input line 11
 2.
-(c:/Users/gdiaz/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/psnfss/t1ppl.fd
+
+(c:/Users/diazdia2/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/psnfss/t1ppl.fd
 File: t1ppl.fd 2001/06/04 font definitions for T1/ppl.
-)) (c:/Users/gdiaz/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/base/inputenc.s
+))
+(c:/Users/diazdia2/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/base/inputenc.s
 ty
 Package: inputenc 2021/02/14 v1.3d Input encoding file
 \inpenc@prehook=\toks21
 \inpenc@posthook=\toks22
-) (c:/Users/gdiaz/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/base/textcomp.st
-y
+)
+(c:/Users/diazdia2/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/base/textcomp.s
+ty
 Package: textcomp 2020/02/02 v2.0n Standard LaTeX package
 )
-(c:/Users/gdiaz/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/upquote/upquote.st
-y
-Package: upquote 2012/04/19 v1.3 upright-quote and grave-accent glyphs in verba
-tim
-)
-(c:/Users/gdiaz/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/microtype/microtyp
-e.sty
-Package: microtype 2021/03/14 v2.8c Micro-typographical refinements (RS)
+(c:/Users/diazdia2/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/amsfonts/amssym
+b.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
 
-(c:/Users/gdiaz/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/graphics/keyval.st
-y
+(c:/Users/diazdia2/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/amsfonts/amsfon
+ts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\symAMSa=\mathgroup5
+\symAMSb=\mathgroup6
+LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+))
+(c:/Users/diazdia2/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/parskip/parskip
+.sty
+Package: parskip 2021-03-14 v2.0h non-zero parskip adjustments
+
+(c:/Users/diazdia2/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/kvoptions/kvopt
+ions.sty
+Package: kvoptions 2020-10-07 v3.14 Key value format for package options (HO)
+
+(c:/Users/diazdia2/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/graphics/keyval
+.sty
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
 \KV@toks@=\toks23
 )
-\MT@toks=\toks24
-\MT@count=\count268
-LaTeX Info: Redefining \textls on input line 790.
-\MT@outer@kern=\dimen148
-LaTeX Info: Redefining \textmicrotypecontext on input line 1374.
-\MT@listname@count=\count269
-
-(c:/Users/gdiaz/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/microtype/microtyp
-e-pdftex.def
-File: microtype-pdftex.def 2021/03/14 v2.8c Definitions specific to pdftex (RS)
-
-LaTeX Info: Redefining \lsstyle on input line 915.
-LaTeX Info: Redefining \lslig on input line 915.
-\MT@outer@space=\skip52
-)
-Package microtype Info: Loading configuration file microtype.cfg.
-
-(c:/Users/gdiaz/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/microtype/microtyp
-e.cfg
-File: microtype.cfg 2021/03/14 v2.8c microtype main configuration file (RS)
-))
-(c:/Users/gdiaz/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/parskip/parskip.st
-y
-Package: parskip 2021-03-14 v2.0h non-zero parskip adjustments
-
-(c:/Users/gdiaz/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/kvoptions/kvoption
-s.sty
-Package: kvoptions 2020-10-07 v3.14 Key value format for package options (HO)
-
-(c:/Users/gdiaz/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/ltxcmds/ltxcmds.
-sty
+(c:/Users/diazdia2/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/ltxcmds/ltxcm
+ds.sty
 Package: ltxcmds 2020-05-10 v1.25 LaTeX kernel commands for general use (HO)
 )
-(c:/Users/gdiaz/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/kvsetkeys/kvsetk
-eys.sty
+(c:/Users/diazdia2/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/kvsetkeys/kvs
+etkeys.sty
 Package: kvsetkeys 2019/12/15 v1.18 Key value parser (HO)
 ))
-(c:/Users/gdiaz/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/etoolbox/etoolbox.
-sty
+(c:/Users/diazdia2/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/etoolbox/etoolb
+ox.sty
 Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count270
-)) (c:/Users/gdiaz/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/xcolor/xcolor.s
+\etb@tempcnta=\count268
+))
+(c:/Users/diazdia2/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/xcolor/xcolor.s
 ty
 Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
 
-(c:/Users/gdiaz/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/graphics-cfg/color
-.cfg
+(c:/Users/diazdia2/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/graphics-cfg/co
+lor.cfg
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package xcolor Info: Driver file: pdftex.def on input line 225.
 
-(c:/Users/gdiaz/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/graphics-def/pdfte
-x.def
+(c:/Users/diazdia2/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/graphics-def/pd
+ftex.def
 File: pdftex.def 2020/10/05 v1.2a Graphics/color driver for pdftex
 )
 Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
@@ -204,88 +187,88 @@ Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
 Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
 
-(c:/Users/gdiaz/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/graphics/dvipsnam.
-def
+(c:/Users/diazdia2/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/graphics/dvipsn
+am.def
 File: dvipsnam.def 2016/06/17 v3.0m Driver-dependent file (DPC,SPQR)
-) (c:/Users/gdiaz/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/xcolor/svgnam.de
-f
+)
+(c:/Users/diazdia2/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/xcolor/svgnam.d
+ef
 File: svgnam.def 2016/05/11 v2.12 Predefined colors according to SVG 1.1 (UK)
-) (c:/Users/gdiaz/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/xcolor/x11nam.de
-f
+)
+(c:/Users/diazdia2/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/xcolor/x11nam.d
+ef
 File: x11nam.def 2016/05/11 v2.12 Predefined colors according to Unix/X11 (UK)
-)) (c:/Users/gdiaz/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/xurl/xurl.sty
+)) (c:/Users/diazdia2/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/xurl/xurl.st
+y
 Package: xurl 2020/12/30 v 0.09a modify URL breaks
-(c:/Users/gdiaz/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/url/url.sty
+(c:/Users/diazdia2/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/url/url.sty
 \Urlmuskip=\muskip17
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 ))
-(c:/Users/gdiaz/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/bookmark/bookmark.
-sty
-Package: bookmark 2020-11-06 v1.29 PDF bookmarks (HO)
-
-(c:/Users/gdiaz/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/hyperref/hyperref.
-sty
+(c:/Users/diazdia2/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/hyperref/hyperr
+ef.sty
 Package: hyperref 2021-06-07 v7.00m Hypertext links for LaTeX
 
-(c:/Users/gdiaz/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pdftexcmds/pdfte
-xcmds.sty
+(c:/Users/diazdia2/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pdftexcmds/pd
+ftexcmds.sty
 Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
 )
 
-(c:/Users/gdiaz/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/infwarerr/infwar
-err.sty
+(c:/Users/diazdia2/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/infwarerr/inf
+warerr.sty
 Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
 )
 Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
 Package pdftexcmds Info: \pdfdraftmode found.
 )
-(c:/Users/gdiaz/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/kvdefinekeys/kvd
-efinekeys.sty
+(c:/Users/diazdia2/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/kvdefinekeys/
+kvdefinekeys.sty
 Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
 )
-(c:/Users/gdiaz/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pdfescape/pdfesc
-ape.sty
+(c:/Users/diazdia2/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pdfescape/pdf
+escape.sty
 Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
 )
-(c:/Users/gdiaz/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/hycolor/hycolor.st
-y
+(c:/Users/diazdia2/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/hycolor/hycolor
+.sty
 Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
 )
-(c:/Users/gdiaz/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/letltxmacro/letltx
-macro.sty
+(c:/Users/diazdia2/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/letltxmacro/let
+ltxmacro.sty
 Package: letltxmacro 2019/12/03 v1.6 Let assignment for LaTeX macros (HO)
 )
-(c:/Users/gdiaz/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/auxhook/auxhook.st
-y
+(c:/Users/diazdia2/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/auxhook/auxhook
+.sty
 Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
 )
-\@linkdim=\dimen149
-\Hy@linkcounter=\count271
-\Hy@pagecounter=\count272
+\@linkdim=\dimen148
+\Hy@linkcounter=\count269
+\Hy@pagecounter=\count270
 
-(c:/Users/gdiaz/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/hyperref/pd1enc.de
-f
+(c:/Users/diazdia2/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/hyperref/pd1enc
+.def
 File: pd1enc.def 2021-06-07 v7.00m Hyperref: PDFDocEncoding definition (HO)
 Now handling font encoding PD1 ...
 ... no UTF-8 mapping file for font encoding PD1
 )
-(c:/Users/gdiaz/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/hyperref/hyperref-
-langpatches.def
+(c:/Users/diazdia2/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/hyperref/hyperr
+ef-langpatches.def
 File: hyperref-langpatches.def 2021-06-07 v7.00m Hyperref: patches for babel la
 nguages
 )
-(c:/Users/gdiaz/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/intcalc/intcalc.
-sty
+(c:/Users/diazdia2/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/intcalc/intca
+lc.sty
 Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
 )
-(c:/Users/gdiaz/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/etexcmds/etexcmd
-s.sty
+(c:/Users/diazdia2/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/etexcmds/etex
+cmds.sty
 Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
 )
-\Hy@SavedSpaceFactor=\count273
+\Hy@SavedSpaceFactor=\count271
 
-(c:/Users/gdiaz/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/hyperref/puenc.def
+(c:/Users/diazdia2/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/hyperref/puenc.
+def
 File: puenc.def 2021-06-07 v7.00m Hyperref: PDF Unicode definition (HO)
 Now handling font encoding PU ...
 ... no UTF-8 mapping file for font encoding PU
@@ -298,22 +281,22 @@ Package hyperref Info: Plain pages OFF on input line 4207.
 Package hyperref Info: Backreferencing OFF on input line 4212.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4445.
-\c@Hy@tempcnt=\count274
+\c@Hy@tempcnt=\count272
 LaTeX Info: Redefining \url on input line 4804.
-\XeTeXLinkMargin=\dimen150
+\XeTeXLinkMargin=\dimen149
 
-(c:/Users/gdiaz/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/bitset/bitset.st
-y
+(c:/Users/diazdia2/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/bitset/bitset
+.sty
 Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
 
-(c:/Users/gdiaz/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/bigintcalc/bigin
-tcalc.sty
+(c:/Users/diazdia2/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/bigintcalc/bi
+gintcalc.sty
 Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
 )
 ))
-\Fld@menulength=\count275
-\Field@Width=\dimen151
-\Fld@charsize=\dimen152
+\Fld@menulength=\count273
+\Field@Width=\dimen150
+\Fld@charsize=\dimen151
 Package hyperref Info: Hyper figures OFF on input line 6076.
 Package hyperref Info: Link nesting OFF on input line 6081.
 Package hyperref Info: Hyper index ON on input line 6084.
@@ -324,321 +307,311 @@ Package hyperref Info: PDF/A mode OFF on input line 6106.
 LaTeX Info: Redefining \ref on input line 6146.
 LaTeX Info: Redefining \pageref on input line 6150.
 
-(c:/Users/gdiaz/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/base/atbegshi-ltx.
-sty
+(c:/Users/diazdia2/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/base/atbegshi-l
+tx.sty
 Package: atbegshi-ltx 2021/01/10 v1.0c Emulation of the original atbegshi
 package with kernel methods
 )
-\Hy@abspage=\count276
-\c@Item=\count277
-\c@Hfootnote=\count278
+\Hy@abspage=\count274
+\c@Item=\count275
+\c@Hfootnote=\count276
 )
 Package hyperref Info: Driver (autodetected): hpdftex.
 
-(c:/Users/gdiaz/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/hyperref/hpdftex.d
-ef
+(c:/Users/diazdia2/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/hyperref/hpdfte
+x.def
 File: hpdftex.def 2021-06-07 v7.00m Hyperref driver for pdfTeX
 
-(c:/Users/gdiaz/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/base/atveryend-ltx
-.sty
+(c:/Users/diazdia2/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/base/atveryend-
+ltx.sty
 Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atvery packag
 e
 with kernel methods
 )
-\Fld@listcount=\count279
-\c@bookmark@seq@number=\count280
+\Fld@listcount=\count277
+\c@bookmark@seq@number=\count278
 
-(c:/Users/gdiaz/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/rerunfilecheck/rer
-unfilecheck.sty
+(c:/Users/diazdia2/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/rerunfilecheck/
+rerunfilecheck.sty
 Package: rerunfilecheck 2019/12/05 v1.9 Rerun checks for auxiliary files (HO)
 
-(c:/Users/gdiaz/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/uniquecounter/un
-iquecounter.sty
+(c:/Users/diazdia2/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/uniquecounter
+/uniquecounter.sty
 Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
 )
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 86.
 )
-\Hy@SectionHShift=\skip53
+\Hy@SectionHShift=\skip52
 )
-(c:/Users/gdiaz/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/bookmark/bkm-pdfte
-x.def
-File: bkm-pdftex.def 2020-11-06 v1.29 bookmark driver for pdfTeX (HO)
-\BKM@id=\count281
-))
-Package hyperref Info: Option `colorlinks' set `true' on input line 46.
+Package hyperref Info: Option `colorlinks' set `true' on input line 47.
 
-(c:/Users/gdiaz/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/geometry/geometry.
-sty
+(c:/Users/diazdia2/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/geometry/geomet
+ry.sty
 Package: geometry 2020/01/02 v5.9 Page Geometry
 
-(c:/Users/gdiaz/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/iftex/ifvtex.sty
+(c:/Users/diazdia2/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/iftex/ifvtex.
+sty
 Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 )
-\Gm@cnth=\count282
-\Gm@cntv=\count283
-\c@Gm@tempcnt=\count284
-\Gm@bindingoffset=\dimen153
-\Gm@wd@mp=\dimen154
-\Gm@odd@mp=\dimen155
-\Gm@even@mp=\dimen156
-\Gm@layoutwidth=\dimen157
-\Gm@layoutheight=\dimen158
-\Gm@layouthoffset=\dimen159
-\Gm@layoutvoffset=\dimen160
-\Gm@dimlist=\toks25
+\Gm@cnth=\count279
+\Gm@cntv=\count280
+\c@Gm@tempcnt=\count281
+\Gm@bindingoffset=\dimen152
+\Gm@wd@mp=\dimen153
+\Gm@odd@mp=\dimen154
+\Gm@even@mp=\dimen155
+\Gm@layoutwidth=\dimen156
+\Gm@layoutheight=\dimen157
+\Gm@layouthoffset=\dimen158
+\Gm@layoutvoffset=\dimen159
+\Gm@dimlist=\toks24
 )
-(c:/Users/gdiaz/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/graphics/graphicx.
-sty
+(c:/Users/diazdia2/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/graphics/graphi
+cx.sty
 Package: graphicx 2020/12/05 v1.2c Enhanced LaTeX Graphics (DPC,SPQR)
 
-(c:/Users/gdiaz/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/graphics/graphics.
-sty
+(c:/Users/diazdia2/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/graphics/graphi
+cs.sty
 Package: graphics 2021/03/04 v1.4d Standard LaTeX Graphics (DPC,SPQR)
-(c:/Users/gdiaz/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/graphics/trig.sty
+
+(c:/Users/diazdia2/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/graphics/trig.s
+ty
 Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
 )
-(c:/Users/gdiaz/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/graphics-cfg/graph
-ics.cfg
+(c:/Users/diazdia2/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/graphics-cfg/gr
+aphics.cfg
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
 Package graphics Info: Driver file: pdftex.def on input line 107.
 )
-\Gin@req@height=\dimen161
-\Gin@req@width=\dimen162
-) (c:/Users/gdiaz/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/ulem/ulem.sty
+\Gin@req@height=\dimen160
+\Gin@req@width=\dimen161
+)
+(c:/Users/diazdia2/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/ulem/ulem.sty
 \UL@box=\box52
 \UL@hyphenbox=\box53
-\UL@skip=\skip54
-\UL@hook=\toks26
-\UL@height=\dimen163
-\UL@pe=\count285
-\UL@pixel=\dimen164
+\UL@skip=\skip53
+\UL@hook=\toks25
+\UL@height=\dimen162
+\UL@pe=\count282
+\UL@pixel=\dimen163
 \ULC@box=\box54
 Package: ulem 2019/11/18
-\ULdepth=\dimen165
+\ULdepth=\dimen164
 )
-(c:/Users/gdiaz/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/booktabs/booktabs.
-sty
+(c:/Users/diazdia2/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/booktabs/bookta
+bs.sty
 Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
-\heavyrulewidth=\dimen166
-\lightrulewidth=\dimen167
-\cmidrulewidth=\dimen168
-\belowrulesep=\dimen169
-\belowbottomsep=\dimen170
-\aboverulesep=\dimen171
-\abovetopsep=\dimen172
-\cmidrulesep=\dimen173
-\cmidrulekern=\dimen174
-\defaultaddspace=\dimen175
-\@cmidla=\count286
-\@cmidlb=\count287
-\@aboverulesep=\dimen176
-\@belowrulesep=\dimen177
-\@thisruleclass=\count288
-\@lastruleclass=\count289
-\@thisrulewidth=\dimen178
+\heavyrulewidth=\dimen165
+\lightrulewidth=\dimen166
+\cmidrulewidth=\dimen167
+\belowrulesep=\dimen168
+\belowbottomsep=\dimen169
+\aboverulesep=\dimen170
+\abovetopsep=\dimen171
+\cmidrulesep=\dimen172
+\cmidrulekern=\dimen173
+\defaultaddspace=\dimen174
+\@cmidla=\count283
+\@cmidlb=\count284
+\@aboverulesep=\dimen175
+\@belowrulesep=\dimen176
+\@thisruleclass=\count285
+\@lastruleclass=\count286
+\@thisrulewidth=\dimen177
 )
-(c:/Users/gdiaz/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/tools/longtable.st
-y
+(c:/Users/diazdia2/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/tools/longtable
+.sty
 Package: longtable 2021-05-07 v4.16 Multi-page Table package (DPC)
-\LTleft=\skip55
-\LTright=\skip56
-\LTpre=\skip57
-\LTpost=\skip58
-\LTchunksize=\count290
-\LTcapwidth=\dimen179
+\LTleft=\skip54
+\LTright=\skip55
+\LTpre=\skip56
+\LTpost=\skip57
+\LTchunksize=\count287
+\LTcapwidth=\dimen178
 \LT@head=\box55
 \LT@firsthead=\box56
 \LT@foot=\box57
 \LT@lastfoot=\box58
 \LT@gbox=\box59
-\LT@cols=\count291
-\LT@rows=\count292
-\c@LT@tables=\count293
-\c@LT@chunks=\count294
-\LT@p@ftn=\toks27
-) (c:/Users/gdiaz/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/tools/array.sty
+\LT@cols=\count288
+\LT@rows=\count289
+\c@LT@tables=\count290
+\c@LT@chunks=\count291
+\LT@p@ftn=\toks26
+)
+(c:/Users/diazdia2/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/tools/array.sty
 Package: array 2021/04/20 v2.5e Tabular extension package (FMi)
-\col@sep=\dimen180
+\col@sep=\dimen179
 \ar@mcellbox=\box60
-\extrarowheight=\dimen181
-\NC@list=\toks28
-\extratabsurround=\skip59
-\backup@length=\skip60
+\extrarowheight=\dimen180
+\NC@list=\toks27
+\extratabsurround=\skip58
+\backup@length=\skip59
 \ar@cellbox=\box61
 )
-(c:/Users/gdiaz/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/multirow/multirow.
-sty
+(c:/Users/diazdia2/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/multirow/multir
+ow.sty
 Package: multirow 2021/03/15 v2.8 Span multiple rows of a table
-\multirow@colwidth=\skip61
-\multirow@cntb=\count295
-\multirow@dima=\skip62
-\bigstrutjot=\dimen182
+\multirow@colwidth=\skip60
+\multirow@cntb=\count292
+\multirow@dima=\skip61
+\bigstrutjot=\dimen181
 )
-(c:/Users/gdiaz/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/wrapfig/wrapfig.st
-y
-\wrapoverhang=\dimen183
-\WF@size=\dimen184
-\c@WF@wrappedlines=\count296
+(c:/Users/diazdia2/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/wrapfig/wrapfig
+.sty
+\wrapoverhang=\dimen182
+\WF@size=\dimen183
+\c@WF@wrappedlines=\count293
 \WF@box=\box62
-\WF@everypar=\toks29
+\WF@everypar=\toks28
 Package: wrapfig 2003/01/31  v 3.6
-) (c:/Users/gdiaz/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/float/float.sty
+)
+(c:/Users/diazdia2/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/float/float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
-\c@float@type=\count297
-\float@exts=\toks30
+\c@float@type=\count294
+\float@exts=\toks29
 \float@box=\box63
-\@float@everytoks=\toks31
+\@float@everytoks=\toks30
 \@floatcapt=\box64
 )
-(c:/Users/gdiaz/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/colortbl/colortbl.
-sty
+(c:/Users/diazdia2/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/colortbl/colort
+bl.sty
 Package: colortbl 2020/01/04 v1.0e Color table columns (DPC)
-\everycr=\toks32
-\minrowclearance=\skip63
+\everycr=\toks31
+\minrowclearance=\skip62
 )
-(c:/Users/gdiaz/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/pdflscape/pdflscap
-e.sty
+(c:/Users/diazdia2/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/pdflscape/pdfls
+cape.sty
 Package: pdflscape 2019/12/05 v0.12 Display of landscape pages in PDF (HO)
 
-(c:/Users/gdiaz/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/graphics/lscape.st
-y
+(c:/Users/diazdia2/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/graphics/lscape
+.sty
 Package: lscape 2020/05/28 v3.02 Landscape Pages (DPC)
 )
 Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
-) (c:/Users/gdiaz/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/tabu/tabu.sty
+) (c:/Users/diazdia2/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/tabu/tabu.sty
 Package: tabu 2019/01/11 v2.9 - flexible LaTeX tabulars (FC+tabu-fixed)
 
-(c:/Users/gdiaz/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/varwidth/varwidth.
-sty
+(c:/Users/diazdia2/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/varwidth/varwid
+th.sty
 Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
 \@vwid@box=\box65
-\sift@deathcycles=\count298
-\@vwid@loff=\dimen185
-\@vwid@roff=\dimen186
+\sift@deathcycles=\count295
+\@vwid@loff=\dimen184
+\@vwid@roff=\dimen185
 )
-\c@taburow=\count299
-\tabu@nbcols=\count300
-\tabu@cnt=\count301
-\tabu@Xcol=\count302
-\tabu@alloc=\count303
-\tabu@nested=\count304
-\tabu@target=\dimen187
-\tabu@spreadtarget=\dimen188
-\tabu@naturalX=\dimen189
-\tabucolX=\dimen190
-\tabu@Xsum=\dimen191
-\extrarowdepth=\dimen192
-\abovetabulinesep=\dimen193
-\belowtabulinesep=\dimen194
-\tabustrutrule=\dimen195
-\tabu@thebody=\toks33
-\tabu@footnotes=\toks34
+\c@taburow=\count296
+\tabu@nbcols=\count297
+\tabu@cnt=\count298
+\tabu@Xcol=\count299
+\tabu@alloc=\count300
+\tabu@nested=\count301
+\tabu@target=\dimen186
+\tabu@spreadtarget=\dimen187
+\tabu@naturalX=\dimen188
+\tabucolX=\dimen189
+\tabu@Xsum=\dimen190
+\extrarowdepth=\dimen191
+\abovetabulinesep=\dimen192
+\belowtabulinesep=\dimen193
+\tabustrutrule=\dimen194
+\tabu@thebody=\toks32
+\tabu@footnotes=\toks33
 \tabu@box=\box66
 \tabu@arstrutbox=\box67
 \tabu@hleads=\box68
 \tabu@vleads=\box69
-\tabu@cellskip=\skip64
+\tabu@cellskip=\skip63
 )
-(c:/Users/gdiaz/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/threeparttable/thr
-eeparttable.sty
+(c:/Users/diazdia2/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/threeparttable/
+threeparttable.sty
 Package: threeparttable 2003/06/13  v 3.0
 \@tempboxb=\box70
 )
-(c:/Users/gdiaz/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/threeparttablex/th
-reeparttablex.sty
+(c:/Users/diazdia2/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/threeparttablex
+/threeparttablex.sty
 Package: threeparttablex 2013/07/23 v0.3 by daleif
 
-(c:/Users/gdiaz/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/environ/environ.st
-y
+(c:/Users/diazdia2/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/environ/environ
+.sty
 Package: environ 2014/05/04 v0.3 A new way to define environments
 
-(c:/Users/gdiaz/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/trimspaces/trimspa
-ces.sty
+(c:/Users/diazdia2/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/trimspaces/trim
+spaces.sty
 Package: trimspaces 2009/09/17 v1.1 Trim spaces around a token list
 ))
-\TPTL@width=\skip65
+\TPTL@width=\skip64
 )
-(c:/Users/gdiaz/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/makecell/makecell.
-sty
+(c:/Users/diazdia2/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/makecell/makece
+ll.sty
 Package: makecell 2009/08/03 V0.1e Managing of Tab Column Heads and Cells
-\rotheadsize=\dimen196
-\c@nlinenum=\count305
-\TeXr@lab=\toks35
+\rotheadsize=\dimen195
+\c@nlinenum=\count302
+\TeXr@lab=\toks34
 )
-(c:/Users/gdiaz/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/l3backend/l3backen
-d-pdftex.def
+(c:/Users/diazdia2/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/l3backend/l3bac
+kend-pdftex.def
 File: l3backend-pdftex.def 2021-08-04 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count306
+\l__color_backend_stack_int=\count303
 \l__pdf_internal_box=\box71
 ) (./polc2300_syllabus.aux)
 \openout1 = `polc2300_syllabus.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 100.
-LaTeX Font Info:    ... okay on input line 100.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 100.
-LaTeX Font Info:    ... okay on input line 100.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 100.
-LaTeX Font Info:    ... okay on input line 100.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 100.
-LaTeX Font Info:    ... okay on input line 100.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 100.
-LaTeX Font Info:    ... okay on input line 100.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 100.
-LaTeX Font Info:    ... okay on input line 100.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 100.
-LaTeX Font Info:    ... okay on input line 100.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 100.
-LaTeX Font Info:    ... okay on input line 100.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 100.
-LaTeX Font Info:    ... okay on input line 100.
-LaTeX Info: Redefining \microtypecontext on input line 100.
-Package microtype Info: Generating PDF output.
-Package microtype Info: Character protrusion enabled (level 2).
-Package microtype Info: Using protrusion set `basicmath'.
-Package microtype Info: Automatic font expansion enabled (level 2),
-(microtype)             stretch: 20, shrink: 20, step: 1, non-selected.
-Package microtype Info: Using default expansion set `alltext-nott'.
-LaTeX Info: Redefining \showhyphens on input line 100.
-Package microtype Info: No adjustment of tracking.
-Package microtype Info: No adjustment of interword spacing.
-Package microtype Info: No adjustment of character kerning.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 101.
+LaTeX Font Info:    ... okay on input line 101.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 101.
+LaTeX Font Info:    ... okay on input line 101.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 101.
+LaTeX Font Info:    ... okay on input line 101.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 101.
+LaTeX Font Info:    ... okay on input line 101.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 101.
+LaTeX Font Info:    ... okay on input line 101.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 101.
+LaTeX Font Info:    ... okay on input line 101.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 101.
+LaTeX Font Info:    ... okay on input line 101.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 101.
+LaTeX Font Info:    ... okay on input line 101.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 101.
+LaTeX Font Info:    ... okay on input line 101.
 
-(c:/Users/gdiaz/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/microtype/mt-ppl.c
-fg
-File: mt-ppl.cfg 2005/11/16 v1.6 microtype config. file: Palatino (RS)
-)
-(c:/Users/gdiaz/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/epstopdf-pkg/epsto
-pdf-base.sty
+(c:/Users/diazdia2/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/epstopdf-pkg/ep
+stopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 85.
 
-(c:/Users/gdiaz/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/latexconfig/epstop
-df-sys.cfg
+(c:/Users/diazdia2/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/latexconfig/eps
+topdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-Package hyperref Info: Link coloring ON on input line 100.
+Package hyperref Info: Link coloring ON on input line 101.
 
-(c:/Users/gdiaz/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/hyperref/nameref.s
-ty
+(c:/Users/diazdia2/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/hyperref/namere
+f.sty
 Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
 
-(c:/Users/gdiaz/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/refcount/refcount.
-sty
+(c:/Users/diazdia2/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/refcount/refcou
+nt.sty
 Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 )
-(c:/Users/gdiaz/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/gettitlestring/g
-ettitlestring.sty
+(c:/Users/diazdia2/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/gettitlestrin
+g/gettitlestring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count307
+\c@section@level=\count304
 )
-LaTeX Info: Redefining \ref on input line 100.
-LaTeX Info: Redefining \pageref on input line 100.
-LaTeX Info: Redefining \nameref on input line 100.
+LaTeX Info: Redefining \ref on input line 101.
+LaTeX Info: Redefining \pageref on input line 101.
+LaTeX Info: Redefining \nameref on input line 101.
+(./polc2300_syllabus.out) (./polc2300_syllabus.out)
+\@outlinefile=\write3
+\openout3 = `polc2300_syllabus.out'.
+
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
@@ -674,144 +647,143 @@ LaTeX Info: Redefining \nameref on input line 100.
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 LaTeX Font Info:    Trying to load font information for OT1+ppl on input line 1
-02.
-(c:/Users/gdiaz/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/psnfss/ot1ppl.fd
+03.
+
+(c:/Users/diazdia2/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/psnfss/ot1ppl.f
+d
 File: ot1ppl.fd 2001/06/04 font definitions for OT1/ppl.
 )
 LaTeX Font Info:    Trying to load font information for OML+zplm on input line 
-102.
-(c:/Users/gdiaz/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/psnfss/omlzplm.fd
+103.
+
+(c:/Users/diazdia2/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/psnfss/omlzplm.
+fd
 File: omlzplm.fd 2002/09/08 Fontinst v1.914 font definitions for OML/zplm.
 )
 LaTeX Font Info:    Trying to load font information for OMS+zplm on input line 
-102.
-(c:/Users/gdiaz/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/psnfss/omszplm.fd
+103.
+
+(c:/Users/diazdia2/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/psnfss/omszplm.
+fd
 File: omszplm.fd 2002/09/08 Fontinst v1.914 font definitions for OMS/zplm.
 )
 LaTeX Font Info:    Trying to load font information for OMX+zplm on input line 
-102.
-(c:/Users/gdiaz/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/psnfss/omxzplm.fd
+103.
+
+(c:/Users/diazdia2/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/psnfss/omxzplm.
+fd
 File: omxzplm.fd 2002/09/08 Fontinst v1.914 font definitions for OMX/zplm.
 )
-LaTeX Font Info:    Font shape `U/msa/m/n' will be
-(Font)              scaled to size 18.00587pt on input line 102.
-
-(c:/Users/gdiaz/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/microtype/mt-msa.c
-fg
-File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
-)
-LaTeX Font Info:    Font shape `U/msa/m/n' will be
-(Font)              scaled to size 12.50409pt on input line 102.
-LaTeX Font Info:    Font shape `U/msa/m/n' will be
-(Font)              scaled to size 10.42007pt on input line 102.
-LaTeX Font Info:    Font shape `U/msb/m/n' will be
-(Font)              scaled to size 18.00587pt on input line 102.
-
-(c:/Users/gdiaz/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/microtype/mt-msb.c
-fg
-File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
-)
-LaTeX Font Info:    Font shape `U/msb/m/n' will be
-(Font)              scaled to size 12.50409pt on input line 102.
-LaTeX Font Info:    Font shape `U/msb/m/n' will be
-(Font)              scaled to size 10.42007pt on input line 102.
 LaTeX Font Info:    Trying to load font information for OT1+zplm on input line 
-102.
-(c:/Users/gdiaz/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/psnfss/ot1zplm.fd
+103.
+
+(c:/Users/diazdia2/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/psnfss/ot1zplm.
+fd
 File: ot1zplm.fd 2002/09/08 Fontinst v1.914 font definitions for OT1/zplm.
 )
+LaTeX Font Info:    Font shape `U/msa/m/n' will be
+(Font)              scaled to size 18.00587pt on input line 103.
+LaTeX Font Info:    Font shape `U/msa/m/n' will be
+(Font)              scaled to size 12.50409pt on input line 103.
+LaTeX Font Info:    Font shape `U/msa/m/n' will be
+(Font)              scaled to size 10.42007pt on input line 103.
+LaTeX Font Info:    Font shape `U/msb/m/n' will be
+(Font)              scaled to size 18.00587pt on input line 103.
+LaTeX Font Info:    Font shape `U/msb/m/n' will be
+(Font)              scaled to size 12.50409pt on input line 103.
+LaTeX Font Info:    Font shape `U/msb/m/n' will be
+(Font)              scaled to size 10.42007pt on input line 103.
 LaTeX Font Info:    Trying to load font information for TS1+ppl on input line 1
-02.
-(c:/Users/gdiaz/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/psnfss/ts1ppl.fd
+03.
+
+(c:/Users/diazdia2/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/psnfss/ts1ppl.f
+d
 File: ts1ppl.fd 2001/06/04 font definitions for TS1/ppl.
 )
 LaTeX Font Info:    Font shape `U/msa/m/n' will be
-(Font)              scaled to size 9.37807pt on input line 102.
+(Font)              scaled to size 9.37807pt on input line 103.
 LaTeX Font Info:    Font shape `U/msa/m/n' will be
-(Font)              scaled to size 7.29405pt on input line 102.
+(Font)              scaled to size 7.29405pt on input line 103.
 LaTeX Font Info:    Font shape `U/msb/m/n' will be
-(Font)              scaled to size 9.37807pt on input line 102.
+(Font)              scaled to size 9.37807pt on input line 103.
 LaTeX Font Info:    Font shape `U/msb/m/n' will be
-(Font)              scaled to size 7.29405pt on input line 102.
+(Font)              scaled to size 7.29405pt on input line 103.
 LaTeX Font Info:    Font shape `U/msa/m/n' will be
-(Font)              scaled to size 5.21004pt on input line 102.
+(Font)              scaled to size 5.21004pt on input line 103.
 LaTeX Font Info:    Font shape `U/msb/m/n' will be
-(Font)              scaled to size 5.21004pt on input line 102.
+(Font)              scaled to size 5.21004pt on input line 103.
 LaTeX Font Info:    Font shape `U/msa/m/n' will be
-(Font)              scaled to size 11.40997pt on input line 109.
+(Font)              scaled to size 11.40997pt on input line 110.
 LaTeX Font Info:    Font shape `U/msa/m/n' will be
-(Font)              scaled to size 8.33606pt on input line 109.
+(Font)              scaled to size 8.33606pt on input line 110.
 LaTeX Font Info:    Font shape `U/msa/m/n' will be
-(Font)              scaled to size 6.25204pt on input line 109.
+(Font)              scaled to size 6.25204pt on input line 110.
 LaTeX Font Info:    Font shape `U/msb/m/n' will be
-(Font)              scaled to size 11.40997pt on input line 109.
+(Font)              scaled to size 11.40997pt on input line 110.
 LaTeX Font Info:    Font shape `U/msb/m/n' will be
-(Font)              scaled to size 8.33606pt on input line 109.
+(Font)              scaled to size 8.33606pt on input line 110.
 LaTeX Font Info:    Font shape `U/msb/m/n' will be
-(Font)              scaled to size 6.25204pt on input line 109.
+(Font)              scaled to size 6.25204pt on input line 110.
 [1
 
-{c:/Users/gdiaz/AppData/Roaming/TinyTeX/texmf-var/fonts/map/pdftex/updmap/pdfte
-x.map}]
+{c:/Users/diazdia2/AppData/Roaming/TinyTeX/texmf-var/fonts/map/pdftex/updmap/pd
+ftex.map}]
 LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 2
-24.
-(c:/Users/gdiaz/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/base/t1cmtt.fd
+25.
+(c:/Users/diazdia2/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/base/t1cmtt.fd
 File: t1cmtt.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 ) [2] [3] [4]
-<polc2300_syllabus_files/figure-latex/unnamed-chunk-2-1.pdf, id=69, 867.24pt x 
-144.54pt>
+<polc2300_syllabus_files/figure-latex/unnamed-chunk-2-1.pdf, id=217, 867.24pt x
+ 144.54pt>
 File: polc2300_syllabus_files/figure-latex/unnamed-chunk-2-1.pdf Graphic file (
 type pdf)
 <use polc2300_syllabus_files/figure-latex/unnamed-chunk-2-1.pdf>
 Package pdftex.def Info: polc2300_syllabus_files/figure-latex/unnamed-chunk-2-1
-.pdf  used on input line 397.
+.pdf  used on input line 398.
 (pdftex.def)             Requested size: 469.75827pt x 78.29303pt.
 [5 <./polc2300_syllabus_files/figure-latex/unnamed-chunk-2-1.pdf>]
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[6] [7]
-Underfull \hbox (badness 10000) in paragraph at lines 598--601
-
- []
-
-[8] [9] [10]
-<figs/title_ix.png, id=159, 3391.42032pt x 1890.3122pt>
+[6] [7] [8] [9] [10]
+<figs/title_ix.png, id=282, 3391.42032pt x 1890.3122pt>
 File: figs/title_ix.png Graphic file (type png)
 <use figs/title_ix.png>
-Package pdftex.def Info: figs/title_ix.png  used on input line 872.
+Package pdftex.def Info: figs/title_ix.png  used on input line 873.
 (pdftex.def)             Requested size: 469.72423pt x 261.81522pt.
 [11 <./figs/title_ix.png>]
-<figs/emergency.png, id=168, 3391.42032pt x 2266.71844pt>
+<figs/emergency.png, id=290, 3391.42032pt x 2266.71844pt>
 File: figs/emergency.png Graphic file (type png)
 <use figs/emergency.png>
-Package pdftex.def Info: figs/emergency.png  used on input line 883.
+Package pdftex.def Info: figs/emergency.png  used on input line 884.
 (pdftex.def)             Requested size: 469.72423pt x 313.94887pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 883--885
+Underfull \hbox (badness 10000) in paragraph at lines 884--886
 [][]
  []
 
-[12 <./figs/emergency.png>] (./polc2300_syllabus.aux) ) 
+[12 <./figs/emergency.png>] (./polc2300_syllabus.aux)
+Package rerunfilecheck Info: File `polc2300_syllabus.out' has not changed.
+(rerunfilecheck)             Checksum: 27D27E9935C3E29F97A85715AAE67450;9727.
+ ) 
 Here is how much of TeX's memory you used:
- 14426 strings out of 480502
- 219115 string characters out of 5898082
- 578865 words of memory out of 5000000
- 31462 multiletter control sequences out of 15000+600000
- 454245 words of font info for 278 fonts, out of 8000000 for 9000
+ 12336 strings out of 480559
+ 183440 string characters out of 5901528
+ 516430 words of memory out of 5000000
+ 29608 multiletter control sequences out of 15000+600000
+ 443217 words of font info for 120 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 74i,9n,80p,1076b,396s stack positions out of 5000i,500n,10000p,200000b,80000s
- <c:/Users/gdiaz/AppData
-/Roaming/TinyTeX/texmf-var/fonts/pk/ljfour/jknappen/ec/ectt1095.600pk>{c:/Users
-/gdiaz/AppData/Roaming/TinyTeX/texmf-dist/fonts/enc/dvips/base/8r.enc}<c:/Users
-/gdiaz/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb><
-c:/Users/gdiaz/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/urw/palatino/uplr
-8a.pfb><c:/Users/gdiaz/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/urw/palat
-ino/uplri8a.pfb>
-Output written on polc2300_syllabus.pdf (12 pages, 1066512 bytes).
+ 60i,9n,66p,581b,386s stack positions out of 5000i,500n,10000p,200000b,80000s
+ <c:/Users/diazdia2/AppData/Roaming/TinyTeX/texmf-var/fonts/pk/ljfour/jknappe
+n/ec/ectt1095.600pk>{c:/Users/diazdia2/AppData/Roaming/TinyTeX/texmf-dist/fonts
+/enc/dvips/base/8r.enc}<c:/Users/diazdia2/AppData/Roaming/TinyTeX/texmf-dist/fo
+nts/type1/urw/palatino/uplb8a.pfb><c:/Users/diazdia2/AppData/Roaming/TinyTeX/te
+xmf-dist/fonts/type1/urw/palatino/uplr8a.pfb><c:/Users/diazdia2/AppData/Roaming
+/TinyTeX/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
+Output written on polc2300_syllabus.pdf (12 pages, 1065007 bytes).
 PDF statistics:
  357 PDF objects out of 1000 (max. 8388607)
  311 compressed objects within 4 object streams
  103 named destinations out of 1000 (max. 500000)
- 74064 words of extra memory for PDF output out of 74296 (max. 10000000)
+ 336 words of extra memory for PDF output out of 10000 (max. 10000000)
 

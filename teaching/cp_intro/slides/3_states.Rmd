@@ -86,11 +86,11 @@ class: inverse
 
 ## Goal
 
-- Apply course material to current **"political"** events of a **"region"** of your choosing
+- Apply course material to current **"political"** events in a **"region"** of your choosing
 
 - **Political:** Anything interesting to approach from a power imbalance/struggle perspective
 
-- **Region:** Need not to be countries `(e.g. Latin America, China, Louisiana, New Orleans, Orleans Parish)`
+- **Region:** Need not be countries `(e.g. Latin America, China, Louisiana, New Orleans, Orleans Parish)`
 
 - Free to change original focus after consulting with me
 
@@ -116,10 +116,10 @@ class: inverse
 
 ## First report
 
-- Must be in paper (about 2-3 pages)
+- Must be a 2-3 pages document
 - Propose a region of the world and topic
-- Explain why it's interesting to apply course material
-- Include list of five potential news sources
+- Explain why it is interesting to apply course material
+- Include a list of five potential news sources
 - Outline the creative media you will use to deliver the report
 
 ---
@@ -153,7 +153,7 @@ class: inverse
 
 - Everything is politics
 
-- Not always useful to approach stuff from a political lens
+- Not always useful to approach stuff from a political angle
 
 - Exit, Voice, Loyalty as one of many **models to understand political situations**
 
@@ -246,14 +246,14 @@ layout: false
 --
 
 - Many **multi-ethnic** states can be considered robust nation-states `(e.g. Belgium)`
-- **Amendment to CGG:** A state in which `one or more nations` have a meaningful connections to the state `r fa("fire-alt")`
+- **Amendment to CGG:** A state in which `one or more nations` have a meaningful connection to the state `r fa("fire-alt")`
 
 ---
 class: inverse
 
 ## Aside: Polity
 
-- **Polity** is the most generous, uncontroversial definition for a country-like entity
+- **Polity** is the most generous, uncontroversial concept for a country-like entity
 
 - **Definition:** An identifiable political entity
 
@@ -342,9 +342,316 @@ frameWidget(map)
 class: center middle
 
 # What Explains Variation in State Fragility?
+
 ## Why are some states weaker or stronger?
 
+## Where did states came from to begin with?
 
 
+---
+
+## Explaining the origins of the state
+
+### 1. Contractarian view
+
+### 2. Predatory view
+
+---
+
+## Contractarian view
+
+- **State of nature:** 
+
+    - A world with no state, government, or similar authority to regulate life
+    - **Hobbes:** Everyone by themselves in constant war. Life is "solitary, poor, nasty, brutish, and short."
+    
+--
+
+- **Dilemma:**
+
+    - Everyone would be better off if they agree not to take advantage of each other
+    - But if violence or theft exists, you would rather be the attacker than the victim
+    - This type of dilemma is common and we can use game theory to illustrate it
+
+---
+
+## The prisoner's dilemma (state of nature)
+
+- Simultaneous game with perfect information
+- 2 players with symmetric options
+- Actions: `Refrain, Steal`
+
+---
+
+## Prisoner's dilemma setup
+
+```{r}
+prisoner = data.frame(
+  Refrain = c("\\(3,3\\)", "\\(4,1\\)"),
+  Steal = c("\\(1,4\\)", "\\(2,2\\)"))
+
+rownames(prisoner) = c("Refrain", "Steal")
+
+prisoner %>% 
+  kbl(escape = FALSE) %>% 
+  kable_styling(full_width = FALSE) %>% 
+  pack_rows("A", 1, 2) %>% 
+  add_header_above(c(" " = 1, "B" = 2))
+```
+
+--
+
+- Cells denote `cardinal payoffs` (A, B)
+- **Nash Equilibrium:** No incentive for unilateral defection
+
+---
+count: false
+
+## Prisoner's dilemma setup
+
+```{r}
+prisoner %>% 
+  kbl() %>% 
+  kable_styling(full_width = FALSE) %>% 
+  pack_rows("A", 1, 2) %>% 
+  add_header_above(c(" " = 1, "B" = 2)) %>% 
+  column_spec(2, background = c(FALSE, "yellow")) %>% 
+  column_spec(3, background = c(FALSE, "yellow"))
+```
+
+- Cells denote `cardinal payoffs` (A, B)
+- **Nash Equilibrium:** No incentive for unilateral defection
+
+---
+
+## Prisoner's dilemma setup
+
+```{r}
+prisoner = data.frame(
+  Refrain = c("\\(3,3\\)", "\\(4,1\\)"),
+  Steal = c("\\(1,4\\)", "\\(2,2\\)"))
+
+rownames(prisoner) = c("Refrain", "Steal")
+
+prisoner %>% 
+  kbl(escape = FALSE) %>% 
+  kable_styling(full_width = FALSE) %>% 
+  pack_rows("A", 1, 2) %>% 
+  add_header_above(c(" " = 1, "B" = 2))
+```
+
+- Cells denote `cardinal payoffs` (A, B)
+- **Nash Equilibrium:** No incentive for unilateral defection
 
 
+---
+count: false
+
+## Prisoner's dilemma setup
+
+```{r}
+prisoner %>% 
+  kbl() %>% 
+  kable_styling(full_width = FALSE) %>% 
+  pack_rows("A", 1, 2) %>% 
+  add_header_above(c(" " = 1, "B" = 2)) %>% 
+  column_spec(3, background = "yellow")
+```
+
+- Cells denote `cardinal payoffs` (A, B)
+- **Nash Equilibrium:** No incentive for unilateral defection
+
+---
+count: false
+
+## Prisoner's dilemma setup
+
+```{r}
+prisoner %>% 
+  kbl() %>% 
+  kable_styling(full_width = FALSE) %>% 
+  pack_rows("A", 1, 2) %>% 
+  add_header_above(c(" " = 1, "B" = 2)) %>% 
+  column_spec(2, background = c(FALSE, "yellow")) %>%
+  column_spec(3, background = "yellow")
+```
+
+- Cells denote `cardinal payoffs` (A, B)
+- **Nash Equilibrium:** No incentive for unilateral defection
+
+---
+count: false
+
+## Prisoner's dilemma setup
+
+```{r}
+prisoner %>% 
+  kbl() %>% 
+  kable_styling(full_width = FALSE) %>% 
+  pack_rows("A", 1, 2) %>% 
+  add_header_above(c(" " = 1, "B" = 2)) %>% 
+  column_spec(3, background = c(FALSE, "yellow"))
+```
+
+- Cells denote `cardinal payoffs` (A, B)
+- **Nash Equilibrium:** No incentive for unilateral defection
+
+--
+- **NE:** (Steal; Steal)
+- Without state, individuals steal from each other
+- Even though both would be better off if they refrained (cooperate)
+- A very common problem in daily life
+
+---
+
+## Solution: A social contract
+
+- An implicit agreement among individuals in the state of nature to empower the state. It outlines rights and responsibilities of the state and the citizen with regards to each other `(e.g. state gives protection, citizen pays taxes)`
+
+- Social contract theorists differ in the extent of power citizens delegate to state:
+
+    - **Hobbes:** Create a sovereign with sufficient force to deter stealing
+    - **Locke:** Emphasis on the contract aspect `(e.g. a constitution)`
+    - **Rousseau:** Avoid tyranny of minority
+    
+- How does this translate to the prisoner's dilemma?
+
+---
+
+## The state in the prisoner's dilemma (civil society game)
+
+```{r}
+prisoner2 = data.frame(
+  Refrain = c("\\(3,3\\)", "\\(4 - p,1\\)"),
+  Steal = c("\\(1,4 - p\\)", "\\(2 - p, 2 - p\\)"))
+
+rownames(prisoner2) = c("Refrain", "Steal")
+
+prisoner2 %>% 
+  kbl() %>% 
+  kable_styling(full_width = FALSE) %>% 
+  pack_rows("A", 1, 2) %>% 
+  add_header_above(c(" " = 1, "B" = 2))
+```
+
+- $p$: Punishment from the state
+- $p = 1$ makes players indifferent between refraining and stealing `(a strange scenario)`
+- $p > 1$ changes the equilibrium to (Refrain, Refrain)
+
+---
+## When do citizens opt into the social contract? (Assume $p > 1$)
+
+.pull-left[
+### State of nature
+
+```{r}
+prisoner %>% 
+  kbl(escape = FALSE) %>% 
+  kable_styling(full_width = FALSE, font_size = 15) %>% 
+  pack_rows("A", 1, 2) %>% 
+  add_header_above(c(" " = 1, "B" = 2)) %>% 
+  column_spec(3, background = c(FALSE, "yellow"))
+```
+]
+
+
+.pull-right[
+### Civil society
+
+```{r}
+prisoner3 = data.frame(
+  Refrain = c("\\(3 - t,3 - t\\)", "\\(4 - p - t ,1 - t\\)"),
+  Steal = c("\\(1 - t ,4 - p - t\\)", "\\(2 - p - t, 2 - p - t\\)"))
+
+rownames(prisoner3) = c("Refrain", "Steal")
+
+prisoner3 %>% 
+  kbl() %>% 
+  kable_styling(full_width = FALSE, font_size = 15) %>% 
+  pack_rows("A", 1, 2) %>% 
+  add_header_above(c(" " = 1, "B" = 2)) %>% 
+  column_spec(2, background = c("yellow", FALSE))
+```
+]
+
+--
+
+- $t$: Cost of taxes `(or anything the state forces you to do)`
+- Which game would citizen prefer to play?
+- If $t = 1$ citizen is indifferent
+- If $t > 1$ citizen prefers to stay in state of nature
+
+--
+- Explains origins of state
+- Also explains variation in the balance of **rights** we give away in exchange for **protection** both **within** and **across** countries
+
+---
+
+## The problem with the contractarian view
+
+- **Contractarian view:** State (social contract) as a solution to conflicts of interest *between citizens*
+
+- **Critique:** Why would anyone care about playing the role of `protector`
+
+- **Predatory view:** Conflict of interests *between citizens and the state*
+
+---
+
+## The predatory view
+
+- **Context:** High Middle Ages in Europe. Balance of power shifting from kings to local lords
+- Rulers face their own security dilemma
+- Potential rivals can challenge them to take their place
+- Use power to extract resource from others to become stronger and dissuade challengers
+
+- **Tilly (1985):** The state as organized crime deploying an extortion racket
+
+    - **State:** Sells protection
+    - **Citizen:** Buys protection with taxes, loyalty, etc
+    - State threatens citizens to prevent them from buying protection elsewhere
+    
+- Rulers of the state must strike balance between protection, extraction, and coercion to navigate internal and external pressures
+
+---
+
+## Strategies to stay in power
+
+1. War making `(neutralize external rivals)`
+2. State making `(neutralize internal rivals)`
+3. Protection `(neutralize enemies of clients)`
+4. Extraction `(acquire resources to execute other strategies)`
+
+--
+
+- Rulers did not intend to create state-nations
+- They are a byproduct of their efforts to stay in power
+- **Over time:** Bigger states, fewer in number
+- **In short:** *"War made the state, and the state made war'*
+
+---
+
+## Shortcomings of the predatory view
+
+- Does not translate beyond Europe
+
+- Cannot explain changes in state capacity or fragility over time
+
+--
+
+- **Alternative view `r fa("fire-alt")`:** Medieval church as a rival for sovereignty [(Grzymala-Busse 2020 `r fa("external-link-alt")`)](https://doi.org/10.1146/annurev-polisci-050718-032628)
+
+    - Religious conflict explains why state-like entities existed before Middle Ages `(e.g. Roman Empire)`
+    - Explains why different states adopted different approaches to state-building `(religious vs. secular)`
+    - Pressures for state-building after nation-states were established
+    - Played a role in state-building efforts in the colonies
+    - Importance of religious norms, groups, and interests to date
+    
+---
+class: inverse center middle
+
+# Reminder:
+## News report 1 due Friday!
+
+# Next Week:
+## Democracy and Dictatorship
+    
