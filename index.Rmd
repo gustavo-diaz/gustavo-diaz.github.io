@@ -12,7 +12,7 @@ links:
     url: "https://scholar.google.com/citations?user=TVXK8-8AAAAJ"
 
 output:
-  postcards::trestles
+  postcards::solana
 site: distill::distill_website
 ---
 

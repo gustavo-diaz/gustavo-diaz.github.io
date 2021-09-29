@@ -1,0 +1,150 @@
+---
+title: "Democracy and Dictatorship"
+subtitle: "Comparative Politics"  
+date: "October 4-8, 2021"
+output:
+  xaringan::moon_reader:
+    css: xaringan-themer.css
+    nature:
+      slideNumberFormat: "%current%/%total%" 
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+---
+
+```{r setup, include=FALSE}
+options(htmltools.dir.version = FALSE)
+
+library(knitr)
+opts_chunk$set(
+  fig.width=9, fig.height=3.5, fig.retina=3,
+  out.width = "100%",
+  cache = FALSE,
+  echo = FALSE,
+  message = FALSE, 
+  warning = FALSE,
+  hiline = TRUE
+)
+```
+
+```{r xaringan-themer, include=FALSE, warning=FALSE}
+library(xaringanthemer)
+style_duo_accent(
+  title_slide_background_image = "figs/logo.png",
+  title_slide_background_size = "8%",
+  title_slide_background_position = "50% 95%",
+  primary_color = "#336666",
+  secondary_color = "#71C5E8",
+  inverse_header_color = "#FFFFFF",
+  background_color = "#EAE9EA",
+  link_color = "#71C5E8",
+  # easy to fetch colors
+  colors = c( 
+    white = "#FFFFFF",
+    green = "#336666",
+    lblue = "#71C5E8"
+    )
+)
+```
+
+```{r other-options}
+library(tidyverse)
+library(kableExtra)
+library(fontawesome)
+
+# ggplot global options
+theme_set(theme_bw(base_size = 20))
+```
+
+class: inverse
+
+## Reminder
+
+- Quiz 1 opens on Thursday, October 7 at noon
+- Due on Friday, October 8 at 5:00 PM
+- Weeks 1-4
+
+---
+
+## Last time
+
+- We study politics within countries, by which we usually mean nation-states
+- Two explanations for the emergence of modern nation-states:
+
+    1. Contractarian view
+    2. Predatory view
+    
+- They also help us understand variation in **state capacity**, **state fragility**, or **stateness** across countries and over time
+
+- This is the foundation for many other interesting questions
+
+---
+
+## The way forward
+
+- Why are some countries `democracies` and other `dictatorships`?
+
+- Which `regime` produces better economic performance?
+
+- What factors influence democratic survival?
+
+&nbsp;
+
+- To answer these questions, we need to classify countries as **democracies** or **dictatorships**
+
+---
+layout:true 
+## Democracy is an old concept
+
+---
+- ... and it was a bad thing!
+
+- **Demokratia:** Rule by the `(common)` people
+
+- **Plato:** Government by the poor, uneducated against the rich, educated
+
+- Would lead to mob rule and class warfare
+
+---
+
+- **Aristotle:** All forms of government are corruptible
+
+```{r}
+aristotle = data.frame(
+  number = c("One", "Few", "Many"),
+  good = c("Monarchy", "Aristocracy", "Politeia"),
+  bad = c("Tyranny", "Olygarchy", "Democracy")
+)
+
+colnames(aristotle) = c("Number of rules", "Good for all", "Good for the rulers")
+
+aristotle %>% 
+  kbl() %>% 
+  add_header_above(c(" " = 1, "Good form" = 1, "Bad form" = 1))
+```
+
+- **Democracy:** Rule by the worst class (Monarchy preferred)
+- **Until 18th Century:** 
+
+    - No elections `(aristocracy)`, but `lottery`
+    - No representation, but `direct legislation`
+    
+- `Democracy` $=$ `representative government` only after French and American Revolutions
+
+---
+
+- As demands for representative government increased, the classical 3-way distinction disappeared in favor of a 2-way distinction between **democracy** and **dictatorship**
+
+- This is also when democracy started to associate with `equality`, `justice`, and `freedom`
+
+---
+layout:false
+
+## Defining democracy
+
+[Substantive vs. minimalist]
+
+## From concept to measurement
+
+[Clarify social science and then illustrate. Then measures of democracy.]
+
