@@ -54,6 +54,14 @@ library(fontawesome)
 
 # ggplot global options
 theme_set(theme_bw(base_size = 20))
+
+# Democracy scores maps
+# remotes::install_github("xmarquez/democracyData")
+library(democracyData)
+library(sf)
+library(rnaturalearth)
+library(rnaturalearthdata)
+library(countrycode)
 ```
 
 class: inverse
@@ -91,6 +99,23 @@ class: inverse
 &nbsp;
 
 - To answer these questions, we need to classify countries as **democracies** or **dictatorships**
+
+---
+class: inverse
+
+## Aside: English is hard
+
+- **State:** An organization with comparative advantage in violence
+
+- **Government:** The group of people who rule the state
+
+- **Regime:** Institutions that determine how governments are formed
+
+--
+
+&nbsp;
+
+.center[This week is about **regime types**]
 
 ---
 layout:true 
@@ -142,9 +167,119 @@ layout:false
 
 ## Defining democracy
 
-[Substantive vs. minimalist]
+- These are **substantive** definitions of democracy (and dictatorship) since they focus on what it `should accomplish` rather than what `it is`
+
+--
+
+- **Robert Dahl** proposed a **minimalist** definition instead
+
+- He used the term **polyarchy** to distinguish it from conventional use. Also to emphasize that this as an ideal type, and that different regimes can get closer or further from the ideal
+
+---
+
+## Polyarchy
+
+- Regimes can be categorized in two dimensions:
+
+    1. **Contestation:** Extent to which citizens can organize into competing blocks to press for policy change
+    2. **Inclusion:** Who gets to participate
+
+```{r}
+polyarchy = data.frame(
+  countries = c("Apartheid\nSouth Africa", "China", "Soviet Union", "United States", "Polyarchy\n(Ideal type)"),
+  Inclusion = c(10, 30, 60, 70, 90),
+  Contestation = c(70, 10, 10, 70, 90)
+)
+
+ggplot(polyarchy) +
+  aes(x = Inclusion, y = Contestation, label = countries) +
+  geom_text(size = 5) +
+  scale_x_continuous(breaks = c(10, 90), labels = c("Low", "High")) +
+  scale_y_continuous(breaks = c(10, 90), labels = c("Low", "High")) +
+  coord_cartesian(xlim = c(-5, 105), ylim = c(-5, 105)) +
+  theme_xaringan() +
+  theme(panel.grid.major = element_blank(), panel.grid.minor = element_blank())
+ 
+
+```
+
+
+---
+
+## Polyarchy
+
+- This definition is **minimalist** because its sole purpose is to classify regimes
+
+- We want this because later on we want to learn about the causes and consequences of regime types
+
+- `Contestation` and `inclusion` are abstract concepts
+
+- How do we turn them into a concrete measure of democracy?
+
+---
 
 ## From concept to measurement
 
-[Clarify social science and then illustrate. Then measures of democracy.]
+- **Concept:** Mental category that conveys meaning. Like `theories` or `models` they are always wrong, but sometimes useful
 
+--
+
+- **Measure/indicator:** An observable representation of a concept
+
+    - CGG say a `quantification`, but a measure need not be a "quantitiy" `r fa("fire-alt")`
+    - `Example:` Hot and cold are categorial measures of temperature
+    
+--
+
+- **Operationalization:** The process by which we translate a concept into a measure. It often implies justifying why the measure is a good representation of the concept
+
+---
+
+## Measures of Democracy
+
+.pull-left[
+
+### Substantive
+- Freedom House [`r fa("external-link-alt")`](https://freedomhouse.org/)
+
+- Varieties of Democracy [`r fa("external-link-alt")`](https://www.v-dem.net/en/)
+]
+
+.pull-right[
+
+### Minimalist
+- Polity IV-V [`r fa("external-link-alt")`](http://www.systemicpeace.org/polityproject.html)
+
+- Democracy-Dictatorship Index [`r fa("external-link-alt")`](https://sites.google.com/site/joseantoniocheibub/datasets/democracy-and-dictatorship-revisited)
+]
+
+--
+
+&nbsp;
+
+.center[Let's talk about these in logical order]
+
+---
+## What's a good measure?
+
+- Reliable, valid
+
+
+---
+## Does it even matter?
+
+```{r}
+load("data/dem_scores.RData")
+```
+
+
+
+
+---
+class: inverse center middle
+
+# Reminder:
+## Quiz 1 Due Friday by 5:00 PM
+
+# Next Week:
+## Economic Determinants of Democracy and Dictatorship
