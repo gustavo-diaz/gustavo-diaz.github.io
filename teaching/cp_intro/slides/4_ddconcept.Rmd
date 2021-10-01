@@ -56,12 +56,11 @@ library(fontawesome)
 theme_set(theme_bw(base_size = 20))
 
 # Democracy scores maps
-# remotes::install_github("xmarquez/democracyData")
-library(democracyData)
 library(sf)
 library(rnaturalearth)
 library(rnaturalearthdata)
 library(countrycode)
+library(gridExtra)
 ```
 
 class: inverse
@@ -141,7 +140,7 @@ aristotle = data.frame(
   bad = c("Tyranny", "Olygarchy", "Democracy")
 )
 
-colnames(aristotle) = c("Number of rules", "Good for all", "Good for the rulers")
+colnames(aristotle) = c("Number of rulers", "Good for all", "Good for the rulers")
 
 aristotle %>% 
   kbl() %>% 
@@ -260,19 +259,165 @@ ggplot(polyarchy) +
 .center[Let's talk about these in logical order]
 
 ---
+## Freedom House
+
+- Based on two dimensions:
+
+    1. Political rights (10 questions, scored 0-4)
+    2. Civil rights (15 questions, scored 0-4)
+
+- Both transformed to a 7 point scale
+- A country's FH is the average of political and civil rights
+- A `substantive` measure because democracy should promote freedom
+
+---
+
+## Polity IV-V
+
+- $Polity = Democracy - Autocracy$
+
+- Ranges from -10 to 10
+
+- Five dimensions:
+
+    1. Competitiveness of executive recruitment
+    2. Openness of executive recruitment
+    3. Regulation of political participation
+    4. Competitiveness of political participation
+    5. Executive constraints
+
+- `Minimalist` since 1 to 4 capture `inclusion` and `contestation`
+- 5 adds the idea that governments must be limited
+
+
+---
+
+## Democracy-Dictatorship Index (DD)
+
+- Doubles down on the `minimalist` approach
+
+- Claims the core feature of democracy is `contestation`
+
+- A country is a `democracy` if:
+
+    1. The chief executive is elected
+    2. The legislature is elected
+    3. There is more than one party competing in elections
+    4. An alternation in power under identical electoral rules has taken place
+    
+- If any of these conditions does not hold, the country is a `dictatorship`
+
+- This is a **dichotomous* measure
+
+
+
+---
+
+## Varieties of Democracy (V-DEM)
+
+HERE
+
+---
 ## What's a good measure?
 
 - Reliable, valid
 
 
 ---
-## Does it even matter?
+layout: true
+
+## Does it matter?
+
+---
 
 ```{r}
 load("data/dem_scores.RData")
+
+# fix polity score
+polity = polity %>% mutate(polity = ifelse(abs(polity) > 10, NA, polity))
+
+# Merge with map
+world = ne_countries(scale = "small", returnclass = "sf")
+
+fh_map = left_join(world, fh, by = c("iso_a3" = "iso3c"))
+poli_map = left_join(world, polity, by = c("iso_a3" = "iso3c"))
+dd_map = left_join(world, dd, by = c("iso_a3" = "iso3c"))
+vdem_map = left_join(world, vdem, by = c("iso_a3" = "iso3c"))
+
+fhp = ggplot(fh_map) +
+  geom_sf(aes(fill = fh_total_reversed)) +
+  labs(fill = "") +
+  theme_void() +
+  theme(legend.position = "bottom") +
+  scale_fill_viridis_c()
+
+polip = ggplot(poli_map) +
+  geom_sf(aes(fill = polity)) +
+  theme_xaringan() +
+  labs(fill = "") +
+  theme_void() +
+  theme(legend.position = "bottom") + 
+  scale_fill_viridis_c()
+
+ddp = ggplot(dd_map) +
+  geom_sf(aes(fill = as.factor(dd))) +
+  theme_xaringan() +
+  labs(fill = "") +
+  theme_void() +
+  theme(legend.position = "bottom") +
+  scale_fill_viridis_d(labels = c("Dictatorship", "Democracy", "NA"))
+
+vdemp = ggplot(vdem_map) +
+  geom_sf(aes(fill = v2x_polyarchy)) +
+  theme_xaringan() +
+  labs(fill = "") +
+  theme_void() +
+  theme(legend.position = "bottom") +
+  scale_fill_viridis_c()
 ```
 
+### Freddom House 2020 (reversed)
 
+```{r, fig.dim = c(6,3)}
+fhp
+```
+
+---
+
+### Polity V 2018
+
+```{r, fig.dim = c(6,3)}
+polip
+```
+
+---
+
+### DD Index 2008
+
+```{r, fig.dim = c(6,3)}
+ddp
+```
+
+---
+
+### V-DEM Polyarchy score 2020
+
+```{r, fig.dim = c(6,3)}
+vdemp
+```
+
+---
+
+### Comparing scores
+
+HERE
+
+---
+layout: false
+
+## Takeaways
+
+HERE
 
 
 ---
