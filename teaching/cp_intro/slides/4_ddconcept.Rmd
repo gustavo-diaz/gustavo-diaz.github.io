@@ -287,7 +287,7 @@ ggplot(polyarchy) +
     5. Executive constraints
 
 - `Minimalist` since 1 to 4 capture `inclusion` and `contestation`
-- 5 adds the idea that governments must be limited
+- `Executive constraints` adds the idea that governments must be limited. Most of the variation in Polity scores depends on it
 
 
 ---
@@ -307,7 +307,7 @@ ggplot(polyarchy) +
     
 - If any of these conditions does not hold, the country is a `dictatorship`
 
-- This is a **dichotomous* measure
+- This is a **dichotomous** or **binary** measure
 
 
 
@@ -315,12 +315,90 @@ ggplot(polyarchy) +
 
 ## Varieties of Democracy (V-DEM)
 
-HERE
+- Accepts that `different definitions` of democracy have `different purposes`
+- Takes a `modular` approach. You can build your own definition
+
+- Country experts answer questions in `five dimensions`
+
+    1. **Electoral democracy** (polyarchy)
+    2. **Liberal democracy** (individual freedoms, checks and balances)
+    3. **Participatory democracy** (civil society organizations, direct democracy, local government)
+    4. **Deliberative democracy** (engaged society)
+    5. **Egalitarian democracy** (equal access, protection, distribution)
+    
+- Each one of these is a score ranging from 0 to 1 (1 being the ideal type)
+- **Transparency:** We can combine or disaggregate scores depending on our goals
 
 ---
 ## What's a good measure?
 
-- Reliable, valid
+- The perfect measure is **reliable** and **valid**
+
+- **Validity:** Does it capture the concept we want to measure?
+
+    - Requires us to imagine there is a "true" measure that we cannot observe
+    - How close can we get with different approaches?
+ 
+    
+--
+
+- **Reliability:** Is the measurement consistent?
+
+    - Requires us to imagine the possibility of repeated measures `(e.g. multiple experts or *coders*)`
+    - Do we get the same measurement over repeated measures?
+    
+--
+
+- We never observe **validity** but we can make hypothetical statements about it
+- We can observe **reliability** for scores reporting the answers of individual experts (V-DEM)
+
+---
+## Visualizing validity and reliability
+
+```{r, fig.height=5}
+d1 = data.frame(
+  x = rnorm(100, 0, 1),
+  true = 0,
+  val = "Valid",
+  rel = "Reliable"
+)
+
+d2 = data.frame(
+  x = rnorm(100, 0, 5),
+  true = 0,
+  val = "Valid",
+  rel = "Unreliable"
+)
+
+d3 = data.frame(
+  x = rnorm(100, 5, 1),
+  true = 0,
+  val = "Invalid",
+  rel = "Reliable"
+)
+
+d4 = data.frame(
+  x = rnorm(100, 5, 5),
+  true = 0,
+  val = "Invalid",
+  rel = "Unreliable"
+)
+
+d = rbind(d1, d2, d3, d4)
+
+d$val = fct_relevel(d$val, "Valid", "Invalid")
+
+ggplot(d) +
+  aes(x = x) +
+  geom_density(size = 1) +
+  geom_vline(xintercept = 0, size = 2, color = "#336666", linetype = "dashed") +
+  annotate("text", x = - 3, y = 0.38, label = "Truth", color = "#336666", size = 5) +
+  labs(x = "Repeated measures", y = "") +
+  facet_grid(rel ~ val) +
+  theme_xaringan() +
+  theme(axis.text = element_blank(),
+        axis.ticks = element_blank())
+```
 
 
 ---
@@ -410,14 +488,38 @@ vdemp
 
 ### Comparing scores
 
-HERE
+- Do these maps look similar or different to you?
+
+- FH, Polity, V-DEM rely on expert judgments
+
+- DD appears as a more straightforward coding scheme but it gets tricky as the margins `(e.g. Is the election really competitive?)`
+
+- V-DEM highly transparent, but people can still use it wrong
+
+- Most scholarship uses one and then reports similar results with other scores
+
+- So, does the substantive vs. minimalist distinction make sense if people use these interchangeably? `r fa("fire-alt")`
 
 ---
 layout: false
 
 ## Takeaways
 
-HERE
+- Democracy used to mean `(bad) government by the poor, uneducated`
+
+- It only became to mean representative government, equality, justice, and freedom after the French and American revolutions
+
+- At the same time, the democracy vs. dictatorship dichotomy appears
+
+- Regime type matters to understand a lot of political, social, and economic outcomes. So we care about measurement
+
+- We can measure regimes with substantive or minimalist definitions
+
+- Substantive definitions are good to identify whether regimes are delivering what they promise
+
+- Minimalist definitions are good to understand the causes and consequences of regime types
+
+- We want our measures to be `valid` and `reliable`
 
 
 ---
