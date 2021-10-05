@@ -1,0 +1,173 @@
+---
+title: "Economic Determinants of Democracy and Dictatorship"
+subtitle: "Comparative Politics"  
+date: "October 11-15, 2021"
+output:
+  xaringan::moon_reader:
+    css: xaringan-themer.css
+    nature:
+      slideNumberFormat: "%current%/%total%" 
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+---
+
+```{r setup, include=FALSE}
+options(htmltools.dir.version = FALSE)
+
+library(knitr)
+opts_chunk$set(
+  fig.width=9, fig.height=3.5, fig.retina=3,
+  out.width = "100%",
+  cache = FALSE,
+  echo = FALSE,
+  message = FALSE, 
+  warning = FALSE,
+  hiline = TRUE
+)
+```
+
+```{r xaringan-themer, include=FALSE, warning=FALSE}
+library(xaringanthemer)
+style_duo_accent(
+  title_slide_background_image = "figs/logo.png",
+  title_slide_background_size = "8%",
+  title_slide_background_position = "50% 95%",
+  primary_color = "#336666",
+  secondary_color = "#71C5E8",
+  inverse_header_color = "#FFFFFF",
+  background_color = "#EAE9EA",
+  link_color = "#71C5E8",
+  # easy to fetch colors
+  colors = c( 
+    white = "#FFFFFF",
+    green = "#336666",
+    lblue = "#71C5E8"
+    )
+)
+```
+
+```{r other-options}
+library(tidyverse)
+library(kableExtra)
+library(fontawesome)
+
+# ggplot global options
+theme_set(theme_bw(base_size = 20))
+
+# Plot democracy and WDI data
+library(countrycode)
+library(WDI)
+
+```
+
+## Last time
+
+- We discussed classifying regime types
+
+    - Continuous or categorical
+    - Minimalist or substantive
+
+- This all matters because we want to understand the consequences of being a democracy or a dictatorship
+
+- We usually promote democracy because we believe it brings good outcomes
+
+- But how do countries become democracies?
+
+- And once they do, how do they stay democracies?
+
+- This week is about the **economic** explanations for regime change and survival
+
+- Next week is about the **cultural** explanations
+
+---
+
+## Modernization theory
+
+- All societies pass through the same stages of economic development
+
+.pull-left[
+### Traditional society
+
+- Large agriculture
+- Small industry
+- Small service
+- Dictatorship
+]
+
+.pull-right[
+### Modern society
+
+- Small agriculture
+- Large industry
+- Large service
+- Democracy
+]
+
+- As societies develop, they are `more likely` to become a democraty
+- So we say that *development* causes *democracy*
+
+---
+class: inverse 
+
+## Causal statements in the social sciences
+
+.center[
+### Economic development $\rightarrow$ Democracy
+]
+
+--
+
+.center[
+### Explanatory variable $\rightarrow$ Outcome variable
+]
+
+--
+
+.center[
+### X $\rightarrow$ Y
+]
+
+--
+
+- We do not see `causation` happening, only `association`
+
+--
+
+- So just because richer countries tend to be democracies it does not mean that development `causes` democracy
+
+--
+
+- It could be the other way around
+
+--
+
+- Or a big coincidence!
+
+--
+
+- Hence the importance of finding **critical tests** for our theories
+
+---
+
+## Using DD index
+
+```{r}
+load("data/dem_scores.RData")
+
+gdp = WDI(indicator = "NY.GDP.PCAP.KD", country = "all", start = 2007, end = 2020)
+
+# some recoding
+gdp$iso3c = countrycode(gdp$iso2c, origin = "iso2c", destination = "iso3c")
+
+gdp$gdp_pc = gdp$NY.GDP.PCAP.KD/1000
+
+# merge
+dd_gdp = left_join(dd, gdp %>% filter(year == 2007), by = "iso3c")
+
+# visualize
+# DO DENSITIES DIVIDED ON WHETHER WE HAVE DEMOCRACY OR DICTATORSHIP
+```
+
+
+
