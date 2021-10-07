@@ -8,6 +8,9 @@ knitr::opts_chunk$set(echo = FALSE)
 
 ## Publications
 
+Forthcoming. ["Women Held Back: The Depressing Effect of Institutional and Norms-Based Barriers on Female Representation in Corrupt Contexts."](files/research/gender_corruption.pdf) In *Corruption, Gender, Norms*, edited by Ina Kubbe and Ortrun Merkle
+(with [Kelly Senters Piazza](https://www.usafa.edu/facultyprofile/?smid=23816))
+
 2020\. ["Light in the Midst of Chaos: COVID-19 and Female Political Representation."](https://doi.org/10.1016/j.worlddev.2020.105125) *World Development* 136: 105125 (with [Kelly Senters Piazza](https://www.usafa.edu/facultyprofile/?smid=23816))
 
 2020\. ["Survey Experiments and the Quest for Valid Interpretation."](files/research/sage_survey_experiments_chapter.pdf) In [*The SAGE Handbook of Research Methods in Political Science and International Relations*](https://us.sagepub.com/en-us/nam/the-sage-handbook-of-research-methods-in-political-science-and-international-relations/book262875), edited by Luigi Curini and Robert Franzese. London: Sage (with [Christopher Grady](https://publish.illinois.edu/cdgrady2/) and [James H. Kuklinski](https://pol.illinois.edu/directory/profile/kuklinsk))
@@ -23,14 +26,11 @@ knitr::opts_chunk$set(echo = FALSE)
 ["Bad Neighbors Make Good Fences: How Politicians Mitigate the Electoral Consequences of Nearby Corruption in Brazil."](files/research/nearby_corruption.pdf)<br/>
 [`[Appendix]`](files/research/nearby_corruption_appendix.pdf)
 
-["Women Held Back: The Depressing Effect of Institutional and Norms-Based Barriers on Female Representation in Corrupt Contexts."](files/research/gender_corruption.pdf)
-(with [Kelly Senters Piazza](https://www.usafa.edu/facultyprofile/?smid=23816))
-
 ## Work in Progress
 
 When Should We Use Biased Estimators of the Average Treatment Effect? (with [Jake Bowers](http://www.jakebowers.org/) and [Christopher Grady](https://publish.illinois.edu/cdgrady2/))<br/>
 [`[EGAP resource]`](https://egap.org/resource/sd-block-rand/)
 
-Do Politicians Try to Make Up for Corruption?
+Assessing the Validity of Prevalence Estimates in Double List Experiments
 
-Detecting Design Effects in Double List Experiments
+Mayors Alter Spending to Counter the Electoral Consequences of Increased Monitoring: Evidence from Anti-Corruption Audits in Brazil

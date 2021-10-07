@@ -28,6 +28,7 @@ opts_chunk$set(
 ```
 
 ```{r xaringan-themer, include=FALSE, warning=FALSE}
+# In the future you want to move this to a separate file and source it every time you create a new file
 library(xaringanthemer)
 style_duo_accent(
   title_slide_background_image = "figs/logo.png",
@@ -58,7 +59,8 @@ theme_set(theme_bw(base_size = 20))
 # Plot democracy and WDI data
 library(countrycode)
 library(WDI)
-
+# remotes::install_github('rensa/ggflags')
+library(ggflags)
 ```
 
 ## Last time
@@ -152,7 +154,7 @@ class: inverse
 
 ## Using DD index
 
-```{r}
+```{r, fig.height=5}
 load("data/dem_scores.RData")
 
 gdp = WDI(indicator = "NY.GDP.PCAP.KD", country = "all", start = 2007, end = 2020)
@@ -166,8 +168,145 @@ gdp$gdp_pc = gdp$NY.GDP.PCAP.KD/1000
 dd_gdp = left_join(dd, gdp %>% filter(year == 2007), by = "iso3c")
 
 # visualize
-# DO DENSITIES DIVIDED ON WHETHER WE HAVE DEMOCRACY OR DICTATORSHIP
+dd_gdp_df = dd_gdp %>% 
+  group_by(dd) %>% 
+  summarize(gdp_avg = mean(gdp_pc, na.rm = TRUE))
+
+
+ggplot(dd_gdp_df) +
+  aes(x = as.factor(dd), y = gdp_avg) +
+  geom_col() +
+  labs(x = "2008 DD Index", y = "mean GDP per capita in\n2000 PPP USD (thousands)") +
+  scale_x_discrete(labels = c("Dictatorships", "Democracies")) +
+  theme_xaringan()
 ```
 
+---
 
+## Using Polity
 
+```{r, fig.height = 5}
+gdp$iso2c = tolower(gdp$iso2c)
+
+polity_gdp = left_join(polity, gdp %>% filter(year == 2017), by = "iso3c")
+
+# Kosovo is messing things up
+polity_gdp = polity_gdp %>% 
+  filter(polity_annual_country != "Kosovo") %>% 
+  mutate(polity = ifelse(abs(polity) > 10, NA, polity))
+
+ggplot(polity_gdp) +
+  aes(x = log(gdp_pc), y = polity) +
+  geom_flag(aes(x = log(gdp_pc), y = polity, country = iso2c)) +
+  geom_smooth(size = 2, se = FALSE) +
+  labs(x = "GDP per capita (logged)", y = "Polity score") +
+  theme_xaringan()
+```
+
+---
+
+## Using Freedom House
+
+```{r, fig.height = 5}
+fh_gdp = left_join(fh, gdp %>% filter(year == 2019), by = "iso3c")
+
+# drop duplicate countries
+fh_gdp = fh_gdp %>%  filter(fh_country != "Micronesia" & fh_country != "Kosovo")
+
+ggplot(fh_gdp) +
+  aes(x = log(gdp_pc), y = fh_total_reversed) +
+  geom_flag(aes(x = log(gdp_pc), y = fh_total_reversed, country = iso2c)) +
+  geom_smooth(size = 2, se = FALSE) +
+  labs(x = "GDP per capita (logged)", y = "FH score (reversed)") +
+  theme_xaringan()
+```
+
+---
+
+## Using V-DEM
+
+```{r, fig.height = 5}
+vdem_gdp = left_join(vdem, gdp %>% filter(year == 2019), by = "iso3c")
+
+# drop duplicates
+vdem_gdp = vdem_gdp %>%
+  filter(country_name != "Zanzibar" & country_name != "Kosovo") %>% 
+  filter(!is.na(iso3c))
+
+ggplot(vdem_gdp) +
+  aes(x = log(gdp_pc), y = v2x_polyarchy) +
+  geom_flag(aes(x = log(gdp_pc), y = v2x_polyarchy, country = iso2c)) +
+  geom_smooth(size = 2, se = FALSE) +
+  labs(x = "GDP per capita (logged)", y = "V-DEM polyarchy score") +
+  theme_xaringan()
+```
+
+---
+
+## Two interpretations
+
+- The positive association between economic development and democracy is consistent with **two explanations**
+
+1. **Modernization Theory (Lipset):**
+
+    - Development makes democracy `more likely to emerge` **AND**
+    - Development makes democracy `more likely to survive`
+    
+2. **Survival Story (Przeworski):**
+
+    - Development makes democracy `neither more nor less likely to emerge` **BUT**
+    - Development makes democracy `more likely to survive`
+ 
+--
+    
+- **CGG** show support for modernization theory by looking at transition probabilities
+
+- Let's look at it from a different angle
+
+---
+## Revisiting the survival story
+
+```{r, fig.height = 5}
+polity_gdp = polity_gdp %>% 
+  mutate(group = ifelse(polity > 0, 1, 0))
+
+ggplot(polity_gdp) +
+  aes(x = log(gdp_pc), y = polity, color = as.factor(group)) +
+  geom_hline(yintercept = 0, size = 1, linetype = "dashed") +
+  geom_flag(aes(x = log(gdp_pc), y = polity, country = iso2c)) +
+  geom_smooth(size = 2, se = FALSE) +
+  labs(x = "GDP per capita (logged)", y = "Polity score") +
+  theme(legend.position = "none") +
+  scale_color_manual(values = c("#71C5E8", "#336666")) +
+  theme_xaringan()
+```
+
+---
+
+## Revisiting the survival story
+
+- `Rich democracies` are "more democratic"
+- `Rich dictatorships` are "more autocratic"
+
+- Which supports the survival story! More money makes any regime more stable
+
+&nbsp;
+
+--
+
+- This is not to say that **CGG** are wrong
+
+- Rather, that this is an open debate and the devil is on the details
+
+- How we `define` and `operationalize` development and democracy matters a lot
+
+--
+```
+(Research methods matter a lot too, but this course is not about that...)
+```
+
+---
+
+## Critiques to development $\rightarrow$ democracy
+
+[CONTINUE HERE DEPENDENCY THEORY]
