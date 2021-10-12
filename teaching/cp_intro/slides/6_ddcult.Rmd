@@ -1,0 +1,109 @@
+---
+title: "Cultural Determinants of Democracy and Dictatorship"
+subtitle: "Comparative Politics"  
+date: "October 18-22, 2021"
+output:
+  xaringan::moon_reader:
+    css: xaringan-themer.css
+    nature:
+      slideNumberFormat: "%current%/%total%" 
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+---
+
+```{r setup, include=FALSE}
+options(htmltools.dir.version = FALSE)
+
+library(knitr)
+opts_chunk$set(
+  fig.width=9, fig.height=3.5, fig.retina=3,
+  out.width = "100%",
+  cache = FALSE,
+  echo = FALSE,
+  message = FALSE, 
+  warning = FALSE,
+  hiline = TRUE
+)
+```
+
+```{r xaringan-themer, include=FALSE, warning=FALSE}
+# In the future you want to move this to a separate file and source it every time you create a new file
+library(xaringanthemer)
+style_duo_accent(
+  title_slide_background_image = "figs/logo.png",
+  title_slide_background_size = "8%",
+  title_slide_background_position = "50% 95%",
+  primary_color = "#336666",
+  secondary_color = "#71C5E8",
+  inverse_header_color = "#FFFFFF",
+  background_color = "#EAE9EA",
+  link_color = "#71C5E8",
+  # easy to fetch colors
+  colors = c( 
+    white = "#FFFFFF",
+    green = "#336666",
+    lblue = "#71C5E8"
+    )
+)
+```
+
+```{r other-options}
+library(tidyverse)
+library(kableExtra)
+library(fontawesome)
+
+# ggplot global options
+theme_set(theme_bw(base_size = 20))
+```
+
+## Last time
+
+
+---
+
+## What is the role of culture?
+
+[We are introducing one more variable so start thinking about arrows going in different directions]
+
+[Also primordialist vs constructivist explanations]
+
+---
+
+## What is culture?
+
+[PS sees this as language, religion, ethnicity. Mention Laitin book to emphasize that culture is equilibrium.]
+
+
+---
+
+## Cultural modernization theory
+
+[Lead to WVS and surveys]
+
+---
+
+## Using surveys to measure culture
+
+[Expand on challenges to inference from surveys. Sensitivity, differential item function]
+
+---
+
+## Evidence
+
+[Summarize findings so they do not need to worry about regression tables]
+
+[Visualize single point in time critique with maps. Emphasize that problem is that dictatorship is concentrated in one part of the world.]
+
+---
+
+## Experiments
+
+[Why? Because the country-level data is incomplete! Clarify ultimatum game]
+
+---
+
+## Takeaways
+
+---
+class: inverse center middle
