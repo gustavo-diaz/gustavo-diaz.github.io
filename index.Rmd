@@ -1,6 +1,6 @@
 ---
 title: "Gustavo Diaz"
-image: "images/profile2.png"
+image: "images/profile3.png"
 links:
   - label: '<i class="fas fa-envelope"></i> Email'
     url: "mailto:gustavodiaz@tulane.edu"
