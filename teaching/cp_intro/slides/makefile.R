@@ -15,6 +15,7 @@ pagedown::chrome_print(here::here("teaching/cp_intro/slides/5_ddecon.Rmd"))
 pagedown::chrome_print(here::here("teaching/cp_intro/slides/6_ddcult.Rmd"))
 pagedown::chrome_print(here::here("teaching/cp_intro/slides/7_transitions.Rmd"))
 pagedown::chrome_print(here::here("teaching/cp_intro/slides/8_versus.Rmd"))
+pagedown::chrome_print(here::here("teaching/cp_intro/slides/9_groups.Rmd"))
 
 
 #This works as long as I don't care about interactive content nor incremental slides
