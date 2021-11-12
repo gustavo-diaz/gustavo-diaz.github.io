@@ -110,7 +110,7 @@ background-size: contain
 
 - **Vote of confidence:** Government initiates, must resign if fails to obtain majority
 
-- No fixed terms, but rules specify restrictions to the frequency of these votes
+- Rules specify restrictions to the frequency of these votes
 
 ---
 ## Responsibility doctrines
@@ -134,7 +134,7 @@ background-size: contain
 
 - They usually appoint an elected legislator to lead government formation:
 
-    - **Formateur:** Designated to form the government, often becomes MP
+    - **Formateur:** Designated to form the government, often becomes PM
     - **Informateur:** A more neutral figure, suggests politically feasible coalitions and nominates a formateur
     
 ---
@@ -153,9 +153,9 @@ background-size: contain
     1. They are defeated in a vote of no confidence **OR**
     2. A new election is necessary
     
-- If defeated, a **caretaker government** takes place `(sometimes the same government)`
+- If defeated, a **caretaker government** takes place `(sometimes the same government)` until a new government is formed
 
-- Caretaker governments are usually not expected to lead major reforms
+- Caretaker governments are not expected to lead major reforms
 
 ---
 ## How to form a government?
@@ -214,7 +214,7 @@ include_graphics("figs/10_germany_2.png")
 
 - Three MWC:
 
-    1. CDU/CSU + SPD (160 seats)
+    1. CDU/CSU + SPD (160 surplus seats)
     
     2. CDU/CSU + FDP (20 surplus seats)
     
@@ -284,7 +284,7 @@ include_graphics("figs/10_germany_3.png")
 - **Minority governments:** 
 
     - Implicit majority without cabinent concessions `(perhaps emphasis in policy)`
-    - Government forms ad hoc coalitions depending on policy objectives `(similar to median voter theorem)`
+    - Government changes coalitions on the fly depending on policy objectives `(similar to median voter theorem)`
     
 - **Surplus majorities:**
 
@@ -295,13 +295,201 @@ include_graphics("figs/10_germany_3.png")
 ---
 ## Presidential democracies
 
+- The government comprises the **president and the cabinet**
+
+- President is **head of state** and **chief executive**
+
+- **Ministers' only job** is to be in the cabinet
+
+- Usually not elected officials, but appointed by president
+
+- Sometimes not partisan, but "technical" appointments
+
+- The **executive branch** and the **government** are the same thing
+
+---
+## Government formation
+
+- The government **cannot be dismissed** by legislative majority `(unless impeachment)`
+
+- President is the **formateur** and their party is always in government
+
+---
+## Minority government
+
+
+- **Portfolio coalition** $\neq$ **Legislative coalition** 
+
+- Minority governments are more common
+
+- Possible to have a minority government without implicit support of the legislative majority `(divided government)`
+
+- **Office-seeking world:** No coalition government
+
+- **Policy-seeking world:** Coalition depends on presidential legislative powers
+
+---
+## Presidential legislative powers
+
+- Presidents vary on the power they have to influence legislative decision making
+
+- Powers include:
+
+    - **Decree authority:** Pass laws in some domains without legislative approval
+    - **Legislative initiative:** Some policy areas can only have bills introduced by the president
+    - **Fast-tracking legislation:** Sets the legislative agenda
+    - **Legislative veto:** Block a bill aproved by legislature
+    - **Presidentially initiated referendums:** Put a proposal to popular vote
+
+
+- The weaker the president, the closer the cabinet will resemble the legislative majority    
+
 ---
 ## Semi-presidential democracies
+
+- Two types:
+
+    - **Premier-presidential system:** The government is responsible to the legislature **but not** the president
+    
+    - **President-parliamentary system:** The government is responsible to the legislature **AND** the president
+
+.center[
+```{r, out.width = "90%"}
+include_graphics("figs/10_responsibility.png")
+```
+]
+
+---
+## Government formation
+
+- **Government:** Prime minister and cabinet
+
+- The **prime minister** is the **chief executive** and the **president** is the **head of state**
+
+- The **executive branch** is the president and the government
+
+---
+## Cohabitation
+
+- In semi-presidential democracies, there is no guarantee that the president and PM will be from the same party
+
+- **Cohabitation:** President and PM from different political blocs. It means the president's party does not have legislative majority
+
+- **Cohabitation** $\neq$ **Divided government** `(Make sure you understand why!)`
+
+- Cohabitation can lead to effective checks and balances, or bitter conflict between political actors
+
+---
+## Making sense of all of it
+
+- Parliamentary, presidential, and semi-presidential are **general categories**
+
+- A lot of variation in rules, procedures, and norms beyond these
+
+- At the core, we find different forms of **delegation**
 
 ---
 ## Principal-agent model
 
-[DELEGATION AS UNIFYING FRAMEWORK]
+- **Delegation:** A **principal** relies on an **agent** to act on the principal's behalf
+
+- Cabinet members are agents of the chief executive
+
+- Chief executives are agents of the legislative majority
+
+- Legislators are agents of their party
+
+- Elected officials are agents of their constituency
+
+---
+## Principal-agent game
+
+- Two actors: Principal and agent
+
+- Single-peaked preferences, one dimensional space from 0-10
+
+- Preferred output as ideal points $P$ and $A$, respectively
+
+- Status quo $SQ$
+
+- Agent proposes a policy on the 0-10 space
+
+    - If principal accepts, policy is implemented
+    - If principal rejects, $SQ$ remains
+
+- Result depends on distribution of preferences
+
+---
+## Same preferences
+
+.center[
+```{r, out.width = "90%"}
+include_graphics("figs/10_pa_0.png")
+```
+]
+
+- If they both agree, they implement their desired policy
+
+- This is the case with a single-party majority
+
+---
+## Different preferences I
+
+.center[
+```{r, out.width = "90%"}
+include_graphics("figs/10_pa_1.png")
+```
+]
+
+- Principal prefers $P > A > SQ$
+
+- Will accept $A$ although it entails **agency loss**
+
+- Policy concessions can look like this
+
+---
+## Different preferences II
+
+.center[
+```{r, out.width = "90%"}
+include_graphics("figs/10_pa_2.png")
+```
+]
+
+- Principal prefers $P$ over $SQ$
+
+- They are willing to take agency loss $P + 1 = 6$ so that agent agrees to act on their behalf
+
+- Sometimes chief executives need to make a coalition but have the upper hand in negotiations
+
+---
+## Lessons from principal-agent model
+
+- Delegation involves agency loss, but principals are better off from it
+
+- Policy concessions are sometimes necessary to avoid problems with decision-making
+
+- But delegation creates asymmetric information
+
+- Problems:
+
+    1. **Adverse selection:** Principal cannot observe all of agent's attributes. **Types** are unobserved `(e.g. your cabinet member may be incompetent)`
+    2. **Moral hazard:** Agent can operate behind principal's back. **Actions** are unobserved `(e.g. cabinet member makes deals to sabotage a bill)`
+    
+- If you were able to perfectly monitor an agent, then you do not need to delegate!
+
+---
+## Takeaways
+
+- Different types of democracy solve decision making problems differently
+
+- Rules surrounding legislative responsibility dictate how to form governments
+
+- Office and policy concessions make democracy the world
+
+- **Delegation** is at the core of government formation in democracies
+
+- Which in turn implies a complex web of principal-agent relationships
 
 ---
 class: inverse center middle
