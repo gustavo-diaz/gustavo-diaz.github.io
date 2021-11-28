@@ -1,0 +1,166 @@
+---
+title: "Elections and Electoral Systems"
+subtitle: "Comparative Politics"  
+date: "November 29-December 3, 2021"
+output:
+  xaringan::moon_reader:
+    css: xaringan-themer.css
+    nature:
+      slideNumberFormat: "%current%/%total%" 
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+---
+
+```{r setup, include=FALSE}
+options(htmltools.dir.version = FALSE)
+
+library(knitr)
+opts_chunk$set(
+  fig.width=9, fig.height=5, fig.retina=3,
+  out.width = "100%",
+  cache = FALSE,
+  echo = FALSE,
+  message = FALSE, 
+  warning = FALSE,
+  hiline = TRUE
+)
+```
+
+```{r xaringan-themer, include=FALSE, warning=FALSE}
+# In the future you want to move this to a separate file and source it every time you create a new file
+library(xaringanthemer)
+style_duo_accent(
+  title_slide_background_image = "figs/logo.png",
+  title_slide_background_size = "8%",
+  title_slide_background_position = "50% 95%",
+  primary_color = "#336666",
+  secondary_color = "#71C5E8",
+  inverse_header_color = "#FFFFFF",
+  background_color = "#EAE9EA",
+  link_color = "#71C5E8",
+  # easy to fetch colors
+  colors = c( 
+    white = "#FFFFFF",
+    green = "#336666",
+    lblue = "#71C5E8"
+    )
+)
+```
+
+```{r other-options}
+library(tidyverse)
+library(kableExtra)
+library(fontawesome)
+
+# ggplot global options
+theme_set(theme_bw(base_size = 20))
+```
+
+## Last time
+
+- Different institutions shape government formation in democracies
+
+- At the core: Delegation creates principal-agency interactions
+
+- Bargaining and policy concessions depend on the distribution of seats in the legislature
+
+- How are legislative seats assigned?
+
+- **This week:** Elections and electoral systems
+
+---
+## Electoral systems
+
+- **Electoral system:** Laws that regulate competition between candidates or parties
+
+- Every elected office has an electoral system, although most meaningful variation around the world occurs in the context of **legislative seats**
+
+- Elections are increasingly common, not only in **democracies** but also in **dictatorships**, but the goals are different
+
+- **Democracy:** Solve problems with group decision-making
+
+- **Dictatorship:** Political survival
+
+    - Measure support for the regime
+    - Evaluate the performance of local level officials
+    - Settle disputes among selectorate
+    - Create the illusion of democracy `(electoral authoritarianism)`
+
+---
+## Electoral integrity
+
+- Even in formal democracies, elections may not always be free and fair
+
+- **Electoral integrity:** Whether elections conform to international standards and global norms
+
+- **Violations:** Electoral malpractice `(e.g. ballot stuffing, voter intimidation, pro-government media bias, restrictive ballot access)`
+
+- Malpractice generally more pronounced in developing countries, but industrialized democracies also face challenges
+
+
+
+---
+## Example
+
+.center[
+```{r, out.width = "80%"}
+include_graphics("figs/11_us_pei.png")
+```
+]
+
+---
+## How to detect electoral malpractice?
+
+1. **Election monitoring** (before an election)
+
+    - But sometimes election monitors only displace irregulartities!
+    
+2. **Election forensics** (after an election)
+
+    - But not all forms of malpractice can be detected looking at numbers!
+
+---
+## Election forensics: Benford's law
+
+- Naturally occurring numbers exhibit regular patterns in the distribution of digits at different locations
+
+- We can use this to detect malpractice in campaign contributions, turnout, votes, etc
+
+.center[
+```{r, out.width = "90%"}
+include_graphics("figs/11_benford.png")
+```
+]
+
+---
+## Electoral systems
+
+- The main distinction is differences in **electoral formula**
+
+- **Electoral formula:** Rules to translate votes into seats
+
+- Three families:
+
+    1. Majoritarian
+    2. Proportional
+    3. Mixed
+    
+---
+class: center middle
+
+.center[
+```{r, out.width = "100%"}
+include_graphics("figs/11_families.png")
+```
+]
+
+
+---
+class: inverse center middle
+
+## Reminder:
+### Quiz 4 due Friday by 5 PM
+
+## Next week:
+### Social Cleavages and Party Systems
