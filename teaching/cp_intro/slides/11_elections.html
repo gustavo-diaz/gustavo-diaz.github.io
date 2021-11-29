@@ -74,6 +74,14 @@ class: center, middle, inverse, title-slide
 ]
 
 ---
+## Gerrymandering
+
+.center[
+&lt;img src="figs/11_illinois4.png" width="90%" /&gt;
+]
+
+.footnote[Illinois 4th Congressional District]
+---
 ## How to detect electoral malpractice?
 
 1. **Election monitoring** (before an election)
@@ -105,7 +113,9 @@ class: center, middle, inverse, title-slide
 - Three families:
 
     1. Majoritarian
+    
     2. Proportional
+    
     3. Mixed
     
 ---
@@ -115,6 +125,312 @@ class: center middle
 &lt;img src="figs/11_families.png" width="100%" /&gt;
 ]
 
+---
+## Majoritarian systems
+
+- The party or candidate that receives the most votes wins
+
+- **Plurality:** Most voted candidate wins `(first-past-the-post)`
+
+- **Absolute majority:** Need `\(50\% + 1\)` votes to win
+
+---
+## Plurality
+
+- **Single-member district plurality (SMDP):**
+
+    - One candidate elected per district
+    - Each voter casts a preference for one candidate
+    - Candidate with most votes wins
+    
+- **Single non-transferable vote (SNTV):**
+
+    - A generalization of SMDP
+    - `\(N\)` seats per district `(can vary)`
+    - Each voter casts a preference for one candidate
+    - The `\(N\)` most voted candidates win
+    
+---
+## Absolute majority
+
+- A candidate automatically wins if they get `\(50\% + 1\)` votes
+
+- Otherwise, we need to find ways to identify an absolute majority
+
+- **Alternative vote (aka Single transferable vote):**
+
+    - Voters rank candidates in order of preference
+    - If no candidate wins an absolute majority, then the candidate with the fewest first-preference votes is eliminated and their votes allocated to the second preferences
+
+---
+## Example: 2011 UK referendum
+
+.center[
+&lt;iframe width="660" height="415" src="https://www.youtube.com/embed/wA3_t-08Vr0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
+]
+
+.footnote[&lt;https://youtu.be/wA3_t-08Vr0&gt;]
+
+---
+## Absolute majority
+
+- A candidate automatically wins if they get `\(50\% + 1\)` votes
+
+- Otherwise, we need to find ways to identify an absolute majority
+
+- **Alternative vote:**
+
+    - Voters rank candidates in order of preference
+    - If no candidate wins an absolute majority, then the candidate with the fewest first-preference votes is eliminated and their votes allocated to the second preferences
+
+--
+
+- **Mayority-runoff two-round-system (TRS):**
+
+    - Voters cast a preference for a single candidate
+    - If no candidate wins absolute majority in the first round, the top two vote winners compete in a runoff election in the second round
+
+---
+## Example: Chile 2021 elections
+
+.center[
+&lt;img src="figs/11_chile_runoff.png" width="100%" /&gt;
+]
+
+---
+## Proportional systems (PR)
+
+- Each district elects multiple seats
+
+- **District magnitude:** Number of seats elected per district `(can vary across districts)`
+
+- The idea is to produce a **proportional** translation of votes into seats
+
+- **List PR:** Vote for parties or pre-electoral coalitions
+
+- **Single-transferable vote (STV):** Rank candidates, use alternative voting rules until all seats are filled 
+
+---
+## List PR
+
+- Parties or coalitions receive votes in proportion to their overall share of votes
+
+- Two non-trivial issues:
+
+    1. How to allocate seats **across** lists? `(quota vs. divisor)`
+    
+    2. How to allocate seats **within** lists? `(closed vs. open lists)`
+    
+---
+## Quotas
+
+- The price in terms of votes that a party must pay to guarantee themselves a seat in a particular district
+
+- A quota `\(Q(n)\)` is calculated as
+
+$$
+Q(n) = \frac{V_d}{M_d + n}
+$$
+
+- `\(V_d\)`: Number of valid votes in district `\(d\)`
+
+- `\(M_d\)`: Number of available seats in district `\(d\)` `(district magnitude)`
+
+- `\(n\)`: Quota *modifier*
+
+    - **Hare quota:** `\(n = 0\)`
+    - **Hagenbach-Bischoff quota:** `\(n = 1\)`
+    - **Imperiali quota:** `\(n = 2\)`
+    
+---
+## Example: Hare quota
+
+.center[
+&lt;img src="figs/11_quotas.png" width="100%" /&gt;
+]
+
+--
+
+- What happens to the remainder seats?
+
+- The most common approach is the **largest remainder method**
+
+---
+## Hare quota with largest remainders
+
+.center[
+&lt;img src="figs/11_remainder.png" width="100%" /&gt;
+]
+
+---
+## Divisors
+
+- Divide the total number of votes by a **divisor** to obtain a **quotient**
+
+- District seats are allocated to parties with highest quotients
+
+- Common divisors:
+
+    - **D'Hont:** `\(1, 2, 3, 4, \ldots\)`
+    - **Sainte-Laguë:** `\(1, 3, 5, 7, \ldots\)`
+    - **Modified Sainte-Laguë:** `\(1.4, 3, 5, 7, \ldots\)`
+    
+---
+## Example: d'Hont
+
+.center[
+&lt;img src="figs/11_dhont.png" width="100%" /&gt;
+]
+
+---
+## Electoral thresholds
+
+- Both quota and divisor PR systems imply **electoral thresholds**
+
+- **Electoral threshold:** Minimum level of support a party needs to obtain representation
+
+- **Natural threshold:** Mathematical by-product of the electoral system
+
+- **Formal threshold:** Explicit minimum in the electoral law
+
+- A **lower electoral threshold** implies a **more proportional** translation from votes to seats
+
+---
+## Closed vs. open lists
+
+- **Closed list:** Voters cast a preference for a party, parties decide the order in which candidates will receive seats
+
+- **Open list:** Voters can indicate their preferred party, as well as their favored candidate within the list
+
+- **Free list:** Voters have multiple votes that they can allocate within a list or across lists
+
+---
+## Example: Open list PR in Chile 2021 elections (d'Hont)
+
+.pull-left[
+&lt;img src="figs/11_olpr.png" width="90%" /&gt;
+]
+
+.pull-right[
+### District 1
+
+- 23 candidates
+
+- 3 seats
+
+- Many parties
+
+- First place got enough votes to "drag" the second candidate from their party with them
+]
+
+---
+## Single transferable vote (STV)
+
+- Also PR, but without party lists
+
+- Instead, candidate-centered preferential voting
+
+- Voters rank candidates
+
+- Candidates that surpass a quota of first-preference votes are immediately elected
+
+- Candidates with least votes are eliminated
+
+- Surplus votes from winners + eliminated candidates are reallocated to the next preference ranking
+
+- Repeat process until all seats filled
+
+---
+## Example: Scottish council elections
+
+.center[
+&lt;iframe width="660" height="415" src="https://www.youtube.com/embed/P38Y4VG1Ibo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
+]
+
+.footnote[&lt;https://youtu.be/P38Y4VG1Ibo&gt;]
+
+---
+## Mixed electoral systems
+
+- Any **combination of majoritarian and proportional** is a mixed system
+
+- Most mixed systems use multiple **electoral tiers**
+
+- **Example:** District-level plurality + Nationwide list PR
+
+- Two types of mixed system
+
+    1. **Independent:** Majoritarian and proportional components are independent of one another
+    
+    2. **Dependent:** The application of the proportional formula depends on the distribution of seats produced by the majoritarian formula
+    
+---
+## Independent example: Mexico's Chamber of Deputies
+
+.pull-left[
+- 500 seats
+
+- 300 SMDP constituencies
+
+- 200 nationwide PR district
+
+- PR seats distributed based on national votes
+]
+
+.pull-right[
+&lt;img src="figs/11_mexico.png" width="100%" /&gt;
+]
+
+---
+## Dependent example: New Zealand's House of Representatives
+
+- 120 seats
+
+- Each citizen hast two votes
+
+- **Electorate vote** and **party vote**
+
+- 63 regional + 7 maori SMDP seats from `electorate vote`
+
+- 50 nationwide list PR seats from `party vote`
+
+- Electorate vote seats are allocated first
+
+- If a party has fewer seats than their share of the party vote, they get additional seats from their PR list to match proportions
+
+- If a party wins more seats from the electoral votes than their share of party votes, they keep them. These are called **overhang seats**
+
+---
+## Which electoral system is better? (Chapter 16)
+
+- **Arrow's theorem:** Every government formation procedure faces trade-offs
+
+- The question is what we want to accomplish through democracy
+
+- **Majoritarian vision:** Concentrate power in the hands of a majority to ensure accountable government `(then majoritarian systems are better)`
+
+- **Consensus vision:** Disperse power so that all interests are represented `(So PR is better)`
+
+- Different variation of the electoral system aim to maximize one of the two visions, or to balance the shortcomings of each
+
+- Recent scholarsship suggest that **PR with low district magnitude** is the sweet spot, but the evidence so far is weak <svg aria-hidden="true" role="img" viewBox="0 0 448 512" style="height:1em;width:0.88em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:currentColor;overflow:visible;position:relative;"><path d="M323.56 51.2c-20.8 19.3-39.58 39.59-56.22 59.97C240.08 73.62 206.28 35.53 168 0 69.74 91.17 0 209.96 0 281.6 0 408.85 100.29 512 224 512s224-103.15 224-230.4c0-53.27-51.98-163.14-124.44-230.4zm-19.47 340.65C282.43 407.01 255.72 416 226.86 416 154.71 416 96 368.26 96 290.75c0-38.61 24.31-72.63 72.79-130.75 6.93 7.98 98.83 125.34 98.83 125.34l58.63-66.88c4.14 6.85 7.91 13.55 11.27 19.97 27.35 52.19 15.81 118.97-33.43 153.42z"/></svg>
+
+---
+## Takeaways
+
+- Elections are increasingly common in both democracies and dictatorship
+
+- This brings concerns over **electoral integrity** around the world
+
+- We classify electoral systems based on how they translate vote to seats
+
+- **Majoritarian:** Plurality vs absolute majority
+
+- **PR:** Quota vs divisor, closed vs open lists, STV
+
+- **Mixed:** Independent vs dependent
+
+- Which one is better depends on whether we prioritize **accountable government** or **representation**
 
 ---
 class: inverse center middle
