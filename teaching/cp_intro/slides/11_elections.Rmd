@@ -199,7 +199,7 @@ include_graphics("figs/11_families.png")
 
 - Otherwise, we need to find ways to identify an absolute majority
 
-- **Alternative vote (aka Single transferable vote):**
+- **Alternative vote:**
 
     - Voters rank candidates in order of preference
     - If no candidate wins an absolute majority, then the candidate with the fewest first-preference votes is eliminated and their votes allocated to the second preferences
