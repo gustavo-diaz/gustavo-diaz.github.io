@@ -445,7 +445,19 @@ include_graphics("figs/12_duvergerland_2.png")
 ---
 ## Takeaways
 
-[REVISE AND THEN WRITE]
+- We can classify party systems depending on the number of parties
+
+- But counting the **effective** number of parties is not trivial
+
+- Latent social cleavages create demand for political representation
+
+- Cleavages become politicized when parties choose to organize around them
+
+- Electoral institutions and the distribution of distinct cleavages in society determines whether it makes sense to meet demand with supply
+
+- This happens through the mechanical and strategic effects
+
+- Sometimes district and national party systems look the same, sometimes they do not
 
 ---
 class: inverse center middle
