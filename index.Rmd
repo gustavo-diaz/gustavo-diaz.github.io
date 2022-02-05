@@ -16,27 +16,6 @@ output:
 site: distill::distill_website
 ---
 
-<!-- Remove double sidebar -->
-
-```{r, include = FALSE}
-trestles_orig <- readLines(
-  system.file("pandoc_templates/trestles.html",
-              package = "postcards")
-)
-trestles_mod <- trestles_orig
-trestles_mod[
-  which(
-    grepl(
-      'class="d-flex flex-column col px-5 align-items-center align-self-center mh-100" style="overflow-y: scroll;"',
-      trestles_mod
-    )
-  )
-] <- '<div class="d-flex flex-column col px-5 align-items-center align-self-center mh-100" style="overflow-y: none;">'
-trestles_mod <- gsub("'Roboto Slab'", '-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", Arial, sans-serif', trestles_mod)
-cat(paste(trestles_mod, collapse = "\n"), file = system.file("pandoc_templates/trestles.html",
-              package = "postcards"))
-```
-
 # Welcome
 
 I am a Postdoctoral Fellow at the [Center for Inter-American Policy and Research](http://cipr.tulane.edu) at [Tulane University](https://tulane.edu/). I study comparative politics and political methodology.
