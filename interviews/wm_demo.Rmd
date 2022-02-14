@@ -1,0 +1,97 @@
+---
+title: "Does Democracy Improve People's Lives?"
+author: |
+        | Gustavo Diaz
+        | Postdoctoral Fellow
+        | Center for Inter-American Policy and Research
+        | Tulane University
+        | <gustavodiaz@tulane.edu>
+        | [gustavodiaz.org](https://gustavodiaz.org/)
+date: "February 16, 2022"
+output:
+  xaringan::moon_reader:
+    css: xaringan-themer.css
+    nature:
+      slideNumberFormat: "%current%/%total%" 
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+---
+
+```{r setup, include=FALSE}
+options(htmltools.dir.version = FALSE)
+
+library(knitr)
+opts_chunk$set(
+  fig.width=9, fig.height=5, fig.retina=3,
+  out.width = "100%",
+  cache = FALSE,
+  echo = FALSE,
+  message = FALSE, 
+  warning = FALSE,
+  hiline = TRUE
+)
+```
+
+```{r xaringan-themer, include=FALSE, warning=FALSE}
+# In the future you want to move this to a separate file and source it every time you create a new file
+library(xaringanthemer)
+style_duo_accent(
+  primary_color = "#336666",
+  secondary_color = "#71C5E8",
+  inverse_header_color = "#FFFFFF",
+  background_color = "#EAE9EA",
+  link_color = "#71C5E8",
+  # easy to fetch colors
+  colors = c( 
+    white = "#FFFFFF",
+    green = "#336666",
+    lblue = "#71C5E8"
+    )
+)
+```
+
+```{r other-options}
+library(tidyverse)
+library(kableExtra)
+library(fontawesome)
+
+# ggplot global options
+theme_set(theme_bw(base_size = 20))
+```
+
+##  Prep Work
+
+- Go to [gustavodiaz.org/wm](https://gustavodiaz.org/wm)
+
+- Open the **Jamboard** link
+
+- Get ready to write!
+
+---
+## About me
+
+- <https://pronoun.is/he>
+
+- I study **comparative politics** and **research methods**
+
+- Information, accountability, and representation
+
+- **Ok to address me as**:
+
+    - Prof. Diaz
+    
+    - Dr. Diaz
+    
+    - First name
+
+.footnote[**Jamboard:** [gustavodiaz.org/wm](https://gustavodiaz.org/wm)]
+
+---
+class: center middle
+
+# Jamboard
+
+## Why is democracy good?
+
+[gustavodiaz.org/wm](https://gustavodiaz.org/wm)
