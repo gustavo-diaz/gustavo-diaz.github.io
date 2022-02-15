@@ -175,7 +175,7 @@ include_graphics("figs/declaredesign.png")
 
 --
 
-- **Solution:** Put research design at the forefront
+- **Solution:** Flip classroom. Put research design at the forefront
 
 {{content}}
 
