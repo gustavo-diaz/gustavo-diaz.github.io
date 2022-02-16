@@ -283,7 +283,7 @@ rol %>%
 ## Visualizing preferences for taxation
 
 .center[
-```{r, out.width = "80%"}
+```{r, out.width = "85%"}
 include_graphics("figs/8_meltzer_richard.png")
 ```
 ]
@@ -408,7 +408,7 @@ class: inverse
 ## Empirical evidence
 
 .center[
-```{r, out.width = "90%"}
+```{r, out.width = "95%"}
 include_graphics("figs/8_evidence_0.png")
 ```
 ]
@@ -419,7 +419,7 @@ count: false
 ## Empirical evidence
 
 .center[
-```{r, out.width = "90%"}
+```{r, out.width = "95%"}
 include_graphics("figs/8_evidence_1.png")
 ```
 ]
