@@ -95,11 +95,11 @@ include_graphics("figs/stupidity.png")
 
 --
 
-- **Science:** The quest of knowledge that relies on trying to prove ourselves wrong `(e.g.  null hypothesis testing)`
+- Actively seeking opportunities to feel *productively* stupid
 
 --
 
-- Actively seeking opportunities to feel *productively* stupid
+- **Science:** The quest for knowledge that relies on trying to prove ourselves wrong `(e.g.  null hypothesis testing)`
 
 --
 
@@ -133,7 +133,7 @@ include_graphics("figs/cgg_front.png")
 
 --
 
-- Focus on models to understand variation in political institution, behavior, public policies
+- Focus on models to understand variation in political institutions, behavior, public policies
 
 {{content}}
 
@@ -175,7 +175,7 @@ include_graphics("figs/declaredesign.png")
 
 --
 
-- **Solution:** Flip classroom. Put research design at the forefront
+- **Solution:** Flip classroom (ideally). Put research design at the forefront
 
 {{content}}
 
@@ -187,7 +187,7 @@ include_graphics("figs/declaredesign.png")
 
 --
 
-- Complement with applications
+- Build a template for future learning
 
 {{content}}
 
@@ -209,7 +209,7 @@ include_graphics("figs/declaredesign.png")
 
 --
 
-- Challenges that prevent democratic consolidation `(e.g. curbing corruption, overcoming poverty, legacies of violence)`
+- Challenges that prevent democratic consolidation `(e.g. corruption, poverty, violence)`
 
 --
 
@@ -231,7 +231,7 @@ include_graphics("figs/declaredesign.png")
     
 - **Topics:** Development, accountability and representation, corruption, evidence-informed policy `(causal inference + data science)`
     
-- **Methods:** Experiments `(general, field, surveys)`, quasi-experiments, machine learning, data management and visualization
+- **Methods:** Experiments `(general, field, surveys)`, quasi-experiments, machine learning
 
 ---
 class: inverse center middle
@@ -253,7 +253,7 @@ class: inverse center middle
 
 --
 
-- Design assignments to celebrate diversity
+- Design assignments to amplify diversity
 
 --
 
