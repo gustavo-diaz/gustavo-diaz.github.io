@@ -1,0 +1,133 @@
+---
+title: "Fighting Poverty and Inequality"
+subtitle: "Politics of Developing Democracies"  
+date: "March 15-17, 2022"
+output:
+  xaringan::moon_reader:
+    css: xaringan-themer.css
+    nature:
+      slideNumberFormat: "%current%/%total%" 
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+---
+
+```{r setup, include = FALSE, warning = FALSE}
+# Loads knitr and xaringan themer settings
+source("theme.R")
+```
+
+```{r other-options}
+library(tidyverse)
+library(kableExtra)
+library(fontawesome)
+
+# ggplot global options
+theme_set(theme_bw(base_size = 20))
+```
+
+## Banarjee, Duflo, and Sharma (2021): Targetting the Ultra Poor
+
+- **Problem:** Poor people do not have money
+
+- **Solution:** Give them money
+
+--
+
+- It doesn't work! People use the money and then remain poor
+
+- We need a "big push" to break poverty trap
+
+--
+
+- Push: Asset transfer, consumption support, savings, training `(multifaceted program)` 
+
+--
+
+- **Challenge:** We know that people are better off in the short term, but hard to tell if this helps in the long run
+
+---
+
+## Research design
+
+- Poorest villages in West Bengal, India
+
+- Household eligibility criteria: 
+
+    1. Able-bodied female member `(why?)`
+    2. No credit access
+    
+- **AND** at least three out of
+
+    1. Below 0.2 acres of land `(about 2 basketball courts)`
+    2. No productive assets
+    3. No able-bodied male member
+    4. Kids who work instead of going to school
+    5. No formal source of income
+    
+- 978 eligible, 514 **assigned** to treatment, 266 **accepted** treatment
+
+    - What is the treatment?
+    - Why would someone reject?
+    
+- Track economic and health outcomes after 18 months, 3, 7, 10 years
+
+
+---
+## Results
+
+.center[
+```{r, out.width = "80%"}
+include_graphics("figs/8_tup_1.png")
+```
+]
+
+---
+## Why does it work?
+
+```{r}
+tup_tab = data.frame(
+  Time = c("18 months", "3 years", "7 years", "10 years"),
+  Livestock = c(10.26, 7.68, 27.26, 16.71),
+  Micro = c(7.93, 25.12, 67.59, 36.82),
+  Self = c(18.67, 31.06, 108.36, 93.87),
+  Remittances = c(0.00, 3.70, 8.87, 19.06)
+)
+
+colnames(tup_tab) = c("Time", "Livestock", "Micro-enterprise", "Self-employment", "Remittances")
+
+tup_tab %>% 
+  kbl(caption = "Difference in means between treatment and control groups")
+```
+
+
+.footnote[**Note:** See Table 3 in the paper for complete results]
+
+--
+
+- People learn to diversify their economic activity over time!
+
+---
+## Imai, King, Velasco (2020): Nonpartisan programmatic policies
+
+- We want money to go tho those who need it most
+
+--
+
+- **Problem:** Governments can instead give to those they deem useful `(e.g. in exchange of votes)`
+
+--
+
+- **Solution:** Focus on *programmatic* policies `(e.g. conditional cash transfers)`
+
+--
+
+- **Challenge:** People can still reward governments for policies they do not have discretion on `("attribute responsibility when none exists")`
+
+--
+
+- Evaluate two large scale programs in Mexico
+
+---
+
+## Program 1: 
