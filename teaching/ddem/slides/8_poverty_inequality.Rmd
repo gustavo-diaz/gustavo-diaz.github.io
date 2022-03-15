@@ -50,6 +50,8 @@ theme_set(theme_bw(base_size = 20))
 
 ## Research design
 
+--
+
 - Poorest villages in West Bengal, India
 
 - Household eligibility criteria: 
@@ -118,7 +120,7 @@ tup_tab %>%
 
 --
 
-- **Solution:** Focus on *programmatic* policies `(e.g. conditional cash transfers)`
+- **Solution:** Focus on *programmatic* policies `(i.e. non-partisan)`
 
 --
 
@@ -130,4 +132,108 @@ tup_tab %>%
 
 ---
 
-## Program 1: 
+## Program 1: *Seguro Popular de Salud*
+
+--
+- Universal health insurance $\approx$ Medicaid
+
+- 13 out of 31 states, 7,078 health clusters matched in pairs
+
+- Select 74 pairs, 148 clusters, 1,380 localities, 118,569 households, 534,457 individuals
+
+- Randomly assign treatment to one pair within a cluster
+
+- **Treatment:** Improved facilities, program advertising, enrollment in the program
+
+- 57 out of 74 pairs had endline survey
+
+- The program worked in terms of delivering health insurance and improving people's health
+
+- President wanted to prove that the program would not benefit his party in the next election
+
+---
+
+## Program 1 results
+
+.center[
+```{r, out.width = "100%"}
+include_graphics("figs/8_sps_1.png")
+```
+]
+
+--
+
+- **Intention-to-treat:**
+--
+ Effect of *assigning* treatment `(even if not received)`
+ 
+--
+
+- Additional results show that SPS does not seem to change beliefs on the country's economic, political, and social situation
+
+---
+
+## Program 2: PROGRESA
+
+--
+
+- **Conditional** cash transfers `(why conditional?)`
+
+- Average US$35 per month
+
+- 506 rural localities across 7 states
+
+- **Staggered implementation:** 320 randomly selected villages receive the program by 1997, 186 villages receive the program by 1999
+
+- Program improved education, health, and nutrition outcomes among enrolled children
+
+--
+
+- **BUT** election was in July 2000. Not a clear treatment-control comparison to evaluate effect on voting
+
+--
+
+- Instead, leverage a **natural experiment** based on how localities were enrolled in the program
+
+---
+
+## PROGRESA natural experiment
+
+.center[
+```{r, out.width = "90%"}
+include_graphics("figs/8_prog_1.png")
+```
+]
+
+--
+
+- Implementers prioritized enrolling eligible people in poorest areas first, creating two discontinuities
+
+- This is a **natural experiment** because the researchers did not have direct control on the treatment assignment
+
+---
+## PROGRESA regression discontinuity
+
+.center[
+```{r, out.width = "100%"}
+include_graphics("figs/8_prog_2.png")
+```
+]
+
+- **RDD:** Treatment effect *identified* at the thresholds
+
+- Localities around cutoffs are the same except for being in treatment or control
+
+- If there was an effect, we would see jumps around the discontinuities
+
+---
+
+## Discussion
+
+- What program seems more feasible to overcome poverty and inequality? `(TUP, SPS, CCT)`
+
+- Would a bigger program like TUP be susceptible to partisan electoral effects?
+
+- Under what circumstances should we be worried about politicians trying to take advantage of poverty alleviation efforts?
+
+- Why did **Imai et al (2020)** have to use so many complicated methods?
