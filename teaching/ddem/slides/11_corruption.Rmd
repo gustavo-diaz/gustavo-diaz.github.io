@@ -1,0 +1,193 @@
+---
+title: "Curbing Corruption"
+subtitle: "Politics of Developing Democracies"  
+date: "April 5-7, 2022"
+output:
+  xaringan::moon_reader:
+    css: xaringan-themer.css
+    nature:
+      slideNumberFormat: "%current%/%total%" 
+      highlightStyle: github
+      highlightLines: true
+      ratio: "16:9"
+      countIncrementalSlides: false
+---
+
+```{r setup, include = FALSE, warning = FALSE}
+# Loads knitr and xaringan themer settings
+source("theme.R")
+```
+
+```{r other-options}
+library(tidyverse)
+library(kableExtra)
+library(fontawesome)
+
+# ggplot global options
+theme_set(theme_bw(base_size = 20))
+```
+
+class: inverse
+
+## Outline
+
+- **Today:** Causes and consequences
+
+- **Thursday:** Solutions and their limitations
+
+---
+## What is corruption?
+
+- **Broad definition:** Use of public office for private gain
+
+--
+
+    - **Public office:** Usually elected office
+    - **Private gain:** Personal enrichment, favoritism, policy, ideology, or career goals
+    
+---
+## What counts as corruption?
+
+- **Malfeasance:** Misusing public funds or resourcing `(e.g. over-invoicing)`
+
+--
+
+- **Bribes:** Asking or accepting them
+
+--
+
+- **Patronage:** Using public appointments for private gain
+
+--
+
+- **State capture:** Economic interests exerting undue influence on policymaking
+
+---
+
+## What we know about corruption
+
+- Bad for economic growth `(but also "speed money")`
+
+- Can harm the provision of public goods and services `(but also enable them)`
+
+- Hurts trust in government an democracy
+
+- More pronounced in developing countries and in areas with poor access to information
+
+---
+## Corruption as a delegation problem
+
+- From the citizen's perspective, corruption is a **principal-agency** problem in which *voters are the principals* and *elected officials are the agents*
+
+--
+
+- We want to elect good politicians' but we cannot monitor what they do in office all the time
+
+--
+
+- **Agency loss:** Agent takes actions against the interest of the principal
+
+--
+
+- Some agency loss is expected since politicians try to please many audiences, but delegation also creates space corruption to go unnoticed and unpunished
+
+--
+
+- To a large extent, the reason why corruption persists is because it is **hard to observe** and **difficult to measure**
+
+---
+## How to measure corruption?
+
+.center[
+```{r, out.width = "95%"}
+include_graphics("figs/11_cpi.png")
+```
+]
+
+---
+## Perceptions of corruption
+
+- **CPI:** Ask experts and executives their perception about barriers to doing business in the country
+
+- Any problems with this?
+
+---
+
+## Alternative ways to uncover corruption
+
+- The problem with CPI is that perceptions may not reflect reality
+
+--
+
+- We would prefer **objective** measures of corruption
+
+--
+
+- **Examples:** Hiring engineers to compare estimated vs. actual project costs, sending auditors to identify missing expenditures
+
+--
+
+- These are expensive to implement and hard to compare across countries
+
+---
+## Problem
+
+- Corruption is hard to observe, therefore hard for citizens to vote against corrupt politicians
+
+--
+
+- **Proposal:** If people had better access to information, they would hold corrupt politicians accountable 
+
+--
+
+- A lot of money goes to these information sharing interventions, **and they do not work**
+
+---
+## Effect of information sharing informations
+
+.center[
+```{r, out.width = "70%"}
+include_graphics("figs/11_incerti_1.png")
+```
+]
+
+---
+## But in surveys...
+
+.center[
+```{r, out.width = "70%"}
+include_graphics("figs/11_incerti_2.png")
+```
+]
+
+---
+## Why does this happen?
+
+<!-- Make them talk instead of telling them what these are -->
+
+- Recent research focuses on why voters **"fail"** to punish corruption
+
+--
+
+- Three explanations:
+
+    1. Implicit exchange
+    2. Information credibility
+    3. Clean alternatives
+
+
+.footnote[**Note:** "Failing" is somewhat unfair because a lot of the lack of punishment does not necessarily mean people making mistakes]
+
+---
+## Questions
+
+[HERE]
+
+---
+## Takeaways
+
+[HERE]
+
+---
+## Preview of Thursday
+
