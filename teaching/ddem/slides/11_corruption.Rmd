@@ -33,9 +33,7 @@ class: inverse
 
 - **Today:** Causes and consequences
 
-- **Thursday:** Solutions and their limitations
-
-.footnote[**Note:** I am behind on grading. I will catch up next week :( ]
+- **Thursday:** Solutions and their limitations [`r fa("external-link-alt")`](#thursday)
 
 ---
 ## What is corruption?
@@ -293,3 +291,120 @@ class: inverse
 - **Avis et al (2018):** Monitoring works because of top-down consequences `(hard to read)`
 
 - **Le Foulon and Reyes-Housholder (2021):** Gendered voter evaluations of corruption `(double bind)`
+
+---
+name: thursday
+
+## Last time
+
+- The problem with corruption is that is hard to observe
+ 
+ - Even when we invest in information-sharing interventions, corrupt politicians continue to get reelected
+ 
+ - **Today:** Understanding what drives (the absence of) bottom-up sanctions
+ 
+--
+
+- We already mentioned some explanations:
+
+    1. Implicit exchange
+    
+    2. Credibility of information
+    
+    3. Lack of clean alternatives
+    
+- We expand on them today
+
+ 
+---
+## Roadblocks
+
+- We expect information-sharing to help voters hold corrupt politicians accountable
+
+- This **solution** does not seem to work
+
+--
+
+- Three interpretations:
+
+    1. People would like to vote against corruption but stuff gets in the way `(Boas et al 2018)`
+    
+    2. It depends on what kind of politician is involved in corruption `(Le Foulon and Reyes-Housholder 2021)`
+    
+    3. Politicians respond better to top-down sanctions `(Avis et al 2018)`
+    
+---
+## Boas et al (2018): Norms vs. Action
+
+- Survey and field experiments in the state of Pernambuco, Brazil
+
+- Work with State Accounts Court so that information is credible
+
+---
+## Brazilians dislike corruption
+
+.center[
+```{r, out.width = "50%"}
+include_graphics("figs/11_boas_1.png")
+```
+]
+
+---
+## Boas et al (2018): Norms vs. Actions
+
+- Field and survey experiments in the state of Pernambuco, Brazil
+
+- Work with State Accounts Court so that information is credible
+
+- **Outcome:** Vote for mayor `(based on surveys)`
+
+--
+
+- **Field experiment:** Flyers sharing whether municipality had accounts approved/rejected + % of municipalities with rejected accounts `(real information)`
+
+--
+
+- **Survey (vignette) experiment:** 
+
+Imagine that you live in a neighborhood like yours, but in a different city in Brazil. Let’s call the mayor of the city where you live Carlos. Now imagine that Mayor Carlos is running for reelection. During the four years that he was mayor, the city had various improvements, with economic growth and improved public health and public transport services. *Also in that city, the State Accounts Court rejected the accounts of Mayor Carlos in the year 2013 because it found serious problems in the administration of the budget.*
+
+---
+
+## Norms vs. Actions results
+
+.center[
+```{r, out.width = "70%"}
+include_graphics("figs/11_boas_2.png")
+```
+]
+
+---
+## Why does this happen?
+
+- Two explanations for the discrepancy in norms vs. action:
+
+    1. People prioritize other things over corruption in municipal politics `(implicit trading + lack of alternatives)`
+    
+    2. Corrupt political dynasties prevent serious competition `(lack of alternatives)`
+    
+---
+## Issue priorities at the local level
+
+.center[
+```{r, out.width = "50%"}
+include_graphics("figs/11_boas_3.png")
+```
+]
+
+---
+## Political dynasties
+
+.center[
+```{r, out.width = "90%"}
+include_graphics("figs/11_boas_4.png")
+```
+]
+
+---
+## Le Foulon and Reyes-Housholder (2021): Candidate gender
+
