@@ -406,5 +406,136 @@ include_graphics("figs/11_boas_4.png")
 ]
 
 ---
-## Le Foulon and Reyes-Housholder (2021): Candidate gender
+## Le Foulon and Reyes-Housholder (2021): Candidate sex
 
+- **Background:** Women are perceived as less corrupt, but also face higher voter punishment for comparable corruption `(double bind)`
+
+- But this may depend on the context and other candidate features
+
+- Survey experiments in Argentina, Chile, Uruguay
+
+- Present a vignette describing a campaign between two hypothetical candidates for mayor
+
+- For each candidate, ramdomize **sex**, **corruption** (+ side benefits), **economic performance**, **partisanship**
+
+- Outcome, whether respondents would vote for a given candidate
+
+---
+## Vignette
+
+.center[
+```{r, out.width = "100%"}
+include_graphics("figs/11_lefoulon_1.png")
+```
+]
+
+---
+## General
+
+.center[
+```{r, out.width = "100%"}
+include_graphics("figs/11_lefoulon_2.png")
+```
+]
+
+--
+
+- If we ignore candidate sex, everyone would prefer to vote against corruption
+
+---
+## Results by candidate sex
+
+.pull-left[
+```{r, out.width = "100%"}
+include_graphics("figs/11_lefoulon_3.png")
+```
+]
+
+--
+
+.pull-right[
+- Average change in probability of voting for candidate if we keep everything else the same, but **change from male to female**
+
+{{content}}
+]
+
+--
+
+- People prefer a woman who accepts bribes over a man who accepts bribes in Argentina and Uruguay
+
+{{content}}
+
+--
+
+- People prefer a woman who accepts bribes but gives side benefits in Uruguay
+
+{{content}}
+
+--
+
+- If corruption is widespread, people prefer a corrupt woman in Chile
+
+---
+## Avis et al (2018): Top-down sanctions
+
+.pull-left[
+
+- **Argument:** Anti-corruption interventions still work even if citizens do not use information to hold politicians accountable
+
+- Long-running anti-corruption in Brazil `(2003-2015)`
+
+
+- Supreme Audit Institution `(CGU)` selects municipalities by lottery to audit use of federal funds
+
+- Release results to media and authorities
+]
+
+.pull-right[
+
+```{r, out.width = "100%"}
+include_graphics("figs/11_sorteio.png")
+```
+
+.footnote[**Image:** Jorge Hage, head of CGU ca. 2010, announces municipalities selected for auditing.]
+
+]
+
+---
+## Summary of results
+
+- Being audited in the past reduces corruption by 8% `(based on official labelling of infractions)`
+
+- Same applies for municipalities with audited neighbors and access to TV or radio
+
+- And also to those with mayors from the same party audited in the same state
+
+---
+
+- So mayors are scared about audits even if citizens don't do much about it. **Why?**
+
+---
+
+## Top-down sanctions
+
+```{r, out.width = "50%"}
+include_graphics(c("figs/11_avis_1.png", "figs/11_avis_2.png"))
+```
+
+
+--
+
+- Being audited increases the probability of facing legal actions in the future by about 20%
+
+- "Audits increase non-electoral costs of corruption." Electoral accountability alone may not be sufficient
+
+---
+
+## Takeaways
+
+- People would like to vote against corruption but a lot of the time they cannot
+
+- Either because of lack of clean alternatives, or because they need to prioritize other things over corruption `(want it or not)`
+
+- Because of this, the circumstances under which people would hold corrupt politicians accountable vary a lot `(candidate sex being one example)`
+
+- But electoral accountability is not the only path, monitoring efforts may also streamline subsequent legal actions `(But this only applies at the local level)`
