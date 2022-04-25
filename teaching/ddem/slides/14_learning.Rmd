@@ -1,0 +1,335 @@
+---
+title: "Cumulative Learning"
+subtitle: "Politics of Developing Democracies"  
+date: "April 26-28, 2022"
+output:
+  xaringan::moon_reader:
+    css: xaringan-themer.css
+    nature:
+      slideNumberFormat: "%current%/%total%" 
+      highlightStyle: github
+      highlightLines: true
+      ratio: "16:9"
+      countIncrementalSlides: false
+---
+
+```{r setup, include = FALSE, warning = FALSE}
+# Loads knitr and xaringan themer settings
+source("theme.R")
+```
+
+```{r other-options}
+library(tidyverse)
+library(kableExtra)
+library(fontawesome)
+
+# Only for this week
+library(DeclareDesign)
+
+# ggplot global options
+theme_set(theme_bw(base_size = 20))
+```
+
+class: inverse
+
+## End of semester reminders
+
+- Final paper due on **Saturday, May 7, 12:00 PM**
+
+- Your paper will be graded by whoever was in charge of the class when you presented
+
+- Available for meetings/feedback during May 2-6 `(email before scheduling)` 
+
+- Final grades due on **Tuesday, May 17** `(May 15 if graduating)`
+
+- Some flexibility at the margins, but stay accountable
+
+---
+class: inverse
+
+## Roadmap for this week
+
+- **Today:** Take a step back, think about what we can learn from policy interventions that emphasize research designs for causal inference
+
+- **Thursday:** Open-ended conversation about coordinated trials and what you learned in this course `(read one of the required readings)` [`r fa("external-link-alt")`](#thursday)
+
+---
+
+## Learning from experiments
+
+- How do you prove that a policy interventions works?
+
+--
+
+- We want to make statements about causation `(causal inference)`
+
+    - *CCTs improve health and education*
+    - *Monitoring reduces corruption*
+    
+--
+
+- To back-up those statements, we need to rule out potential **confounding factors**
+
+    - *Healthier, educated families are more likely to meet the CCT requirements*
+    - *Monitoring is only possible in less corrupt places*
+    
+--
+
+- One way to rule out potential confounders is to conduct an experiment or analyze existing data that looks like an experiment `(RDD, natural experiment, quasi-experiment)`
+
+- **Challenge:** This is only true *in expectation*
+
+---
+## A small experiment
+
+```{r}
+pop = declare_population(
+  N = 4,
+  female = c(0, 0, 1, 1),
+  Y0 = c(0, 0, 0, 1),
+  Y1 = c(0, 1, 1, 1)
+)
+
+pot = declare_potential_outcomes(Y ~ Y1 * Z + Y0 * (1-Z))
+
+estimand = declare_inquiry(ATE = mean(Y1 - Y0))
+
+assign = declare_assignment(Z = complete_ra(N, m = 2))
+
+reveal = declare_measurement(Y = reveal_outcomes(Y ~ Z))
+
+estimator = declare_estimator(Y ~ Z, inquiry = "ATE")
+
+design_1 = pop + pot + estimand + assign + reveal + estimator
+```
+
+
+```{r}
+set.seed(141)
+
+dat = draw_data(design_1)
+
+dat_0 = dat %>% select(ID, female, Y0, Y1)
+
+colnames(dat_0) = c("ID", "Female", "Y(0)", "Y(1)")
+
+dat_0 %>% kbl()
+```
+
+- $Y(*)$ are the **potential outcomes** under control `(0)`  and treatment `(1)`, respectively
+
+- $Y(*) = 1$ means person's life improves, $Y(*) = 0$ means life stays the same
+
+--
+
+- We have:
+
+    - One person for which the policy would do nothing
+    - Two people for which the policy improves life
+    - One person who improves their life either way
+    
+---
+## Assign policy treatment at random
+
+```{r}
+dat_1 = dat %>% select(ID, female, Y0, Y1, Z)
+
+colnames(dat_1) = c("ID", "Female", "Y(0)", "Y(1)", "Z")
+
+dat_1 %>% kbl()
+```
+
+--
+
+- We happened to randomly assign the policy to the two women `(I did not mean this to happen in the first trial)`
+
+- We only observe the potential outcomes that corresponds to the treatment status
+
+---
+## Revealing outcomes
+
+```{r}
+dat_2 = dat %>% select(ID, female, Y0, Y1, Z, Y)
+
+colnames(dat_2) = c("ID", "Female", "Y(0)", "Y(1)", "Z", "Y obs")
+
+dat_2 %>% kbl()
+```
+
+--
+
+- The **true** treatment effect is 
+
+$$ATE = E[Y(1)] - E[Y(0)] = 3/4 - 1/4 = 1/2$$
+
+- Which we **cannot observe in the real world**
+
+--
+
+- We can **approximate** the ATE with $\widehat{ATE} = 2/2 - 0/2 = 1$
+
+- We are off the mark! What happens if we redo the experiment?
+
+---
+
+## Redoing the experiment
+
+```{r}
+set.seed(142)
+
+redo = draw_data(design_1)
+
+dat_3 = redo %>% select(ID, female, Y0, Y1, Z, Y)
+
+colnames(dat_3) = c("ID", "Female", "Y(0)", "Y(1)", "Z", "Y obs")
+
+dat_3 %>% kbl()
+```
+
+- New treatment assignments but the same revealed outcomes `(this was an accident)`
+
+- We still have $ATE = 1/2$
+
+- But now $\widehat{ATE} = 1/2 - 1/2 = 0$
+
+- Which is off the mark in the opposite direction
+
+---
+## Why does this happen?
+
+```{r}
+dat_4 = dat %>% select(ID, female, Y0, Y1, Z, Y)
+
+dat_4$Z2 = dat_3[, 5]
+
+dat_4$Y2 = dat_3[, 6]
+
+
+colnames(dat_4) = c("ID", "Female", "Y(0)", "Y(1)", "Z", "Y obs", "Z", "Y obs")
+
+dat_4 %>% kbl() %>% add_header_above(c(" " = 4, "Experiment 1" = 2, "Experiment 2" = 2))
+```
+
+- Perhaps men and women, as groups, react to the policy differently
+
+- We want to rule out that the results of our experiment depend on whether we assign treatments to men or women
+
+- **Experiment 1:** 2/2 women in treatment and 0/2 in control `(imbalanced)`
+
+- **Experiment 2:** 1/2 woman in treatment and 1/2 in control `(balanced)`
+
+--
+
+- Does that mean that experiment 2 is free from **random confounding**?
+--
+ Maybe
+ 
+---
+## Redo 1,000 experiments
+
+.center[
+```{r, out.width = "60%", cache = TRUE}
+set.seed(20220425)
+sims = simulate_design(design_1, sims = 1000)
+
+ggplot(sims) +
+  aes(x = estimate) +
+  geom_vline(xintercept = mean(sims$estimand), linetype = "dashed", size = 2) +
+  geom_density(size = 2) +
+  labs(x = "Observed ATEs", y = "Density") +
+  annotate("text", x = mean(sims$estimand) + 0.1, y = 1.5, label = "True ATE", 
+           size = 6, color = "#336666") +
+  theme_xaringan()
+```
+]
+
+--
+
+- About half of the time we get the true ATE spot on
+
+- The other half we are off in either direction
+
+---
+## What does this mean?
+
+- Experiments only rule out the role of potential confounders **IN EXPECTATION**
+
+- We can sustain this claim in two ways
+
+--
+
+1. With a sufficiently large sample `(But how large is large enough?)`
+    
+2. By repeating the same experiment multiple times `(Nobody does this and we can't even if we tried)`
+
+--
+
+- Our confidence in the results of an experiment depends on two dimensions of its research design
+
+1. **Bias:** In average, how far off we are from the truth
+
+2. **Precision:** How often do we get the same result
+
+---
+
+## Visualizing bias and precision
+
+.center[
+```{r, out.width = "90%"}
+d1 = data.frame(
+  x = rnorm(100, 0, 1),
+  true = 0,
+  val = "Unbiased",
+  rel = "Precise"
+)
+
+d2 = data.frame(
+  x = rnorm(100, 0, 5),
+  true = 0,
+  val = "Unbiased",
+  rel = "Imprecise"
+)
+
+d3 = data.frame(
+  x = rnorm(100, 5, 1),
+  true = 0,
+  val = "Biased",
+  rel = "Precise"
+)
+
+d4 = data.frame(
+  x = rnorm(100, 5, 5),
+  true = 0,
+  val = "Biased",
+  rel = "Imprecise"
+)
+
+d = rbind(d1, d2, d3, d4)
+
+d$val = fct_relevel(d$val, "Biased", "Unbiased")
+
+d$rel = fct_relevel(d$rel, "Precise", "Imprecise")
+
+ggplot(d) +
+  aes(x = x) +
+  geom_density(size = 1) +
+  geom_vline(xintercept = 0, size = 2, color = "#336666", linetype = "dashed") +
+  annotate("text", x = - 5, y = 0.38, label = "True ATE", color = "#336666", size = 5) +
+  labs(x = "Observed ATEs", y = "") +
+  facet_grid(rel ~ val) +
+  theme_xaringan() +
+  theme(axis.text = element_blank(),
+        axis.ticks = element_blank())
+```
+]
+
+---
+## WHY ARE YOU RUNNING!?
+
+- In practice, we only have a decent guess of where we are in terms of bias and precision, but we do not know for sure
+
+- So you need a lot of domain expertise to justify that the ATE you observed can be attributed to the policy
+
+- This often involves showing not only whether something works but also **explaining why it works**
+
+- This is the first step towards knowing whether it would **work somewhere else**
