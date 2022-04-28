@@ -437,3 +437,84 @@ class: inverse
     - **Generalization** and **extrapolation**
     
 - **Thursday:** One solution to overcome all challenges at the same time is using **coordinated trials**
+
+---
+name: thursday
+
+## Coordinated trials 
+
+- Multi-site interventions that evaluate `(more or less)` the same policy
+
+- **Goals:**
+
+    1. Establish whether a policy is generally advisable `(pooling results)`
+    
+    2. Understand why things work in some places but not others `(support factors)`
+    
+---
+
+## Four studies
+
+1. Big push program in Ethiopia, Ghana, Honduras, India, Pakistan, and Peru `(Banerjee et al 2015)`
+
+2. Community policing in Brazil, Colombia, Liberia, Pakistan, Phillippines, and Uganda `(Blair et al 2021)`
+
+3. Voting information campaigns in Benin, Burkina Faso, Brazil, Uganda (x2), and Mexico `(Dunning et al 2019)`
+
+4. Community monitoring of common pool resources in Brazil, China, Costa Rica, Liberia, Peru, and Uganda `(Slough et al 2021)`
+
+---
+## Big push program
+
+.center[
+```{r, out.width = "80%"}
+include_graphics("figs/14_banerjee.png")
+```
+]
+
+---
+## Community policing
+
+.center[
+```{r, out.width = "80%"}
+include_graphics("figs/14_blair.png")
+```
+]
+
+---
+## Voter information campaigns
+
+.center[
+```{r, out.width = "80%"}
+include_graphics("figs/14_dunning.png")
+```
+]
+
+
+---
+## Community resource monitoring
+
+.center[
+```{r, out.width = "80%"}
+include_graphics("figs/14_slough.png")
+```
+]
+
+---
+## What else?
+
+- What did you like about this course?
+
+- What was your least favorite thing about the course?
+
+- Anything we covered that feels useful for the future?
+
+- Anything you wish you knew about the course before taking it?
+
+- Anything you would change about the course?
+
+---
+class: inverse center middle
+
+## Thank you!
+    
