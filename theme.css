@@ -2,9 +2,9 @@
 
 :root {
   
-  --color-background:   #EAE9EA;
-  --color-primary:      #71C5E8;
-  --color-secondary:    #8a74a0;
+  --color-background:   #dbdbdd;
+  --color-primary:      #ac1455;
+  --color-secondary:    #5E6A71;
   
 }
 
@@ -66,17 +66,17 @@ d-appendix {
 
 .distill-site-header {
   --title-size:       18px;
-  --text-color:       rgba(255, 255, 255, 0.8);
+  --text-color:       #dbdbdd;
   --text-size:        15px;
-  --hover-color:      white;
-  --bkgd-color:       #336666;
+  --hover-color:      #FDBF57;
+  --bkgd-color:       #7A003C;
 }
 
 .distill-site-footer {
-  --text-color:       rgba(255, 255, 255, 0.8);
+  --text-color:       #dbdbdd;
   --text-size:        15px;
-  --hover-color:      white;
-  --bkgd-color:       #336666;
+  --hover-color:      #FDBF57;
+  --bkgd-color:       #7A003C;
 }
 
 /*-- Additional custom styles --*/
