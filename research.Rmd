@@ -8,7 +8,7 @@ knitr::opts_chunk$set(echo = FALSE)
 
 ## Publications
 
-Forthcoming. ["Women Held Back: The Depressing Effect of Institutional and Norms-Based Barriers on Female Representation in Corrupt Contexts."](files/research/gender_corruption.pdf) In *Corruption, Gender and Norms*, edited by Ina Kubbe and Ortrun Merkle. Edward Elgar Publishing (with [Kelly Senters Piazza](https://www.usafa.edu/facultyprofile/?smid=23816))
+Forthcoming. ["Women Held Back: The Depressing Effect of Institutional and Norms-Based Barriers on Female Representation in Corrupt Contexts."](files/research/gender_corruption.pdf) In *Norms, Gender and Corruption: Understanding the Nexus*, edited by Ina Kubbe and Ortrun Merkle. Edward Elgar Publishing (with [Kelly Senters Piazza](https://www.usafa.edu/facultyprofile/?smid=23816))
 
 2020\. ["Light in the Midst of Chaos: COVID-19 and Female Political Representation."](https://doi.org/10.1016/j.worlddev.2020.105125) *World Development* 136: 105125 (with [Kelly Senters Piazza](https://www.usafa.edu/facultyprofile/?smid=23816))
 
