@@ -28,7 +28,7 @@ header-includes:
   - \usepackage{hyperref}
 ---
 
-# Positions
+# Positions  
 <!-- Positions singular for now -->
 <!-- Remember double space for line skip -->
 
@@ -38,7 +38,7 @@ Postdoctoral Fellow, Department of Political Science \hfill 2022-
 **Tulane University**  
 Postdoctoral Fellow, Center for Inter-American Policy and Research \hfill 2021-2022
 
-# Education
+# Education  
 
 **University of Illinois at Urbana-Champaign**  
 PhD in Poltical Science \hfill 2021  
@@ -55,9 +55,8 @@ BA in Political Science \hfill 2014
 
 <!-- Political Economy, Political Behavior, Accountability, Representation, Developing Countries, Causal Inference, Machine Learning -->
 
-# Research
+# Publications  
 
-## Publications
 
 Forthcoming. ["Women Held Back: The Depressing Effect of Institutional and Norms-Based Barriers on Female Representation in Corrupt Contexts."](https://gustavodiaz.org/files/research/gender_corruption.pdf) In *Norms, Gender and Corruption: Understanding the Nexus*, edited by Ina Kubbe and Ortrun Merkle. Edward Elgar Publishing
 (with [Kelly Senters Piazza](https://www.usafa.edu/facultyprofile/?smid=23816))
@@ -68,39 +67,39 @@ Forthcoming. ["Women Held Back: The Depressing Effect of Institutional and Norms
 
 2014\. ["Civic Education and Voter Turnout Under Voluntary Voting."](https://revistapolitica.uchile.cl/index.php/RP/article/view/33099/34813) *Política* 52(1): 61-91 (In Spanish)
 
-## Under review
+
+
+# Under review  
 
 ["Assessing the Validity of Prevalence Estimates in Double List Experiments."](https://gustavodiaz.org/files/research/dle_test.pdf)
 
-## Working Papers
+# Working Papers  
 
 ["A Model Selection Approach to Interference."](https://gustavodiaz.org/files/research/model_interference.pdf) *Best poster award. 2019 Latin American Political Methodology Meeting*
 
 ["Revealing Nearby Corruption Drives Party Switching: Evidence from Local Level Audits in Brazil"](https://gustavodiaz.org/files/research/nearby_corruption.pdf)
 
-# Teaching
+# Teaching  
 
-## Instructor
-
-### McMaster University
+## McMaster University  
 
 Public Opinion and Public Policy (Spring 2023)
 
-### Tulane University
+## Tulane University  
 
 [Politics of Developing Democracies](https://gustavodiaz.org/files/teaching/ddem_syllabus.pdf). Spring 2022
 
 [Comparative Politics](https://gustavodiaz.org/teaching/cp_intro/syllabus/polc2300_syllabus.pdf). Fall 2021
 
-### University of Illinois at Urbana-Champaign
+## University of Illinois at Urbana-Champaign  
+
+### Instructor  
 
 Comparative Politics in Developing Nations (Online). Summer 2019
 
 Mathcamp for Political Scientists. Fall 2017-2019
 
-## Teaching Assistant
-
-### University of Illinois at Urbana-Champaign
+### Teaching Assistant  
 
 Research Design and Techniques (Graduate). Jake Bowers and James H. Kuklinski. Spring 2021
 
@@ -127,7 +126,7 @@ Comparative Politics in Developing Nations. Avital Livny. Fall 2016
 
 <!-- Subnational Politics in Latin America. Julieta Suárez-Cao. Spring 2013 -->
 
-# Awards & Honors
+# Awards & Honors  
 
 2019-2020\. Werner Baer Dissertation Writing Fellowship. Lemann Center for Brazilian Studies,
 University of Illinois
@@ -137,13 +136,13 @@ University of Illinois
 2016\. Rita and Leonard Ogren Award for Academic Excellence. Department of Political Science,
 University of Illinois
 
-# Additional Training
+# Additional Training  
 
 2019\. Empirical Implications of Theoretical Models Summer Institute. Emory University
 
 2014\. Summer School on Mixed Methods. Department of Political Science, PUC
 
-# Skills
+# Skills  
 
 **Languages:** Spanish, French, Portuguese
 
