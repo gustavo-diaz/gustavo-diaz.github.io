@@ -1,0 +1,54 @@
+---
+output: stevetemplates::cover_letter
+geometry: margin=1in
+header-includes:
+  - \pagenumbering{gobble}
+
+author: Gustavo Diaz
+address: |
+    | Center for Inter-American Policy and Research
+    | Tulane University
+    | 7025 Freret Street
+    | New Orleans, LA 70118 USA
+email: "gustavodiaz@tulane.edu"
+url: "gustavodiaz.org"
+phone: +1 217 904 0581
+fontsize: 11pt
+mainfont: cochineal
+monofont: Fira Code
+
+fontawesome: TRUE
+date: '`r format(Sys.Date(), "%B %d, %Y")`'
+greetings: "Dear Members of the Selection Committee,"
+---
+
+<!-- Intro paragraph -->
+I write to apply for a second year as a postdoctoral fellow at the Center of Inter-American Policy and Research.
+
+<!-- What I have done so far -->
+My primary objective for my first year at CIPR is to advance two research programs that stem from my dissertation. The first program focuses on the unintended electoral consequences of investigating and exposing corruption. The second program seeks to expand the applicability of quantitative research tools to understand hard-to-observe social and political phenomena in the Global South, which is informed by my experience applying these tools to questions of interest in Latin American politics.
+
+During my first semester at CIPR, I published a book chapter, submitted two (soon to become three) papers for peer-review, made considerable progress on two projects, and started three new collaborations. During the Spring semester, I plan to revisit two research projects and start another collaboration with colleagues at CIPR.
+
+The core of my first research program stems from an original data collection effort in Brazil, combining text analysis and machine learning to construct the most comprehensive dataset of corruption infractions at the local level. The main product of this agenda is a paper from my dissertation that shows how corruption revelation drives mayors in nearby municipalities to switch parties more often even when there is no evidence of their own wrong-doing. I am currently revising this paper and will submit it for peer review in January.
+
+Another paper in my dissertation shows how investigating corruption in Brazil leads mayors to alter their spending decisions in a pattern that reveals an attempt to counter potential negative electoral consequences. I received invaluable feedback on this paper at our internal workshop. I will present a revised version of this paper at two major political science conferences in the Spring and will prepare to submit it for peer review towards the end of that semester.
+
+As a direct continuation of my dissertation work, I started a project with fellow CIPR postdoc Jared Abbott, Michael Touchton (Miami), and Brian Wampler (Boise State). We compare the effectiveness of top-down and bottom-up accountability institutions on improving material wellbeing at the local level in Brazil. I anticipate to circulate this paper towards the end of my first year at CIPR and to submit it for review during an eventual second year.
+
+Beyond my dissertation, this program is evolving to address the gendered electoral consequences of investigating and revealing corruption. In my early months at CIPR, I completed a book chapter with Kelly Senters Piazza (US Air Force Academy) that uses my corruption infractions data to show how revealing corruption creates demand for more women candidates running for mayor, but also that this demand does not translate to more women being elected. This will appear in the book *Corruption, Gender and Norms* edited by Ina Kubbe (Tel Aviv University) and Ortrun Merkle (United Nations University). 
+
+<!-- SECOND PROGRAM -->
+The core of my second research program also stems from my dissertation. Generalizing from the effects of revealing corruption on the behavior of mayors in nearby municipalities, I focus on analyzing spillover or interference effects in settings where the researcher observes units’ placement in a network, but not how they connect to each other. Previous work approaching this problem from a causal inference perspective assumes the researcher observes all relevant networks directly, but this level of control is rare in experiments and observational studies, which means one cannot justify the required identification assumptions. I propose a model selection protocol that overcomes this difficulty in the context of supervised learning model selection techniques. This paper is currently under review in a political methodology journal.
+
+This agenda is evolving towards navigating a broader case of trade-offs that researchers face when designing quantitative studies. In a solo-authored paper, I introduce new tools to assess the validity of findings in double list experiments. This variant of the list experiment, a technique to estimate sensitive attitudes and behaviors in surveys, promises more precise estimates but comes with under-explored questionnaire design complications. Thanks to the feedback from our internal workshop, this paper  was accepted as part of a special issue at the *Journal of Experimental Political Science* and will enter the review process by the end of February.
+
+I also started two additional projects under this program. With Erin Rossiter (Notre Dame), we discuss the trade-off in implementing research designs that require collecting data before conducting an experiment, including block-randomization and pre-post measurement of outcome variables. With Jake Bowers (Illinois) and Chris Grady (USAID), we discuss the trade-offs of using biased yet more precise estimators in a broader set of experimental contexts, including block randomization, covariate adjustment, and M-estimation with skewed outcome variables. Both projects will be presented at major political science conferences in Spring 2022.
+
+<!-- CLOSING -->
+My time at CIPR so far has helped me make considerable progress in my research agenda and I have enjoyed being a member of a challenging and invigorating intellectual community. My current progress would be impossible without the resources and mentorship from this fellowship. I believe spending a second year at CIPR would help me translate these projects into publications in high-impact outlets and to establish myself as a productive member of the academic community in my future endeavors. If you have any questions, feel free to contact me via email or phone.
+
+Sincerely,
+
+<!-- Remember double spaces to lineskip -->
+Gustavo Diaz

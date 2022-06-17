@@ -1,0 +1,74 @@
+---
+output: stevetemplates::cover_letter
+geometry: margin=1in
+header-includes:
+  - \pagenumbering{gobble}
+
+author: Gustavo Diaz
+address: |
+    | Center for Inter-American Policy and Research
+    | Tulane University
+    | 7025 Freret Street
+    | New Orleans, LA 70118 USA
+email: "gustavodiaz@tulane.edu"
+url: "gustavodiaz.org"
+phone: +1 217 904 0581
+fontsize: 11pt
+mainfont: cochineal
+monofont: Fira Code
+
+fontawesome: TRUE
+date: '`r format(Sys.Date(), "%B %d, %Y")`'
+greetings: "Dear Members of the Search Committee,"
+---
+
+```{r setup, include=F}
+
+jobtitle = "an Assistant Professor in Comparative Politics"
+place = "the Universitat Pompeu Fabra"
+latam = FALSE
+```
+
+I write to express my interest in your call for `r jobtitle`. I am a postdoctoral fellow at the Center for Inter-American Policy and Research at Tulane University. I specialize in comparative politics and quantitative methods. I received my PhD from the Department of Political Science at the University of Illinois at Urbana-Champaign under the supervision of Jake Bowers, Matt Winters, Gisela Sin, and Avital Livny.
+
+Substantively, I research political economy and political behavior in the Global South, with a focus on how information shapes accountability and representation`r ifelse(latam == TRUE, print(" in Latin America."), print("."))` Methodologically, I use tools from design-based causal inference and machine learning to improve research design in experiments and observational studies. My work appears in *World Development* and *The SAGE Handbook for Research Methods in Political Science and International Relations*, and has been funded by the Lemann Center for Brazilian Studies at the University of Illinois.
+
+<!-- RESEARCH -->
+<!-- Remember to update the status of stuff sent for review -->
+<!-- Nearby corruption -->
+My primary substantive research agenda relies on an original data collection effort in Brazil, combining text analysis and machine learning to construct the most comprehensive dataset of corruption infractions at the local level. I study the unintended electoral consequences of corruption that stem from politicians' strategic behavior. I argue that corruption revelation drives politicians in nearby municipalities to undertake preemptive behavior to ward off a negative reaction from their constituents.  Whereas previous literature has shown evidence that partisans might react strategically to anticipate sanctions when their political party is linked to corruption, my work shows that this behavior is even more widespread, and that politicians fear being caught in an electoral anti-corruption wave even when there is no evidence of their own wrong-doing. I show how mayors exposed to corruption in neighboring municipalities switch parties more often only when they have reelection-related incentives, and that they do so because they attempt to secure more resources to counter an expected increase in public scrutiny from their constituencies.
+
+<!-- Gender corruption -->
+I  also maintain a research program on the gendered electoral consequences of corruption with Kelly Senters Piazza (US Air Force Academy). In a forthcoming book chapter prepared for the Interdisciplinary Corruption Research Network, we use my corruption infractions dataset to show how corruption revelation increases the proportion of female candidates running for mayor, but not their chances of winning elections. We attribute this to incumbents' incentives to counter the rise of female politicians. In a viewpoint article in *World Development*, we use the lessons from our work on corruption to discuss how the COVID-19 pandemic has the potential to promote female political representation through increased discontent with the performance of male-led executives and by priming a health policy issue commonly associated with women. 
+
+<!-- We extend our collaboration to work in progress with Justin Esarey (Wake Forest). We conduct a meta-analysis of survey experiments on gender and corruption to understand the circumstances under which voters evaluate female candidates differently, since previous research suggests that similar causal mechanisms may lead to differential punishment on reward. -->
+
+<!-- Placeholder for work with Matt Winters -->
+
+<!-- Try to write about methods work in a way that seems coherent -->
+<!-- Modeling spillovers -->
+My methodological research agenda uses the lessons of my substantive work to improve our tools for understanding hard-to-observe social and political phenomena. I extend my work on exposure to nearby corruption in Brazil to the question of how to analyze spillover effects in settings where the researcher observes units' placement in a network, but not how they connect to each other. Previous methods assume that the researcher observes all relevant networks directly, but this level of control is rare in experiments and observational studies. I propose a model selection protocol that overcomes this difficulty. The key is to use a distance metric to identify alternative model specifications that follow from a theory, and then choose among them using a model selection technique of choice. I illustrate the usefulness of this approach by revisiting the findings of an experiment on the spillover effects of election observers on voter registration irregularities in Ghana.
+
+<!-- Survey experiments and block rand -->
+I also maintain an agenda on improving research design in survey and field experiments, focusing on the trade-off between simple, intuitive designs with imprecise results and complex designs that are more precise yet difficult to connect with social and political phenomena of interest. In a chapter with Christopher Grady (USAID) and Jim Kuklinski (Illinois) in *The SAGE Handbook of Research Methods in Political Science and International Relations*, we discuss the merits and challenges of increased complexity in the design of survey experiments. I bring the lessons of our chapter to a solo-authored working paper that introduces new tools to assess the validity of findings in double list experiments. This is a variant of the list experiment, a technique to address sensitive questions in surveys, that promises more precise results but comes with under-explored questionnaire design complications. In a working paper with Jake Bowers (Illinois) and Christopher Grady, we discuss the circumstances under which researchers should prefer biased yet precise estimates to analyze experimental data, including applications to block-randomization, covariance adjustment, and M-estimation.
+
+<!-- TEACHING -->
+<!-- UIUC -->
+I have experience teaching courses in comparative politics and quantitative methods. At Tulane, I teach Introduction to Comparative Politics, focusing on theoretical and methodological considerations. In Spring 2022, I will teach on the challenges of developing democracies from an evidence-informed policy perspective. In my time at Illinois, I taught an online course on the politics of developing countries as an independent instructor and served as a teaching assistant for its in-person version. I also served as a teaching assistant for quantitative research methods courses at the undergraduate and PhD levels using a flipped classroom approach. I served as a math camp instructor for incoming graduate students for three consecutive years and started a collaborative project in which graduate students introduced their peers to new methodological tools. These experiences have prepared me to teach to a diverse student body and to adapt to both online and in-person platforms.
+
+<!-- Teaching plans -->
+<!-- Remember to switch from teaching portfolio/website accordingly -->
+<!-- Also tweak depending on job -->
+I am prepared to teach courses on comparative politics, the politics of the Global South, quantitative methods, and research design. You can find copies of current and sample syllabi in my website. As a first-generation scholar, my teaching philosophy emphasizes building flexible learning environments for students with different backgrounds, learning styles, and career goals.
+
+<!-- CLOSING -->
+I believe my expertise would make me an excellent fit at `r place`. Please find enclosed the materials supporting my application. If you have any questions, you can contact me via email or phone.
+
+
+Sincerely,
+
+<!-- Remember double spaces to lineskip -->
+Gustavo Diaz  
+Postdoctoral Fellow  
+Center for Inter-American Policy and Research  
+Tulane University

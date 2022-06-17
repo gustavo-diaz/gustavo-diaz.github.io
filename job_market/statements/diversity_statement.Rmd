@@ -1,0 +1,31 @@
+---
+output: 
+    stevetemplates::statement:
+    latex_engine: pdflatex
+geometry: margin=1in
+
+title: "Diversity Statement"
+author: Gustavo Diaz
+affiliation: Center for Inter-American Policy and Research, Tulane University
+email: "gustavodiaz@tulane.edu"
+
+fontfamily: cochineal
+fontsize: 11pt
+---
+
+```{r setup, include=F}
+place = "[PLACE]"
+```
+
+
+I grew up in a low income family in Chile, being part of the first generation to obtain a college degree, and the only person pursuing an academic career. Moving to the United States to begin my PhD was the first time I moved abroad on a long-term basis. The main challenge during my first years of graduate school was to simultaneously learn to communicate effectively as an academic, a social scientist, and a non-native English speaker.
+
+I realized that my struggles were more common than I expected among peers and students. More importantly, they were rooted in subtle yet systemic patterns of discrimination. I learned to recognize that the traditional higher education setting does not give equal treatment to individuals from underrepresented backgrounds and with different learning styles and career goals. In that sense, I believe our collective challenge is to facilitate spaces for cutting-edge knowledge generation and communication that value diverse voices, even if they do not fit in conventional disciplinary molds.
+
+The active principle in my approach to promote these spaces in my current work is flexibility. I believe that individuals thrive when they have the opportunity to make the most out of their strengths, even if they do not fit traditional disciplinary molds. For example, as part of my introductory course in comparative politics, I require students to submit news reports covering the politics of a region of their choosing. Normally, these assignments would take the form of a short essay, which benefits students that are more familiar with short-form writing. To create a more inclusive and flexible space, I encourage students to submit this assignment using any creative medium of their choosing, including writing, audio, video, or infographic material. Moreover, I encourage them to be creative about the meaning of "politics" and "region," so that even those who will not benefit directly from an understanding of the course material take the opportunity to develop valuable skills.
+
+In my time at Illinois, I focused on out-of-classroom learning opportunities, which I consider essential to create an inclusive environment. With support from my department's graduate student association, I started a methods cheatsheets project in 2018. The purpose of this project was to complement our graduate methods training and reduce entry barriers to new techniques for data analysis. In this project, volunteer graduate students write a short introduction to the theory, implementation, and current debates surrounding a technique of their expertise. These resources are shared in a repository available for current and future generations. I led the project in its inception, prioritizing model-based methods that are only briefly mentioned in our graduate training. Currently, the project as expanded to include computational methods, as well as techniques for data collection and pre-processing.
+
+While my efforts so far surround teaching and learning, I see a position at `r place` as an opportunity to translate these ideas into a sustainable and inclusive research program. I believe growing laboratory workflow in the social sciences is the template to follow to pursue collaborative and innovative research that respects and values the skills and contributions of all members. This framework not only creates a space for diverse voices, but also provides enough flexibility to foster dialogue across backgrounds, learning styles, and career stages. These are also safety nets to support those who may otherwise struggle with the conventional higher education setting.
+
+

@@ -1,0 +1,44 @@
+---
+output: 
+    stevetemplates::statement:
+    latex_engine: pdflatex
+geometry: margin=1in
+
+title: "Teaching Statement"
+author: Gustavo Diaz
+affiliation: Center for Inter-American Policy and Research, Tulane University
+email: "gustavodiaz@tulane.edu"
+
+fontfamily: cochineal
+fontsize: 11pt
+---
+
+# Teaching philosophy
+
+```{r setup, include=F}
+source = "website"
+```
+
+
+I approach teaching political science and research methods as the task of acquiring a new language. I recognize that my students come from different paths and have different career goals. Therefore,  I aim to identify key ideas and skills to help
+students think and communicate in the language of social science and translate it to different situations. I prefer a flipped classroom approach, as I believe it gives students the flexibility to engage with the material on their own terms and, as a consequence, make the most out of it.
+
+In teaching comparative politics, I highlight how the complexities of multiple causation in understanding patterns of development around the world translate to policy evaluation and everyday political discussion. I accomplish this by encouraging students to draw analogies between the course material and their personal experience or expertise. For example, many students may feel daunted by the prospect of discussing the social, political, and economic issues of countries they have not heard about before. In those cases, I welcome interventions that compare the reading material with the state of affairs in their home country, using it as a springboard to spark discussion. In this way, even the students who do not plan to engage in cross-national comparisons in their future career may take something useful out of studying comparative politics.
+
+In teaching research design and quantitative methods, I focus on introducing the language of social science research and data analysis. One complication in teaching political data analysis is that students may be more accustomed to discuss politics in normative terms, which can contaminate statistical considerations. For example, the debate of what makes a candidate win an election may push some students away from the conversation to avoid confrontation, harming our understanding of multivariate regression models. I like to use less controversial examples to illustrate a method, and then move towards their application to important political topics. To continue the example, I start teaching multivariate regression with a discussion of the factors that may influence the price of a house, and then use it as a foundation to approach complex political phenomena with multiple causes.
+
+By the end of the course, my students leave with the feeling of having acquired a new skill that they can practice and adapt to other aspects of their life, ranging from everyday conversations to the advancement of their career. I see the ability of translating social science to multiple domains as an invaluable skill in a world that is becoming simultaneously more technical and more political.
+
+# Teaching experience
+
+I have experience teaching substantive and methodological courses to diverse audiences and under different formats. At Tulane, I teach introduction to comparative politics, emphasizing theoretical and methodological considerations at the core of the course, while simultaneously encouraging students to apply this knowledge to recent events in a region or country of their choosing. In my time at Illinois, I benefited from exposure to different versions of an introductory course to the politics on developing countries. I taught an online version of this course as an independent instructor following Matt Winters' syllabus, which emphasizes theoretical accounts of economic and political development. I also served as a teaching assistant for Avital Livny's version, which emphasizes building social science concepts and tools to understand cross-national variation in economic development, state formation, regime change, and ethnic conflict.
+
+I also have experience teaching data analysis and research methods. In the 2020-2021 academic year, I was the graduate methods teaching assistant in our department. My duties involved advising PhD students taking courses in the quantitative methods sequence, as well as mentoring undergraduates enrolled in the senior honors thesis program. I served as a teaching assistant for Jake Bowers' introduction to data analysis for political science majors. This course focuses on flipped classroom learning, using lecture time to work as a group on problem sets. I have also contributed as a math camp instructor for three consecutive years, introducing statistical programming in R to incoming graduate students in our department. I also was a teaching assistant for the causal inference track at the IPSA-USP Summer School in Concepts, Methods, and Techniques at the University of São Paulo in 2020, discussing with fellow academics how to make productive causal critiques to the implementation of causal inference research designs in observational studies (e.g. instrumental variables, regression discontinuity, difference-in-differences).
+
+Before starting my PhD, I served as a teaching assistant for various courses at *Pontificia Universidad Católica de Chile*, including introduction to comparative politics, subnational politics in Latin America, and quantitative and qualitative methods.
+
+Teaching to these diverse audiences made me aware of the importance of promoting out-of classroom learning experiences. I organized a reading group on computational social science at Illinois that met regularly in the Summer and Fall of 2017. I started a a collaborative project in which graduate students share cheatsheets introducing their fellows to new methodological tools. I have also enjoyed the experience of mentoring an undergraduate research assistant, using the opportunity to help both of us learn text analysis. In the future, I plan to facilitate similar learning experiences in every aspect of my work.
+
+# Teaching interests
+
+I am prepared to teach courses on comparative politics and the politics of the Global South. I can also teach methodological courses in data analysis and research design in the social sciences, as well as an advanced seminar on advances in quantitative methods for causal inference. You can find copies of current and sample syllabi in my `r source`.

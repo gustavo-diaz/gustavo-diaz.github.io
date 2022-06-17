@@ -1,0 +1,65 @@
+---
+output: 
+    stevetemplates::statement:
+    latex_engine: pdflatex
+geometry: margin=1in
+
+title: "Overview of Teaching Evaluations"
+author: Gustavo Diaz
+affiliation: Center for Inter-American Policy and Research, Tulane University
+email: "gustavodiaz@tulane.edu"
+
+fontfamily: cochineal
+fontsize: 11pt
+---
+
+The following tables present a summary of my teaching evaluations. Scores range from 1 to 5, with 5 being the most positive. Detailed evaluations available upon request.
+
+# Tulane University
+
+\begin{table}[h!]
+	\begin{center}
+	\footnotesize
+	\begin{tabular}{lccccccc}
+	\hline 
+	\hline 
+	&	Class	&	Evaluations & Feedback & Knowledge & Recommend & Instructor & N	\\
+	\hline
+	Comparative Politics & 4.2	& 4.7	& 4.1	 & 4.5  & 4.1 & 4.5 & 14\\
+	(Fall 2021)&		&		&		& & & &\\
+	\hline
+  \end{tabular}
+	\end{center}
+\end{table}
+
+## Selected comments from students at Tulane
+
+- "Professor Diaz is very understanding and does a great job applying concepts to class discussions and the out-of-class assignments reflect the key concepts of the course."
+
+- "I appreciated the flexible exam structure and edits made to the syllabus as a result of the challenges of this semester. I enjoyed the News Report assignments as they were an interesting way to interact with the course content in a meaningful way."
+
+- "The organization of content felt extremely coherent as we built on every previous module. This is no small feat given the subject matter. The mixture of quizzes and News Report assignments kept the course from being stale while still testing our knowledge of course material from differing vectors."
+
+
+# University of Illinois at Urbana-Champaign
+
+\begin{table}[h!]
+	\begin{center}
+	\footnotesize
+	\begin{tabular}{lcccccccc}
+	\hline 
+	\hline 
+	&	Course quality	&	Teaching & Sensitivity & Respectful & Motivation & Preparation & Accessible & N	\\
+	\hline
+	Developing Countries & 4.1	& 4.2	& - &- & -&- &- & 17	\\
+	(Summer 2019 Online)&		&	&	& & & & &	\\
+		Data Analysis & 3.9	& 4.0 & 4.8	& 5.0 & 4.4 & 4.7 & 4.7 & 16 \\
+	(Fall 2017 TA)&		&		&		\\
+	Developing Countries & 4.1	& 3.8	& 4.4	 & 4.9  & 3.7 & 4.5 & 4.5 & 39 \\
+	(Fall 2016 TA)&		&		&		& & & & & \\
+	\hline									
+	\hline
+	\multicolumn{5}{l}{\textit{Note: Online courses at UIUC only evaluate the course as a whole.}}\\					
+	\end{tabular}
+	\end{center}
+\end{table}

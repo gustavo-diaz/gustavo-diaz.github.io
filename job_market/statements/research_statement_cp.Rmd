@@ -1,0 +1,67 @@
+---
+output: 
+    stevetemplates::statement:
+    latex_engine: pdflatex
+geometry: margin=1in
+
+title: "Research Statement"
+author: Gustavo Diaz
+affiliation: Center for Inter-American Policy and Research, Tulane University
+email: "gustavodiaz@tulane.edu"
+
+fontfamily: cochineal
+fontsize: 11pt
+---
+
+
+```{r setup, include=F}
+# a name for methods fields to change depending on specificity
+
+methods = "quantitative methods"
+```
+
+<!-- Intro statement for apps that do not require cover letter. -->
+<!-- I am writing to express my interest in your call for a Postdoctoral Fellowship at the Penn Development Research Initiative. I am a postdoctoral fellow at the Center for Inter-American Policy and Research at Tulane University. I specialize in comparative politics and quantitative methods. I received my PhD from the Department of Political Science at the University of Illinois at Urbana-Champaign under the supervision of Jake Bowers, Matt Winters, Gisela Sin, and Avital Livny. -->
+
+My work contributes to two research programs. Substantively, I research political economy and political behavior in the Global South, with a focus on how information shapes accountability and representation. My main research agenda on this topic leverages a novel data collection effort in Brazil to study the unintended electoral consequences of exposing corruption that stem from politicians' strategic behavior. Methodologically, I use tools from design-based causal inference and machine learning to improve research design in experiments and observational studies, with emphasis on tools to for understanding hard-to-observe social and political phenomena. My current research on this topic focuses on two areas: modeling spillovers with partially unobserved networks and navigating the bias-variance trade-off in the design and analysis of field and survey experiments.
+
+# The unintended electoral consequences of exposing corruption
+
+The literature on electoral accountability highlights voters' adverse selection problem: They prefer to have good over bad elected officials but they can only infer an incumbent's type through observable outputs of their performance. Therefore, corrupt incumbents have incentives to hide their illicit activities and appear good. To fight corruption, governments, civil society organizations, and scholars devote considerable resources to implementing and evaluating anti-corruption interventions that attempt to bridge the information gap between voters and politicians' performance in office. However, the cumulative evidence suggests that these interventions rarely translate into voters sanctioning corrupt incumbents.
+
+A recent explanation for the lack of electoral sanctions is that politicians undertake preemptive behavior to ward off the negative consequences of corruption. For example, previous research shows that political parties avoid nominating legislators investigated for corruption to reelection. On the other side of the coin, research also shows that local level elected officials switch away from parties investigated for corruption after securing reelection. In short, politicians avoid direct association with corruption.
+
+I expand on this research in work funded by the Lemann Center for Brazilian studies at the University of Illinois. I show how revealed corruption drives politicians in nearby localities to undertake preemptive behavior to ward off a negative reaction from their constituents. Whereas previous literature has shown evidence that partisans might react strategically to anticipated sanctions when their political party is linked to corruption, I argue that this behavior is even more widespread and that politicians fear being caught in an electoral anti-corruption wave even when there is no evidence of their own wrong-doing. This occurs because officeholders expect their constituencies to receive the news of corruption in nearby localities and react with increased scrutiny on their performance.
+
+I advance this argument with data from a long-running anti-corruption program in Brazil that randomly selects municipalities to audit their use of federal funds, combining text analysis and machine learning to create the most comprehensive dataset of corruption infractions to date. I show that mayors in municipalities exposed to nearby corruption are more likely to seek reelection under a different party, with subsequent analyses showing that they do so in a pattern that suggests an attempt to secure more resources for reelection.
+
+<!-- Work with Kelly -->
+I continue this research agenda in joint work with Kelly Senters Piazza (US Air Force Academy). In a  forthcoming book chapter prepared for the Interdisciplinary Corruption Research Network, we use my data on corruption infractions at the local level in Brazil to revisit previous findings on the gendered electoral consequences of corruption. Previous work in this topic uses public opinion data and survey experiments to show how revealing corruption increases support for female representation, yet also how female politicians face harsher sanctions for comparable levels of corruption. We argue that these methods of inquiry do not allow us to translate their conclusions to realistic settings, which we overcome by focusing on the aforementioned anti-corruption program in Brazil. We show that revealing corruption increases support for female representation in the form of an increased proportion of female candidates running for mayor, yet this support does not translate into an increased proportion of women winning elections, which we attribute to incumbent mayors' incentives to counter the rise of female challengers.
+
+Our experience working on the gendered electoral consequences of corruption led us to produce timely insights on the COVID-19 pandemic's implications for female political representation. In a viewpoint piece published in *World Development*, we review recent work on how exceptional events, such as corruption, conflict, and public health disasters, promote female political representation by raising questions around the ability of male leadership to handle crises, as well as priming voters about issues around which women are perceived to have policy expertise. Examining public opinion data and recent media coverage around the world, we argue for the presence of both mechanisms in the current global pandemic, implying a potential surge in female political representation, which in turn can help alleviate the gender inequalities exacerbated by the pandemic.
+
+
+# Improving tools to understand hard-to-observe phenomena
+
+At its core, empirical social science, including political science, is about simplifying complex phenomena. To simplify, researchers must make assumptions in how they collect and analyze data. A great deal of research in `r methods` entails outlining a sufficient set of assumptions to identify a phenomenon of interest, and then deriving tools to analyze data in conformity with those assumptions. While most work in this area focuses on leveraging new technologies and data sources to develop new methods with new assumptions, my work focuses on applying these cutting-edge tools in less than ideal circumstances, primarily to questions of interest in the Global South. Within this framework, I use tools from design-based causal inference and machine learning to improve research design in experiments and observational studies.
+
+My first research program, recognized with the best poster award at the 2019 Latin American Political Methodology meeting, focuses on the analysis of spillover or interference effects in settings where the researcher observes units' placement in a network, but not how they connect to each other. Current methods to study spillovers from a causal inference perspective assume that the researcher observes all the relevant networks through which treatments travel. This assumption has two parts. First, the researcher can identify the appropriate network(s) to model spillovers. Second, the researcher observes how units influence each other within the network. Researchers can satisfy this assumption by designing an experiment meant to capture spillovers, yet in most applications one can assume the first part, but not the second.
+
+To overcome this difficulty, I propose a protocol that uses pairwise distances within a network as parameters to assist in the identification of plausible models of spillovers.This allows researchers to be explicit about the gaps between theory and model specification, and to use their preferred data-driven model selection criterion to choose the most appropriate model among alternatives. I illustrate this protocol's properties and usefulness in the context of supervised learning model selection algorithms via simulation and with an application to the study of voting registration irregularities in Ghana.
+
+In my second research program, I focus on the trade-offs in designing and analyzing survey and field experiments. In a chapter with Christopher Grady (USAID) and Jim Kuklinski (Illinois) in *The SAGE Handbook of Research Methods in Political Science and International Relations*, we discuss the trend of increasingly more complex research designs in survey experimentation. For example, short vignettes are replaced with factorial experiments including many attributes. This increase in complexity allows researchers to isolate causal effects from the role of potential confounders, but raises concerns over whether the tasks that respondents face in survey experiments tap into the intended construct outside of the survey framework.
+
+In a work in progress, I apply the insights of our handbook chapter to the case of double list experiments. Social scientists use list experiments in surveys when respondents may not answer truthfully to sensitive questions directly. While list experiments reduce sensitivity biases from misreporting, they come at the cost of estimates with high variance, which prevents researchers from improving upon direct questioning. Double list experiments promise to remedy this by implementing two parallel list experiments and then aggregating their results, which roughly halves the variance of standard list experiment estimates. However, their implementation brings the question over whether the aggregation of the results of two different experiments yields a valid estimate. I propose a statistical test to assess the validity of estimates from double list experiments by leveraging variation in the order in which respondents receive the sensitive item, which provides researchers with a tool to apply this technique more widely.
+
+An ongoing collaboration with Jake Bowers (Illinois) and Christopher Grady, with preliminary findings appearing in a blog post discussing methodological standards for Evidence in Governance and Politics (EGAP), illustrates a similar trade-off. We discuss the circumstances under which researchers should prefer biased yet more precise estimates in the analysis of experimental data. This goes against the tendency in the statistics and the social sciences to prefer unbiased estimates. An example of this trade-off comes from the analysis of block-randomized experiments. Block-randomization entails grouping observations in blocks or strata, conducting parallel experiments in each, and then calculating a single treatment effect with a weighted average. Previous work in statistics suggests that block-size weights lead to an unbiased estimator of the average treatment effect in this setting. However, because experiments are expensive to implement, we illustrate situations in which researchers may prefer to sacrifice unbiasedness in favor of more precise estimates, which would lead to the use of precision weights instead, the equivalent of using fixed effects in OLS regression. We extend this idea to other estimation techniques, including covariance adjustment and M-estimation. Through this exercise, we invite researchers to navigate this trade-off before implementing experimental interventions, and to incorporate adaptive rules in the choice of the appropriate estimator in pre-analysis plans.
+
+
+
+
+
+
+
+
+
+
+

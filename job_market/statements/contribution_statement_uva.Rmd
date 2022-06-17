@@ -1,0 +1,40 @@
+---
+output: 
+    stevetemplates::statement:
+    latex_engine: pdflatex
+geometry: margin=1in
+
+title: "Contributions to the Democracy Initiative"
+author: Gustavo Diaz
+affiliation: Center for Inter-American Policy and Research, Tulane University
+email: "gustavodiaz@tulane.edu"
+
+fontfamily: cochineal
+fontsize: 11pt
+---
+
+<!-- A statement outlining what kinds of intellectual and/or institutional contributions you could envision making to the Democracy Initiative (not to exceed two single-spaced pages) -->
+
+<!-- Thesis statements here. TELL -->
+The core of my research and teaching is understanding and addressing contemporary challenges to democracy from an interdisciplinary perspective. My research program on the consequences of investigating and exposing corruption connects scholarship from political science, economics, and public policy. We believe that these interventions should assist voters in holding politicians accountable, a core component of democracy, yet this program highlights how politicians can learn to adapt and avoid the consequences of corruption investigations. My research program on improving research design on the social sciences connect with work in statistics, geography, psychology, and sociology. It focuses on addressing challenging social and political problems in the Global South, the region of the world where challenges to democracy are most pronounced and where cutting-edge empirical tools may fail to capture their uniqueness.
+
+<!-- Then SHOW with concrete examples -->
+<!-- CLEAR lab -->
+The most obvious connection between my work and the Democracy Initiative is through the CLEAR Lab.I would contribute to this research group with insights from my experience working on the unintended consequences of anti-corruption efforts. Corrupt politicians have incentives to keep their illicit activities from the public. Therefore, governments, scholars, and civil society organizations invested in the fight against corruption have incentives to bridge the information gap between voters and the performance of elected officials. 
+
+The cumulative evidence on this subject provides mixed evidence on the effectiveness of these interventions. To a great extent, this is because increased monitoring efforts can rarely be implemented without politicians hearing about them, so corrupt officeholders have the opportunity to adapt and anticipate their reaction once the outcome of the monitoring efforts becomes public. These anticipatory behavior creates distorsions that can take the form of both legal (e.g. devoting more resources to campaigning) and illicit practices (e.g. vote-buying, violence against the opposition). By the time voters get the information, there is little they can do to force corrupt politicians out of office. 
+
+My inclination to identify these type unintended consequences will expand the academic value of the contributions made by the lab. I also believe that placing the spotlight on the side-effects should be a core component of the mission of an institute whose is to protect and advance democracy worldwide. Sometimes the benefits of pro-democracy intervention may be offset by the harms.
+
+<!-- Social media Brazil lab -->
+The combination of my expertise on local politics in Brazil and on cutting-edge quantitative methods from machine learning and causal inference also put me in a privileged position to contribute to the Deliberative Media Lab. My work on interference dynamics provides tools to navigate modeling decisions in the context of complex network structures for which theory and domain expertise suggest multiple alternative or complementary pathways for interaction among individuals. This is important in understanding the role social media plays in promoting or hurting democracy, since interactions among individuals occur across multiple social networks simultaneously. We need to account for this ever-growing complexity to identify and devise the most effective interventions to make social media work for the benefit of democracy.
+
+
+<!-- Future: promote and foster connection with public policy lab cuz experiments are fun -->
+Beyond the intersection of my current work and the programs fostered by the Democracy Initiative. I see the potential for building strong connections between the Democracy Initiative and the evidence-informed policy movement. Both share the common goal of building a common language to create and disseminate knowledge across disciplines on the pressing issues that societies face. The evidence-informed policy movement uses the language and tools from randomized controlled trials, also known as experiments or A/B testing, to have a productive conversation around which policy interventions are most effective in improving people's lives across diverse contexts. 
+
+I believe we can resort to this language to promote a productive conversation on what works best for democracy across disciplines that often talk past each other. This can lead to a productive partnership with the Frank Batten School of Leadership and Public Policy at UVA, along with several of their labs with extensive experience applying social science experiments to diverse settings.
+
+Finally, I see the collaborative laboratory-based workflow at the Democracy Initiative as an opportunity to translate my current efforts to foster diversity and inclusion into a into a sustainable and inclusive research program. I believe this workflow is the template to follow to pursue collaborative and innovative research that respects and values the skills and contributions of all members. The Democracy Initiative provides a unique opportunity to learn from and contribute to this workflow with a group of like-minded scholars from a broad range of disciplines. This framework not only creates a space for diverse voices, but also provides enough flexibility to foster dialogue across backgrounds, learning styles, and career stages. These are also safety nets to support members of the academic community who may otherwise struggle with the conventional higher education setting.
+
+
