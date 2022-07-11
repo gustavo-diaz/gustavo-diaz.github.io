@@ -42,7 +42,7 @@ jobs %>%
   url = paste0('<a href="', url,'"target="_blank">Link</a>'),
   deadline = format(deadline, "%m-%d-%Y")
 ) %>% 
-  select(deadline, field, place, department, position, letters, Jake, Matt, Gisela, Avital, url, notes) %>% 
+  select(deadline, field, place, department, position, letters, Jake, Matt, Gisela, Avital, notes, url) %>% 
   datatable(options = list(scrollX = TRUE), 
             escape = FALSE, rownames = FALSE, 
             class = 'hover stripe nowrap',
