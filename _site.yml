@@ -11,7 +11,7 @@ navbar:
     - text: "Teaching"
       href: teaching.html
     - text: "CV"
-      href: files/diaz_cv.pdf
+      href: files/cv/diaz_cv.pdf
   right:
     - icon: fas fa-envelope
       href: mailto:gustavodiaz@tulane.edu

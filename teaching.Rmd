@@ -10,17 +10,15 @@ knitr::opts_chunk$set(echo = FALSE)
 
 These are sample syllabi of courses that I plan to teach in the future. Feel free to use them for your own purposes.
 
-### Graduate
-
 [Advances in the Design and Analysis of Experiments](files/teaching/exp_syllabus.pdf)
-
-### Undergraduate
-
-[Comparative Politics in Developing Countries](files/teaching/cpdev_syllabus.pdf)
 
 [Political Data Analysis](files/teaching/data_syllabus.pdf)
 
 ## Instructor
+
+### McMaster University
+
+Public Opinion and Public Policy (Spring 2023)
 
 ### Tulane University
 

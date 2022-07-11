@@ -1,17 +1,72 @@
 ---
-title: "Gustavo's Job Market Hub"
+title: "Job Market Hub"
 ---
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE)
+
+library(tidyverse)
+library(lubridate)
+library(googlesheets4)
+library(DT)
+library(fontawesome)
+
+## package global options
+# skip googlesheets login
+gs4_deauth()
+
 ```
 
 ## Welcome!
 
-You are here either because you are a recommendation letter writer or because someone pointed you out to my job market materials. This page is semi-public, but feel free to share if it's helpful.
+You are here either because you are a recommendation letter writer or because someone pointed you out to my job market materials. This page is semi-public and mostly for internal use, but feel free to share if it's helpful.
 
-Feel free to check other tabs to know more about me.
+## Upcoming Deadlines
+
+**Last update:** `r format(Sys.Date(), "%B %d, %Y")`. Full list [here](https://docs.google.com/spreadsheets/d/1wCTQQpg9AALD-d4N2gCD-_xrV_P-EhNJUeDQnUsVHPI/edit#gid=505775282).
+
+```{r, layout="l-body-outset"}
+jobs = read_sheet("https://docs.google.com/spreadsheets/d/1wCTQQpg9AALD-d4N2gCD-_xrV_P-EhNJUeDQnUsVHPI/edit#gid=505775282")
+
+# some manipulation to show only what is useful
+jobs %>% 
+  filter(is.na(applied)) %>% 
+# supressing filter by date for now
+#  filter(as_date(deadline) < as_date(Sys.Date() + ddays(30))) %>% 
+  mutate(
+  Jake = ifelse(Jake == 1, "Yes", "No"),
+  Matt = ifelse(Matt == 1, "Yes", "No"),
+  Michelle = ifelse(Michelle == 1, "Yes", "No"),
+  Gisela = ifelse(Gisela == 1, "Yes", "No"),
+  Avital = ifelse(Avital == 1, "Yes", "No"),
+  url = paste0('<a href="', url,'"target="_blank">Link</a>'),
+  deadline = format(deadline, "%m-%d-%Y")
+) %>% 
+  select(deadline, field, place, department, position, letters, Jake, Matt, Gisela, Avital, url, notes) %>% 
+  datatable(options = list(scrollX = TRUE), 
+            escape = FALSE, rownames = FALSE, 
+            class = 'hover stripe nowrap',
+            filter = list(
+              position = 'top', clear = FALSE))
+
+
+```
+
 
 ## Materials
 
 - Cover letter [`[Comparative]`](job_market/cover_letter/cover_letter_cp.pdf) [`[Methods]`](job_market/cover_letter/cover_letter_methods.pdf)
+
+- Research statement [`[Comparative]`](job_market/statements/research_statement_cp.pdf) [`[Methods]`](job_market/statements/research_statement_methods.pdf)
+
+- Teaching statement [`[Comparative]`](job_market/statements/teaching_statement_cp.pdf) [`[Methods]`](job_market/statements/teaching_statement_methods.pdf)
+
+## Writing Samples
+
+Coming soon!
+
+## Teaching
+
+- [Syllabi](/teaching.html)
+
+- [Teaching evaluations](/job_market/statements/diaz_teaching_evals.pdf)
