@@ -1,0 +1,17 @@
+---
+title: "Gustavo's Job Market Hub"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+## Welcome!
+
+You are here either because you are a recommendation letter writer or because someone pointed you out to my job market materials. This page is semi-public, but feel free to share if it's helpful.
+
+Feel free to check other tabs to know more about me.
+
+## Materials
+
+- Cover letter [`[Comparative]`](job_market/cover_letter/cover_letter_cp.pdf) [`[Methods]`](job_market/cover_letter/cover_letter_methods.pdf)
