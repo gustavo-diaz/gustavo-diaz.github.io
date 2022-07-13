@@ -20,7 +20,7 @@ site: distill::distill_website
 
 I am a Postdoctoral Fellow in the [Department of Political Science](https://www.mcmaster.ca/) at [McMaster University](https://politicalscience.mcmaster.ca/). I study comparative politics and political methodology.
 
-Substantively, I am interested in political economy and political behavior in the Global South, with a focus on how information shapes electoral accountability and representation. Methodologically, I develop standards to navigate research design tradeoffs in experiments and quasi-experiments.
+Substantively, I am interested in the challenges to electoral accountability and representation in the Global South. Methodologically, I develop standards to navigate research design tradeoffs in experiments and quasi-experiments.
 
 I received my PhD from the [Department of Political Science](https://pol.illinois.edu/) at the [University of Illinois at Urbana-Champaign](https://illinois.edu/) in 2021. Before joining McMaster, I was a postdoctoral fellow at the [Center for Inter-American Policy and Research](https://stonecenter.tulane.edu/cipr) at [Tulane University](https://tulane.edu/).
 
