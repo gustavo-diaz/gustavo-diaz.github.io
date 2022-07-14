@@ -8,6 +8,7 @@ knitr::opts_chunk$set(echo = FALSE)
 library(tidyverse)
 library(lubridate)
 library(googlesheets4)
+library(kableExtra)
 library(DT)
 library(fontawesome)
 
@@ -19,37 +20,73 @@ gs4_deauth()
 
 ## Welcome!
 
-You are here either because you are a recommendation letter writer or because someone pointed you out to my job market materials. This page is semi-public and mostly for internal use, but feel free to share if it's helpful.
+This page is for internal use only. If you are not a letter writer, I encourage you to use the navigation tab on top to learn more about me and my work.
 
 ## Upcoming Deadlines
-
-**Last update:** `r format(Sys.Date(), "%B %d, %Y")`. Full list [here](https://docs.google.com/spreadsheets/d/1wCTQQpg9AALD-d4N2gCD-_xrV_P-EhNJUeDQnUsVHPI/edit#gid=505775282).
 
 ```{r, layout="l-body-outset"}
 jobs = read_sheet("https://docs.google.com/spreadsheets/d/1wCTQQpg9AALD-d4N2gCD-_xrV_P-EhNJUeDQnUsVHPI/edit#gid=505775282")
 
 # some manipulation to show only what is useful
-jobs %>% 
+jobs = jobs %>% 
   filter(is.na(applied)) %>% 
 # supressing filter by date for now
 #  filter(as_date(deadline) < as_date(Sys.Date() + ddays(30))) %>% 
   mutate(
-  Jake = ifelse(Jake == 1, "Yes", "No"),
-  Matt = ifelse(Matt == 1, "Yes", "No"),
-  Michelle = ifelse(Michelle == 1, "Yes", "No"),
-  Gisela = ifelse(Gisela == 1, "Yes", "No"),
-  Avital = ifelse(Avital == 1, "Yes", "No"),
-  url = paste0('<a href="', url,'"target="_blank">Link</a>'),
-  deadline = format(deadline, "%m-%d-%Y")
-) %>% 
-  select(deadline, field, place, department, position, letters, Jake, Matt, Gisela, Avital, notes, url) %>% 
-  datatable(options = list(scrollX = TRUE), 
-            escape = FALSE, rownames = FALSE, 
-            class = 'hover stripe nowrap',
-            filter = list(
-              position = 'top', clear = FALSE))
+  # url = paste0('<a href="', url,'"target="_blank"></a>'),
+  deadline = format(deadline, "%B %d, %Y")
+)
 
 
+## Saving these lines in case the filterable table returns
+# select(deadline, field, place, department, position, letters, Jake, Matt, Michelle, Gisela, Avital, notes, url) 
+  
+  
+  # datatable(options = list(scrollX = TRUE), 
+  #           escape = FALSE, rownames = FALSE, 
+  #           class = 'hover stripe nowrap',
+  #           filter = list(
+  #             position = 'top', clear = FALSE))
+
+
+```
+
+**Last update:** `r format(Sys.Date(), "%B %d, %Y")`. Full list [here](https://docs.google.com/spreadsheets/d/1wCTQQpg9AALD-d4N2gCD-_xrV_P-EhNJUeDQnUsVHPI/edit#gid=505775282).
+
+**Number of letters to write:**
+
+```{r}
+jobs %>% 
+  summarize(across(Avital:Michelle, ~ sum(.x, na.rm = TRUE))) %>% 
+  select_if(~sum(.) > 0) %>% 
+  kbl()
+```
+
+```{r, results = "asis"}
+refs = jobs %>% select(Avital:Michelle)
+
+# try a loop now
+for(i in 1:nrow(jobs)){
+  cat("[**",
+      jobs$position[i], " - ",
+      jobs$department[i], " - ",
+      jobs$place[i],
+      paste0('**](', jobs$url[i],')'),
+      "<br/>",
+      sep = "")
+  
+  cat("**Letters:**",
+      paste(colnames(refs)[which(refs[i,] == 1)], collapse = ", "),
+      "<br/>",
+      "**Deadline:**", jobs$deadline[i],
+      "<br/>",
+      "**Delivery:**", jobs$letters[i],
+      "<br/>",
+      "**Notes:**", jobs$notes[i],
+      "<br/>")
+  
+  cat(rep("&nbsp;  ", 2), sep="\n")
+}
 ```
 
 
