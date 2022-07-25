@@ -32,7 +32,7 @@ tools = "design-based causal inference and computational social science"
 
 I write to express my interest in your call for `r jobtitle`. I am a postdoctoral fellow in Advanced Statistical, Causal Inference, and Computational Methodologies in the Department of Political Science at McMaster University. I received my PhD from the Department of Political Science at the University of Illinois at Urbana-Champaign under the supervision of Jake Bowers, Matt Winters, Gisela Sin, and Avital Livny.
 
-My research uses tools from `r tools` to develop standards to navigate research design trade-offs in experiments and quasi-experiments. My contributions are informed by my substantive work on the challenges to accountability and representation in `r region`.
+My research uses tools from `r tools` to develop standards to navigate research design tradeoffs in experiments and quasi-experiments. My contributions are informed by my substantive work on the challenges to accountability and representation in `r region`.
 
 <!-- RESEARCH -->
 <!-- Remember to update the status of stuff sent for review -->

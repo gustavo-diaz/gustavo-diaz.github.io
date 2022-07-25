@@ -20,8 +20,7 @@ fontsize: 11pt
 methods = "quantitative methods"
 ```
 
-<!-- Intro statement for apps that do not require cover letter. -->
-<!-- I am writing to express my interest in your call for a Postdoctoral Fellowship at the Penn Development Research Initiative. I am a postdoctoral fellow at the Center for Inter-American Policy and Research at Tulane University. I specialize in comparative politics and quantitative methods. I received my PhD from the Department of Political Science at the University of Illinois at Urbana-Champaign under the supervision of Jake Bowers, Matt Winters, Gisela Sin, and Avital Livny. -->
+<!-- One short paragraph or sentence to situate my work. Use the beginning of the ddem syllabus-->
 
 My work contributes to two research programs. Substantively, I research political economy and political behavior in the Global South, with a focus on how information shapes accountability and representation. My main research agenda on this topic leverages a novel data collection effort in Brazil to study the unintended electoral consequences of exposing corruption that stem from politicians' strategic behavior. Methodologically, I use tools from design-based causal inference and machine learning to improve research design in experiments and observational studies, with emphasis on tools to for understanding hard-to-observe social and political phenomena. My current research on this topic focuses on two areas: modeling spillovers with partially unobserved networks and navigating the bias-variance trade-off in the design and analysis of field and survey experiments.
 

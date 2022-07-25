@@ -6,8 +6,8 @@ geometry: margin=1in
 
 title: "Research Statement"
 author: Gustavo Diaz
-affiliation: Center for Inter-American Policy and Research, Tulane University
-email: "gustavodiaz@tulane.edu"
+affiliation: Department of Political Science, McMaster University
+email: "g.diazdr@gmail.com"
 
 fontfamily: cochineal
 fontsize: 11pt
@@ -15,28 +15,57 @@ fontsize: 11pt
 
 
 ```{r setup, include=F}
-# a name for methods fields to change depending on job ad language
-methods = "causal inference"
+region = "developing countries"
+fields = "design-based causal inference and computational social science"
 ```
 
+<!-- One short paragraph or sentence to situate the importance of my work-->
 
-My work contributes to two research programs. Methodologically, I use tools from data science and design-based causal inference to improve research design in experiments and observational studies, with emphasis on tools to for understanding hard-to-observe social and political phenomena. My current research on this topic focuses on two areas: modeling spillovers with partially unobserved networks and navigating the bias-variance trade-off in the design and analysis of field and survey experiments. Substantively, I research evidence based policy-making in the Global south from the lenses of political economy and political behavior, with a focus on how information shapes accountability and representation. My main research agenda on this topic leverages a novel data collection effort in Brazil to study the unintended electoral consequences of exposing corruption that stem from politicians' strategic behavior. 
+Political scientists often study phenomena that cannot be observed directly. For example, we use responses to hypothetical survey questions to infer actual behavior, we resort to aggregate election results to understand individual evaluations of politicians' performance in office, and we conduct randomized controlled trials in some places to determine if a policy is advisable in other places. Doing this credibly requires creativity in research design, as researchers must try to anticipate the challenges to inference even before conducting data analysis.
 
-# Improving tools to understand hard-to-observe phenomena
+My research develops standards to navigate the tradeoffs that emerge when one considerx research design alternatives before data collection. I use tools from `r fields` to identify practices and procedures that researchers can adopt to improve experiments and quasi-experiments at the pre-analysis stage. My current agenda focuses on the design of field and survey experiments, as well as the analysis of geographic spillovers.
 
-At its core, empirical social science, including political science, is about simplifying complex phenomena. To simplify, researchers must make assumptions in how they collect and analyze data. A great deal of research in `r methods` entails outlining a sufficient set of assumptions to identify a phenomenon of interest, and then deriving tools to analyze data in conformity with those assumptions. While most work in this area focuses on leveraging new technologies and data sources to develop new methods with new assumptions, my work focuses on applying these cutting-edge tools in less than ideal circumstances, primarily to questions of interest in the Global South. Within this framework, I use tools from data science and design-based causal inference to improve research design in experiments and observational studies.
+This methodological agenda informs a substantive research program on the challenges to accountability and representation in `r region`. In this region, the efforts to improve the relationship between citizens and elected officials have a mixed record, and better research design can help us disentangle questions that currently seem intractable.
+
+# Navigating research design tradeoffs
+
+## Improving precision before conducting an experiment
+
+The last decade has seen considerable improvement in research transparency and registration. More recently, advances in experimental design have developed tools to diagnose the properties of a research design before data collection. For example, one can think about bias, power, or target sample size under different hypothetical data generation processes.
+
+Contrary to most of the work in statistics, econometrics, and political methodology, My agenda in this topic focuses primarily on optimizing statistical precision instead of minimizing bias, which implies preferring the research design feature that increases the probability if detecting a non-zero effect (if it exists) over producing an estimate as close as possible to the hypothetical truth.
+
+I emphasize precision over unbiasedness for two reasons. First, researchers often face the choice between alternative experimental designs for which unbiased estimators are already documented. Two projects reflect this tradeoff.
+
+In a manuscript under review, I revisit double list experiments. Social scientists use list experiments in surveys when respondents may not answer truthfully to sensitive questions. When their assumptions are met, list experiments reduce sensitivity biases from misreporting. However, they tend to produce estimates with high variance, which prevents researchers from improving upon direct questioning. Double list experiments promise to remedy this by implementing two parallel list experiments and then aggregating their results, which roughly halves the variance of standard list experiment estimates. However, their implementation brings the question over whether the aggregation of the results of two different experiments yields a valid estimate. I propose a statistical test to assess the validity of estimates from double list experiments by leveraging variation in the order in which respondents receive the sensitive item, which provides researchers with a tool to apply this technique more widely.
+
+In a working paper with Erin Rossiter (Notre Dame), we discuss the circumstances under which adopting a research design feature aimed at improving precision can instead hurt precision through sample loss. For example, block randomization often improves precision, but if this requires contacting participants multiple times to collect blocking covariates first and then post-treatment outcomes, it creates space for attrition that would not exist otherwise. Both standard and block randomized experiments have well-known unbiased estimators, but one must choose whether to block or not depending on the expected gains in precision. Through simulation and the reanalysis of a survey experiment on misinformation in social media, we illustrate how researchers can entertain this precision-retention tradeoff at the pre-analysis stage.
+
+
+The second reason to focus on statistical precision is that sometimes a more precise yet biased estimator gives more informative answers than an unbiased estimator. Two other projects reflect this issue.
+
+First, in work in progress with Jake Bowers (Illinois) and Christopher Grady (USAID), we discuss the circumstances under which researchers should prefer biased yet more precise estimates in the analysis of experimental data. Once again, an example of this trade-off comes from the analysis of block-randomized experiments. Block-randomization entails grouping observations in blocks or strata, conducting parallel experiments in each, and then calculating a single treatment effect with a weighted average. Previous work in statistics suggests that block-size weights lead to an unbiased estimator of the average treatment effect in this setting. However, because experiments are expensive to implement, we illustrate situations in which researchers may prefer to sacrifice unbiasedness in favor of more precise estimates, which would lead to the use of precision weights instead, the equivalent of using fixed effects in OLS regression. We extend this idea to other estimation techniques, including covariance adjustment and M-estimation. We illustrate these ideas through simulation and by revisiting the design of a messaging field experiment conducted by the Office of Evaluation Sciences.
+
+<!-- If you squint you can fit the SAGE handbook here -->
+Second, in a chapter with Christopher Grady (USAID) and Jim Kuklinski (Illinois) in *The SAGE Handbook of Research Methods in Political Science and International Relations*, we discuss the trend of increasingly more complex research designs in survey experimentation. For example, short vignettes are replaced with factorial experiments including many attributes. This increase in complexity allows researchers to isolate causal effects from the role of potential confounders, but raises concerns over whether the tasks that respondents face in survey experiments tap into the intended construct outside of the survey framework. In other words, we draw attention to the trade-off between simple designs that risk confounding bias and complex designs that yield unbiased estimates but risk ecological validity.
+
+## Geographic spillovers as a model selection task
+
+I also maintain a research program on navigating research design trade-offs in the analysis of geographic spillovers in quasi-experiments. In causal inference, spillovers or interference happens when the treatment assignment of one unit affect the outcome of others. I focus on the cases in which the researcher believes that spillovers occur through geographical proximity. Current methods to study spillovers from a causal inference perspective assume the researcher observes all the relevant pathways through which treatments travel. 
+
+[CONTINUE HERE WE KNOW THE PATHWAY BUT NOT HOW UNITS CONNECT WITHIN IT]
 
 My first research program, recognized with the best poster award at the 2019 Latin American Political Methodology meeting, focuses on the analysis of spillover or interference effects in settings where the researcher observes units' placement in a network, but not how they connect to each other. Current methods to study spillovers from a causal inference perspective assume that the researcher observes all the relevant networks through which treatments travel. This assumption has two parts. First, the researcher can identify the appropriate network(s) to model spillovers. Second, the researcher observes how units influence each other within the network. Researchers can satisfy this assumption by designing an experiment meant to capture spillovers, yet in most applications one can assume the first part, but not the second.
 
 To overcome this difficulty, I propose a protocol that uses pairwise distances within a network as parameters to assist in the identification of plausible models of spillovers. This allows researchers to be explicit about the gaps between theory and model specification, and to use their preferred data-driven model selection criterion to choose the most appropriate model among alternatives. I illustrate this protocol's properties and usefulness in the context of supervised learning model selection algorithms via simulation and with an application to the study of voting registration irregularities in Ghana.
 
-In my second research program, I focus on the trade-offs in designing and analyzing survey and field experiments. In a chapter with Christopher Grady (USAID) and Jim Kuklinski (Illinois) in *The SAGE Handbook of Research Methods in Political Science and International Relations*, we discuss the trend of increasingly more complex research designs in survey experimentation. For example, short vignettes are replaced with factorial experiments including many attributes. This increase in complexity allows researchers to isolate causal effects from the role of potential confounders, but raises concerns over whether the tasks that respondents face in survey experiments tap into the intended construct outside of the survey framework.
+# Challenges to accountability and representation in `r region`
 
-In a work in progress, I apply the insights of our handbook chapter to the case of double list experiments. Social scientists use list experiments in surveys when respondents may not answer truthfully to sensitive questions directly. While list experiments reduce sensitivity biases from misreporting, they come at the cost of estimates with high variance, which prevents researchers from improving upon direct questioning. Double list experiments promise to remedy this by implementing two parallel list experiments and then aggregating their results, which roughly halves the variance of standard list experiment estimates. However, their implementation brings the question over whether the aggregation of the results of two different experiments yields a valid estimate. I propose a statistical test to assess the validity of estimates from double list experiments by leveraging variation in the order in which respondents receive the sensitive item, which provides researchers with a tool to apply this technique more widely.
+## The unintended electoral consequences of exposing corruption
 
-An ongoing collaboration with Jake Bowers (Illinois) and Christopher Grady, with preliminary findings appearing in a blog post discussing methodological standards for Evidence in Governance and Politics (EGAP), illustrates a similar trade-off. We discuss the circumstances under which researchers should prefer biased yet more precise estimates in the analysis of experimental data. This goes against the tendency in the statistics and the social sciences to prefer unbiased estimates. An example of this trade-off comes from the analysis of block-randomized experiments. Block-randomization entails grouping observations in blocks or strata, conducting parallel experiments in each, and then calculating a single treatment effect with a weighted average. Previous work in statistics suggests that block-size weights lead to an unbiased estimator of the average treatment effect in this setting. However, because experiments are expensive to implement, we illustrate situations in which researchers may prefer to sacrifice unbiasedness in favor of more precise estimates, which would lead to the use of precision weights instead, the equivalent of using fixed effects in OLS regression. We extend this idea to other estimation techniques, including covariance adjustment and M-estimation. Through this exercise, we invite researchers to navigate this trade-off before implementing experimental interventions, and to incorporate adaptive rules in the choice of the appropriate estimator in pre-analysis plans.
+## Gender corruption stuff [better title]
 
-# The unintended electoral consequences of exposing corruption
+----
 
 The literature in political science and economics on electoral accountability highlights voters' adverse selection problem: They prefer to have good over bad elected officials but they can only infer an incumbent's type through observable outputs of their performance. Therefore, corrupt incumbents have incentives to hide their illicit activities and appear good. To fight corruption, governments, civil society organizations, and scholars devote considerable resources to implementing and evaluating anti-corruption interventions that attempt to bridge the information gap between voters and politicians' performance in office. However, the cumulative evidence suggests that these interventions rarely translate into voters sanctioning corrupt incumbents.
 
