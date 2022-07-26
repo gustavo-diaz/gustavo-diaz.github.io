@@ -18,7 +18,7 @@ Forthcoming. ["Women Held Back: The Depressing Effect of Institutional and Norms
 
 ## Working Papers
 
-["Assessing the Validity of Prevalence Estimates in Double List Experiments."](files/research/dle_test.pdf)  
+["Assessing the Validity of Prevalence Estimates in Double List Experiments."](files/research/dle_test.pdf)  **R&R**
 <!-- [`[Appendix]`](files/research/dle_test_appendix.pdf) -->
 
 ["Revealing Nearby Corruption Drives Party Switching: Evidence from Local Level Audits in Brazil"](files/research/nearby_corruption.pdf)<br/>
