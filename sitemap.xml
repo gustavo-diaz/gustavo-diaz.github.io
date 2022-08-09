@@ -1,51 +1,55 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://gustavo-diaz.github.io/files/diaz_cv.html</loc>
+    <lastmod>2022-08-09T16:49:22.082Z</lastmod>
+  </url>
+  <url>
     <loc>https://gustavo-diaz.github.io/index.html</loc>
-    <lastmod>2022-08-09T05:33:00.019Z</lastmod>
+    <lastmod>2022-08-09T16:49:23.468Z</lastmod>
   </url>
   <url>
     <loc>https://gustavo-diaz.github.io/job_market/cover_letter/cover_letter_cp.html</loc>
-    <lastmod>2022-08-09T05:33:01.134Z</lastmod>
+    <lastmod>2022-08-09T16:49:24.991Z</lastmod>
   </url>
   <url>
     <loc>https://gustavo-diaz.github.io/job_market/cover_letter/cover_letter_methods.html</loc>
-    <lastmod>2022-08-09T05:33:01.687Z</lastmod>
+    <lastmod>2022-08-09T16:49:25.984Z</lastmod>
   </url>
   <url>
     <loc>https://gustavo-diaz.github.io/job_market/statements/diaz_teaching_evals.html</loc>
-    <lastmod>2022-08-09T05:33:02.561Z</lastmod>
+    <lastmod>2022-08-09T16:49:27.348Z</lastmod>
   </url>
   <url>
     <loc>https://gustavo-diaz.github.io/job_market/statements/diversity_statement.html</loc>
-    <lastmod>2022-08-09T05:33:02.993Z</lastmod>
+    <lastmod>2022-08-09T16:49:28.143Z</lastmod>
   </url>
   <url>
     <loc>https://gustavo-diaz.github.io/job_market/statements/research_statement_cp.html</loc>
-    <lastmod>2022-08-09T05:33:03.610Z</lastmod>
+    <lastmod>2022-08-09T16:49:29.221Z</lastmod>
   </url>
   <url>
     <loc>https://gustavo-diaz.github.io/job_market/statements/research_statement_methods.html</loc>
-    <lastmod>2022-08-09T05:33:04.302Z</lastmod>
+    <lastmod>2022-08-09T16:49:30.186Z</lastmod>
   </url>
   <url>
     <loc>https://gustavo-diaz.github.io/job_market/statements/teaching_statement_cp.html</loc>
-    <lastmod>2022-08-09T05:33:04.828Z</lastmod>
+    <lastmod>2022-08-09T16:49:31.024Z</lastmod>
   </url>
   <url>
     <loc>https://gustavo-diaz.github.io/job_market/statements/teaching_statement_methods.html</loc>
-    <lastmod>2022-08-09T05:33:05.323Z</lastmod>
+    <lastmod>2022-08-09T16:49:31.875Z</lastmod>
   </url>
   <url>
     <loc>https://gustavo-diaz.github.io/market.html</loc>
-    <lastmod>2022-08-09T05:33:06.270Z</lastmod>
+    <lastmod>2022-08-09T16:49:33.233Z</lastmod>
   </url>
   <url>
     <loc>https://gustavo-diaz.github.io/research.html</loc>
-    <lastmod>2022-08-09T05:33:06.649Z</lastmod>
+    <lastmod>2022-08-09T16:49:33.918Z</lastmod>
   </url>
   <url>
     <loc>https://gustavo-diaz.github.io/teaching.html</loc>
-    <lastmod>2022-08-09T05:33:07.105Z</lastmod>
+    <lastmod>2022-08-09T16:49:34.559Z</lastmod>
   </url>
 </urlset>
