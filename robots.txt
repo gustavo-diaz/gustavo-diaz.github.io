@@ -1,1 +1,1 @@
-Sitemap: https://gustavo-diaz.github.io/sitemap.xml
+Sitemap: gustavodiaz.org/sitemap.xml

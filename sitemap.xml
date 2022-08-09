@@ -1,15 +1,51 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://gustavo-diaz.github.io/index.html</loc>
-    <lastmod>2022-08-09T05:07:49.614Z</lastmod>
+    <loc>gustavodiaz.org/index.html</loc>
+    <lastmod>2022-08-09T05:29:05.017Z</lastmod>
   </url>
   <url>
-    <loc>https://gustavo-diaz.github.io/research.html</loc>
-    <lastmod>2022-08-09T05:07:50.089Z</lastmod>
+    <loc>gustavodiaz.org/job_market/cover_letter/cover_letter_cp.html</loc>
+    <lastmod>2022-08-09T05:29:06.074Z</lastmod>
   </url>
   <url>
-    <loc>https://gustavo-diaz.github.io/teaching.html</loc>
-    <lastmod>2022-08-09T05:07:50.542Z</lastmod>
+    <loc>gustavodiaz.org/job_market/cover_letter/cover_letter_methods.html</loc>
+    <lastmod>2022-08-09T05:29:06.677Z</lastmod>
+  </url>
+  <url>
+    <loc>gustavodiaz.org/job_market/statements/diaz_teaching_evals.html</loc>
+    <lastmod>2022-08-09T05:29:07.606Z</lastmod>
+  </url>
+  <url>
+    <loc>gustavodiaz.org/job_market/statements/diversity_statement.html</loc>
+    <lastmod>2022-08-09T05:29:08.060Z</lastmod>
+  </url>
+  <url>
+    <loc>gustavodiaz.org/job_market/statements/research_statement_cp.html</loc>
+    <lastmod>2022-08-09T05:29:08.617Z</lastmod>
+  </url>
+  <url>
+    <loc>gustavodiaz.org/job_market/statements/research_statement_methods.html</loc>
+    <lastmod>2022-08-09T05:29:09.168Z</lastmod>
+  </url>
+  <url>
+    <loc>gustavodiaz.org/job_market/statements/teaching_statement_cp.html</loc>
+    <lastmod>2022-08-09T05:29:09.615Z</lastmod>
+  </url>
+  <url>
+    <loc>gustavodiaz.org/job_market/statements/teaching_statement_methods.html</loc>
+    <lastmod>2022-08-09T05:29:10.283Z</lastmod>
+  </url>
+  <url>
+    <loc>gustavodiaz.org/market.html</loc>
+    <lastmod>2022-08-09T05:29:11.263Z</lastmod>
+  </url>
+  <url>
+    <loc>gustavodiaz.org/research.html</loc>
+    <lastmod>2022-08-09T05:29:11.651Z</lastmod>
+  </url>
+  <url>
+    <loc>gustavodiaz.org/teaching.html</loc>
+    <lastmod>2022-08-09T05:29:12.060Z</lastmod>
   </url>
 </urlset>
