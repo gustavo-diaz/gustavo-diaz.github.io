@@ -10,7 +10,7 @@
   Term: "2024 Fall"
   Institution: "Northwestern University"
   Links: "[{{< fa file-pdf >}}](files/teaching/prob_stats.pdf)"
-  type: "current"
+  type: "previous"
   
 - title: "R Workshop"
   date: 2024-09-01
@@ -33,7 +33,7 @@
   Level: '<button type="button" class="btn btn-primary btn-sm"><b>U</b></i></button>'
   Term: "2025 Winter"
   Institution: "Northwestern University"
-  Links: "TBD"
+  Links: "[{{< fa file-pdf >}}](files/teaching/empirical_methods.pdf)"
   type: "current"
   
 - title: "Evidence-Informed Decision-Making"
