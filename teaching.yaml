@@ -1,7 +1,7 @@
 # Newer entries on top
 # Frequent fontawesome expressions
 # {{< fa globe >}}
-# {{< fa file-lines >}}
+# {{< fa file-pdf >}}
 # Copy paste level button
 # Level: '<button type="button" class="btn btn-primary btn-sm"><b>U</b></i></button>'
 - title: 'Probability and Statistics'
@@ -9,15 +9,15 @@
   Level: '<button type="button" class="btn btn-primary btn-sm"><b>G</b></i></button>'
   Term: "2024 Fall"
   Institution: "Northwestern University"
-  Links: "[{{< fa file-lines >}}](files/teaching/prob_stats.pdf)"
-  type: "current"
+  Links: "[{{< fa file-pdf >}}](files/teaching/prob_stats.pdf)"
+  type: "previous"
   
 - title: "R Workshop"
   date: 2024-09-01
   Level: '<button type="button" class="btn btn-primary btn-sm"><b>G</b></i></button>'
   Term: "2024-2025 AY"
   Institution: "Northwestern University"
-  Links: "[{{< fa file-lines >}}](files/teaching/rworkshop.pdf)"
+  Links: "[{{< fa globe >}}](https://gustavodiaz.org/rworkshop/) [{{< fa file-pdf >}}](files/teaching/rworkshop.pdf)"
   type: "current"
   
 - title: "Social Science Math Camp"
@@ -33,7 +33,7 @@
   Level: '<button type="button" class="btn btn-primary btn-sm"><b>U</b></i></button>'
   Term: "2025 Winter"
   Institution: "Northwestern University"
-  Links: "TBD"
+  Links: "[{{< fa file-pdf >}}](files/teaching/empirical_methods.pdf)"
   type: "current"
   
 - title: "Evidence-Informed Decision-Making"
@@ -49,7 +49,7 @@
   Level: '<button type="button" class="btn btn-primary btn-sm"><b>U</b></i></button>'
   Term: "2024 Winter"
   Institution: "McMaster University"
-  Links: "[{{< fa globe >}}](https://popw24.gustavodiaz.org/) [{{< fa file-lines >}}](files/teaching/rdpp_syllabus.pdf)"
+  Links: "[{{< fa globe >}}](https://popw24.gustavodiaz.org/) [{{< fa file-pdf >}}](files/teaching/rdpp_syllabus.pdf)"
   type: "previous"
   
 - title: "Politics of Developing Democracies"
@@ -57,7 +57,7 @@
   Level: '<button type="button" class="btn btn-primary btn-sm"><b>U</b></i></button>'
   Term: "2022 Spring"
   Institution: "Tulane University"
-  Links: "[{{< fa file-lines >}}](files/teaching/ddem_syllabus.pdf)"
+  Links: "[{{< fa file-pdf >}}](files/teaching/ddem_syllabus.pdf)"
   type: "previous"
   
 - title: "Comparative Politics"
@@ -65,7 +65,7 @@
   Level: '<button type="button" class="btn btn-primary btn-sm"><b>U</b></i></button>'
   Term: "2021 Fall"
   Institution: "Tulane University"
-  Links: "[{{< fa file-lines >}}](files/teaching/introcp_syllabus.pdf)"
+  Links: "[{{< fa file-pdf >}}](files/teaching/introcp_syllabus.pdf)"
   type: "previous"
   
 - title: "Comparative Politics of Developing Nations"
@@ -73,7 +73,7 @@
   Level: '<button type="button" class="btn btn-primary btn-sm"><b>U</b></i></button>'
   Term: "2019 Summer"
   Institution: "University of Illinois"
-  Links: "[{{< fa file-lines >}}](files/teaching/cpdev_online_syllabus.pdf)"
+  Links: "[{{< fa file-pdf >}}](files/teaching/cpdev_online_syllabus.pdf)"
   type: "previous"
   
   
