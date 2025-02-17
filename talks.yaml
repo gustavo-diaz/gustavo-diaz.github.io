@@ -3,6 +3,22 @@
 # {{< fa tv >}}
 # {{< fa file-lines >}}
 
+- date: 2025-04-08
+  title: "Balancing Precision and Retention in Experimental Design"
+  Venue: "[CoDEx](https://codex.northwestern.edu)"
+  Links: "TBD"
+  
+- date: 2025-04-05
+  title: "Combining List Experiments and the Network Scale-Up Method"
+  Venue: "MPSA 2025"
+  Links: "TBD"
+
+- date: 2025-02-22
+  title: "Balancing Precision and Retention in Experimental Design"
+  Venue: "[TexMeth 2025](https://uh.edu/hobby/cpp/events/texmeth/)"
+  Links: "[{{< fa tv >}}](https://talks.gustavodiaz.org/texmeth25) [{{< fa file-lines >}}](https://gustavodiaz.org/files/research/precision_retention.pdf)"
+
+
 - date: 2024-07-04
   title: "Combining List Experiments and the Network Scale-Up Method"
   Venue: "ISPP 2024"
