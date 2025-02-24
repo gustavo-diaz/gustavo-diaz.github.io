@@ -17,8 +17,6 @@ website:
     tools:
       - icon: envelope
         href: mailto:gustavo.diaz@northwestern.edu
-      - icon: twitter
-        href: https://twitter.com/gusvalo
       - icon: square-fill
         href: https://bsky.app/profile/gustavodiaz.org
       - icon: github
