@@ -18,6 +18,7 @@
   Term: "2024-2025 AY"
   Institution: "Northwestern University"
   Links: "[{{< fa globe >}}](https://gustavodiaz.org/rworkshop/) [{{< fa file-pdf >}}](files/teaching/rworkshop.pdf)"
+  Code: "POLI_SCI 490"
   type: "current"
   
 - title: "Social Science Math Camp"
@@ -26,22 +27,25 @@
   Level: '<button type="button" class="btn btn-primary btn-sm"><b>G</b></i></button>'
   Institution: "Northwestern University"
   Links: "[{{< fa globe >}}](https://gustavodiaz.org/NUmathcamp)"
+  Code: "POLI_SCI 490"
   type: "previous"
   
 - title: "Introduction to Empirical Methods in Political Science"
   date: 2025-01-01
   Level: '<button type="button" class="btn btn-primary btn-sm"><b>U</b></i></button>'
-  Term: "2025 Winter"
+  Term: "2025 Spring"
   Institution: "Northwestern University"
-  Links: "[{{< fa file-pdf >}}](files/teaching/empirical_methods.pdf)"
+  Links: "[{{< fa file-pdf >}}](https://gustavodiaz.org/ps210/syllabus.pdf)"
+  Code: "POLI_SCI 210"
   type: "current"
   
 - title: "Evidence-Informed Decision-Making"
   date: 2025-04-01
-  Level: '<button type="button" class="btn btn-primary btn-sm"><b>U/G</b></i></button>'
+  Level: '<button type="button" class="btn btn-primary btn-sm"><b>U</b></i></button>'
   Term: "2025 Spring"
   Institution: "Northwestern University"
-  Links: "TBD"
+  Links: "[{{< fa file-pdf >}}](https://gustavodiaz.org/ps395e/syllabus.pdf)"
+  Code: "POLI_SCI 395"
   type: "current"
 
 - title: "Research Design for Public Opinion and Policy"

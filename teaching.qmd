@@ -7,7 +7,7 @@ listing:
       type: "current"
     contents: teaching.yaml
     type: table
-    fields: [title, Term, Level, Links]
+    fields: [Code, title, Term, Level, Links]
     filter-ui: false
     sort: "date"
     sort-ui: false

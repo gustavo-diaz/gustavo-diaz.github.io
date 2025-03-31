@@ -66,9 +66,9 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-title','listing-Term','listing-Level','listing-Links',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-title-sort'] },{ data: ['listing-date-sort'] }],
+      valueNames: ['listing-Code','listing-title','listing-Term','listing-Level','listing-Links',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-title-sort'] },{ data: ['listing-date-sort'] }],
       
-      searchColumns: ["listing-title","listing-date","listing-Level","listing-Term","listing-Institution","listing-Links","listing-type"],
+      searchColumns: ["listing-title","listing-date","listing-Level","listing-Term","listing-Institution","listing-Links","listing-Code","listing-type"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -96,7 +96,7 @@ ul.task-list li input[type="checkbox"] {
     const options = {
       valueNames: ['listing-title','listing-Term','listing-Institution','listing-Links',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-title-sort'] },{ data: ['listing-date-sort'] }],
       
-      searchColumns: ["listing-title","listing-date","listing-Level","listing-Term","listing-Institution","listing-Links","listing-type"],
+      searchColumns: ["listing-title","listing-date","listing-Level","listing-Term","listing-Institution","listing-Links","listing-type","listing-Code"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -245,6 +245,9 @@ window.Quarto = {
 <thead>
 <tr>
 <th>
+Code
+</th>
+<th>
 Title
 </th>
 <th>
@@ -261,6 +264,9 @@ Links
 <tbody class="list">
 <tr data-index="0" data-listing-date-sort="1725166800000" data-listing-title-sort="R Workshop">
 <td>
+<span class="listing-Code">POLI_SCI 490</span>
+</td>
+<td>
 <span class="listing-title">R Workshop</span>
 </td>
 <td>
@@ -275,19 +281,25 @@ Links
 </tr>
 <tr data-index="1" data-listing-date-sort="1735711200000" data-listing-title-sort="Introduction to Empirical Methods in Political Science">
 <td>
+<span class="listing-Code">POLI_SCI 210</span>
+</td>
+<td>
 <span class="listing-title">Introduction to Empirical Methods in Political Science</span>
 </td>
 <td>
-<span class="listing-Term">2025 Winter</span>
+<span class="listing-Term">2025 Spring</span>
 </td>
 <td>
 <span class="listing-Level"><button type="button" class="btn btn-primary btn-sm"><b>U</b></button></span>
 </td>
 <td>
-<span class="listing-Links"><a href="files/teaching/empirical_methods.pdf"><i class="fa-solid fa-file-pdf" aria-hidden="true"></i></a></span>
+<span class="listing-Links"><a href="https://gustavodiaz.org/ps210/syllabus.pdf"><i class="fa-solid fa-file-pdf" aria-hidden="true"></i></a></span>
 </td>
 </tr>
 <tr data-index="2" data-listing-date-sort="1743483600000" data-listing-title-sort="Evidence-Informed Decision-Making">
+<td>
+<span class="listing-Code">POLI_SCI 395</span>
+</td>
 <td>
 <span class="listing-title">Evidence-Informed Decision-Making</span>
 </td>
@@ -295,10 +307,10 @@ Links
 <span class="listing-Term">2025 Spring</span>
 </td>
 <td>
-<span class="listing-Level"><button type="button" class="btn btn-primary btn-sm"><b>U/G</b></button></span>
+<span class="listing-Level"><button type="button" class="btn btn-primary btn-sm"><b>U</b></button></span>
 </td>
 <td>
-<span class="listing-Links">TBD</span>
+<span class="listing-Links"><a href="https://gustavodiaz.org/ps395e/syllabus.pdf"><i class="fa-solid fa-file-pdf" aria-hidden="true"></i></a></span>
 </td>
 </tr>
 </tbody>
