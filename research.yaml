@@ -5,15 +5,17 @@
 - title: "<b>Two-Sided Sensitivity Bias in Surveys</b>"
   type: "Working"
   with: "with <a href='https://www.jordidiez.ca/'>Jordi Diez</a> and <a href='https://michelledion.com/'>Michelle Dion</a>"
-  date: 2023-10-24
-  status: "Working paper"
+  date: 2024-10-24
+  status: "Under review"
   pdf: "../files/research/ssm_arg.pdf"
   appendix: "../files/research/ssm_arg_appendix.pdf"
   
 - title: "<b>Combining List Experiments and the Network Scale-Up Method to Improve Prevalence Estimates of Sensitive Attitudes and Behaviors</b>"
-  type: "Progress"
-  date: 2023-08-17
+  type: "Working"
+  date: 2025-04-02
   with: "with <a href='https://imfd.cl/en/investigador/ines-fynn/'>Ines Fynn</a>, <a href='https://scholar.google.com/citations?user=wj21dxsAAAAJ&hl=en'>Verónica Pérez Bentancur</a>, and <a href='https://www.luciatiscornia.com/'>Lucía Tiscornia</a>"
+  status: "Working paper"
+  pdf: "../files/research/list_nsum.pdf"
   
 - title: "<b>In the Crevices of the State: Criminal Governance in Unexpected Contexts</b>"
   type: "Working"
@@ -27,41 +29,23 @@
   date: 2023-08-01
   with: "with <a href='https://michelledion.com/'>Michelle Dion</a> and <a href='http://guillemriambau.com/'>Guillem Riambau</a>"
   
-- title: "<b>When Should We Use Biased Estimators of the Average Treatment Effect?</b>"
-  type: "Progress"
-  date: 2022-09-01
-  with: "with <a href='http://www.jakebowers.org/'>Jake Bowers</a> and <a href='https://publish.illinois.edu/cdgrady2/'>Christopher Grady</a> <br/>"
-  blog: "https://egap.org/resource/sd-block-rand/"
-
 - title: "<b>Balancing Precision and Retention in Experimental Design</b>"
   type: "Working"
   with: "with <a href='http://erossiter.com/'>Erin Rossiter</a>"
-  date: 2024-08-07
-  status: "Revise and resubmit"
+  date: 2025-04-03
+  status: "Conditionally accepted"
   pdf: "../files/research/precision_retention.pdf"
   appendix: "../files/research/precision_retention_appendix.pdf"
   
 - title: "<b>Ignoring Female Performance: A Survey Experiment on Policy Implementation in Argentina</b>"
   type: "Published"
   with: "with <a href='https://virginiaoliveros.com/'>Virginia Oliveros</a>, <a href='https://vivo.brown.edu/display/rweitzsh'>Rebecca Weitz-Shapiro</a>, and <a href='https://sites.google.com/site/mswinters1/'>Matthew S. Winters</a>"
-  date: 2024-10-02
-  year: 2024
+  date: 2025-04-02
+  year: 2025
   journal: "<em>British Journal of Political Science</em>"
-  pdf: "../files/research/gender_performance.pdf"
-  appendix: "../files/research/gender_performance_appendix.pdf"
-  
-# - title: "<b>Mayors Alter Spending to Counter the Electoral Consequences of Increased Monitoring: Evidence from Anti-Corruption Audits in Brazil</b>"
-#   type: "Working"
-#   date: 2023-05-01
-#   status: "Working paper"
-#   pdf: "../files/research/audit_spending.pdf"
-#   appendix: "../files/research/audit_spending_appendix.pdf"
-#   
-# - title: "<b>Revealing Nearby Corruption Drives Party Switching: Evidence from Local Level Audits in Brazil</b>"
-#   type: "Working"
-#   date: 2023-04-01
-#   status: "Working paper"
-#   pdf: "../files/research/nearby_corruption.pdf"
+  pubopen: "https://doi.org/10.1017/S0007123424000668"
+  appendix: "https://static.cambridge.org/content/id/urn%3Acambridge.org%3Aid%3Aarticle%3AS0007123424000668/resource/name/S0007123424000668sup001.pdf"
+  dataverse: "https://doi.org/10.7910/DVN/SWIPBZ"
 
 - title: "<b>Assessing the Validity of Prevalence Estimates in Double List Experiments</b>"
   type: "Published"
