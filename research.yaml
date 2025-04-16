@@ -30,10 +30,11 @@
   with: "with <a href='https://michelledion.com/'>Michelle Dion</a> and <a href='http://guillemriambau.com/'>Guillem Riambau</a>"
   
 - title: "<b>Balancing Precision and Retention in Experimental Design</b>"
-  type: "Working"
+  type: "Published"
   with: "with <a href='http://erossiter.com/'>Erin Rossiter</a>"
   date: 2025-04-03
-  status: "Conditionally accepted"
+  year: 2025
+  journal: "<em>Political Analysis</em> (conditionally accepted)"
   pdf: "../files/research/precision_retention.pdf"
   appendix: "../files/research/precision_retention_appendix.pdf"
   
