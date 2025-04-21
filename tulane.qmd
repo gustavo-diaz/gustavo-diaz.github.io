@@ -1,0 +1,22 @@
+---
+title: "Balancing Precision and Retention in Experimental Design"
+author: "Gustavo Diaz<br><gustavo.diaz@northwestern.edu>"
+date: last-modified
+---
+
+# Welcome
+
+Thanks for visiting! You can find resources related to my talk here. Feel free to reach out if you have any comments or questions.
+
+You can also use the navigation bar to learn more about me and my work.
+
+# Resources
+
+{{< fa file-pdf >}} [Paper](https://gustavodiaz.org/files/research/precision_retention.pdf)
+
+{{< fa file-pdf >}} [Appendix](https://gustavodiaz.org/files/research/precision_retention_appendix.pdf)
+
+{{< fa tv >}} [Slides](https://talks.gustavodiaz.org/tulane)
+
+{{< fa file-lines >}} [Additional information](https://talks.gustavodiaz.org/tulane_extra)
+
