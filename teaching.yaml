@@ -4,31 +4,40 @@
 # {{< fa file-pdf >}}
 # Copy paste level button
 # Level: '<button type="button" class="btn btn-primary btn-sm"><b>U</b></i></button>'
-- title: 'Probability and Statistics'
-  date: 2024-09-01
+- title: 'Machine Learning'
+  date: 2026-01-01
   Level: '<button type="button" class="btn btn-primary btn-sm"><b>G</b></i></button>'
-  Term: "2024 Fall"
+  Term: "TBD"
+  Links: "TBD"
+  Code: "TBD"
+  type: "current"
+
+- title: 'Probability and Statistics'
+  date: 2025-09-15
+  Level: '<button type="button" class="btn btn-primary btn-sm"><b>G</b></i></button>'
+  Term: "2025 Fall"
   Institution: "Northwestern University"
   Links: "[{{< fa file-pdf >}}](files/teaching/prob_stats.pdf)"
-  type: "previous"
+  Code: "POLI_SCI 403"
+  type: "current"
   
 - title: "R Workshop"
-  date: 2024-09-01
+  date: 2026-01-01
   Level: '<button type="button" class="btn btn-primary btn-sm"><b>G</b></i></button>'
-  Term: "2024-2025 AY"
+  Term: "2025-2026 AY"
   Institution: "Northwestern University"
-  Links: "[{{< fa globe >}}](https://gustavodiaz.org/rworkshop/) [{{< fa file-pdf >}}](files/teaching/rworkshop.pdf)"
+  Links: "[{{< fa globe >}}](https://gustavodiaz.org/rworkshop/)"
   Code: "POLI_SCI 490"
   type: "current"
   
 - title: "Social Science Math Camp"
-  date: 2024-08-01
-  Term: "2024 Summer"
+  date: 2025-08-01
+  Term: "2025 Summer"
   Level: '<button type="button" class="btn btn-primary btn-sm"><b>G</b></i></button>'
   Institution: "Northwestern University"
   Links: "[{{< fa globe >}}](https://gustavodiaz.org/NUmathcamp)"
   Code: "POLI_SCI 490"
-  type: "previous"
+  type: "current"
   
 - title: "Introduction to Empirical Methods in Political Science"
   date: 2025-01-01
@@ -37,7 +46,7 @@
   Institution: "Northwestern University"
   Links: "[{{< fa file-pdf >}}](https://gustavodiaz.org/ps210/syllabus.pdf)"
   Code: "POLI_SCI 210"
-  type: "current"
+  type: "previous"
   
 - title: "Evidence-Informed Decision-Making"
   date: 2025-04-01
@@ -46,7 +55,7 @@
   Institution: "Northwestern University"
   Links: "[{{< fa file-pdf >}}](https://gustavodiaz.org/ps395e/syllabus.pdf)"
   Code: "POLI_SCI 395"
-  type: "current"
+  type: "previous"
 
 - title: "Research Design for Public Opinion and Policy"
   date: 2024-01-01
