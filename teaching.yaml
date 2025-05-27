@@ -24,7 +24,7 @@
 - title: "R Workshop"
   date: 2026-01-01
   Level: '<button type="button" class="btn btn-primary btn-sm"><b>G</b></i></button>'
-  Term: "2025-2026 AY"
+  Term: "2025-2026"
   Institution: "Northwestern University"
   Links: "[{{< fa globe >}}](https://gustavodiaz.org/rworkshop/)"
   Code: "POLI_SCI 490"
