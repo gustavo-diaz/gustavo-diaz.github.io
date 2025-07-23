@@ -34,9 +34,10 @@
   with: "with <a href='http://erossiter.com/'>Erin Rossiter</a>"
   date: 2025-04-03
   year: 2025
-  journal: "<em>Political Analysis</em> (conditionally accepted)"
-  pdf: "../files/research/precision_retention.pdf"
-  appendix: "../files/research/precision_retention_appendix.pdf"
+  journal: "<em>Political Analysis</em>"
+  pubopen: "https://doi.org/10.1017/pan.2025.10008"
+  appendix: "https://static.cambridge.org/content/id/urn%3Acambridge.org%3Aid%3Aarticle%3AS1047198725100089/resource/name/S1047198725100089sup001.pdf"
+  dataverse: "https://doi.org/10.7910/DVN/LMFOBS"
   
 - title: "<b>Ignoring Female Performance: A Survey Experiment on Policy Implementation in Argentina</b>"
   type: "Published"
