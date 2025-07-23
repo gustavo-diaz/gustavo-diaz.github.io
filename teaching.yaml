@@ -4,12 +4,13 @@
 # {{< fa file-pdf >}}
 # Copy paste level button
 # Level: '<button type="button" class="btn btn-primary btn-sm"><b>U</b></i></button>'
-- title: 'Machine Learning'
+- title: 'Machine Learning in Political Science'
   date: 2026-01-01
   Level: '<button type="button" class="btn btn-primary btn-sm"><b>G</b></i></button>'
-  Term: "TBD"
+  Term: "2026 Winter"
+  Institution: "Northwestern University"
   Links: "TBD"
-  Code: "TBD"
+  Code: "POLI_SCI 490"
   type: "current"
 
 - title: 'Probability and Statistics'
@@ -21,16 +22,16 @@
   Code: "POLI_SCI 403"
   type: "current"
   
-- title: "R Workshop"
-  date: 2026-01-01
-  Level: '<button type="button" class="btn btn-primary btn-sm"><b>G</b></i></button>'
-  Term: "2025-2026"
-  Institution: "Northwestern University"
-  Links: "[{{< fa globe >}}](https://gustavodiaz.org/rworkshop/)"
-  Code: "POLI_SCI 490"
-  type: "current"
+# - title: "R Workshop"
+#   date: 2026-01-28
+#   Level: '<button type="button" class="btn btn-primary btn-sm"><b>G</b></i></button>'
+#   Term: "2025-2026"
+#   Institution: "Northwestern University"
+#   Links: "[{{< fa globe >}}](https://gustavodiaz.org/rworkshop/)"
+#   Code: "POLI_SCI 490"
+#   type: "current"
   
-- title: "Social Science Math Camp"
+- title: "Math Camp"
   date: 2025-08-01
   Term: "2025 Summer"
   Level: '<button type="button" class="btn btn-primary btn-sm"><b>G</b></i></button>'
@@ -40,13 +41,13 @@
   type: "current"
   
 - title: "Introduction to Empirical Methods in Political Science"
-  date: 2025-01-01
+  date: 2026-01-02
   Level: '<button type="button" class="btn btn-primary btn-sm"><b>U</b></i></button>'
-  Term: "2025 Spring"
+  Term: "2026 Winter"
   Institution: "Northwestern University"
   Links: "[{{< fa file-pdf >}}](https://gustavodiaz.org/ps210/syllabus.pdf)"
   Code: "POLI_SCI 210"
-  type: "previous"
+  type: "current"
   
 - title: "Evidence-Informed Decision-Making"
   date: 2025-04-01
