@@ -18,7 +18,7 @@
   Level: '<button type="button" class="btn btn-primary btn-sm"><b>G</b></i></button>'
   Term: "2025 Fall"
   Institution: "Northwestern University"
-  Links: "[{{< fa file-pdf >}}](files/teaching/prob_stats.pdf)"
+  Links: "[{{< fa globe >}}](https://gustavodiaz.org/ps403/)"
   Code: "POLI_SCI 403"
   type: "current"
   
