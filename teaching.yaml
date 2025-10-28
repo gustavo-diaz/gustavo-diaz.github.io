@@ -9,7 +9,7 @@
   Level: '<button type="button" class="btn btn-primary btn-sm"><b>G</b></i></button>'
   Term: "2026 Winter"
   Institution: "Northwestern University"
-  Links: "TBD"
+  Links: "[{{< fa file-pdf >}}](files/teaching/ml_syllabus_draft.pdf)"
   Code: "POLI_SCI 490"
   type: "current"
 
