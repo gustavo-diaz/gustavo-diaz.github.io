@@ -3,6 +3,11 @@
 # {{< fa tv >}}
 # {{< fa file-lines >}}
 
+- date: 2025-11-20
+  title: "Recovering Informative Estimates in Failed Placebo-Controlled List Experiments"
+  Venue: "[MAPOR](https://www.mapor.org/2025-annual-conference/)"
+  Links: "[{{< fa tv >}}](https://talks.gustavodiaz.org/mapor25)"
+
 - date: 2025-04-08
   title: "Balancing Precision and Retention in Experimental Design"
   Venue: "[CoDEx](https://codex.northwestern.edu)"
