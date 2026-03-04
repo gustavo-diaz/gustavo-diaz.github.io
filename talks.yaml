@@ -3,6 +3,12 @@
 # {{< fa tv >}}
 # {{< fa file-lines >}}
 
+- date: 2026-03-04
+  title: "Recovering Informative Estimates in Failed Placebo-Controlled List Experiments"
+  Venue: "[University of Chicago](https://voices.uchicago.edu/psquant/)"
+  Links: "[{{< fa tv >}}](https://talks.gustavodiaz.org/uchicago) [{{< fa file-lines >}}](https://gustavodiaz.org/files/research/list_placebo.pdf)"
+
+
 - date: 2025-11-20
   title: "Recovering Informative Estimates in Failed Placebo-Controlled List Experiments"
   Venue: "[MAPOR](https://www.mapor.org/2025-annual-conference/)"
