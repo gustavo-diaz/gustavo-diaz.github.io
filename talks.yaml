@@ -3,6 +3,12 @@
 # {{< fa tv >}}
 # {{< fa file-lines >}}
 
+- date: 2026-04-25
+  title: "Recovering Informative Estimates in Failed Placebo-Controlled List Experiments"
+  Venue: "[MPSA 2026](https://convention2.allacademic.com/one/mpsa/mpsa26/online_program_direct_link/view_session/2314821/)"
+  Links: "[{{< fa tv >}}](https://talks.gustavodiaz.org/mpsa26) [{{< fa file-lines >}}](https://gustavodiaz.org/files/research/list_placebo.pdf)"
+
+
 - date: 2026-03-04
   title: "Recovering Informative Estimates in Failed Placebo-Controlled List Experiments"
   Venue: "[University of Chicago](https://voices.uchicago.edu/psquant/)"
