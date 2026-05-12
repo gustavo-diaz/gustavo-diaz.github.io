@@ -1,0 +1,12 @@
+---
+title: "Redirecting..."
+format:
+  html:
+    include-in-header:
+      - text: |
+          <meta http-equiv="refresh" content="0; url=https://northwestern.zoom.us/my/gustavo.diaz">
+---
+
+<script>window.location.replace("https://northwestern.zoom.us/my/gustavo.diaz");</script>
+
+[Click here if you are not redirected automatically.](https://northwestern.zoom.us/my/gustavo.diaz)
