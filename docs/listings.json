@@ -1,14 +1,14 @@
 [
   {
+    "listing": "/talk.html",
+    "items": []
+  },
+  {
     "listing": "/research.html",
     "items": []
   },
   {
     "listing": "/teaching.html",
-    "items": []
-  },
-  {
-    "listing": "/talk.html",
     "items": []
   }
 ]
