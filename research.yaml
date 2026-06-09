@@ -2,10 +2,25 @@
 # Useful copy paste for coauthors:
 # <a href='website'>name</a>
 
+- title: "<b> Difference-in-Slopes: Causal Effects on Descriptive Associations</b>"
+  type: "Working"
+  with: "with <a href='https://alexandercoppock.com'>Alexander Coppock</a>"
+  date: 2026-06-12
+  status: "Under review"
+  pdf: "../files/research/diff_in_slopes.pdf"
+  appendix: "../files/research/diff_in_slopes_appendix.pdf"
+
+- title: "<b> Recovering Informative Estimates in Failed Placebo-Controlled List Experiments</b>"
+  type: "Working"
+  with: "with <a href='https://www.inesfynn.com/home'>Ines Fynn</a>, <a href='https://veronicaperezbentancur.com'>Verónica Pérez Bentancur</a>, and <a href='https://www.luciatiscornia.com/'>Lucía Tiscornia</a>"
+  date: 2026-06-09
+  status: "Working paper"
+  pdf: "../files/research/list_placebo.pdf"
+
 - title: "<b>Two-Sided Sensitivity Bias in Surveys</b>"
   type: "Working"
   with: "with <a href='https://www.jordidiez.ca/'>Jordi Diez</a> and <a href='https://michelledion.com/'>Michelle Dion</a>"
-  date: 2025-11-17
+  date: 2026-06-13
   status: "Revise and resubmit"
   pdf: "../files/research/ssm_arg.pdf"
   appendix: "../files/research/ssm_arg_appendix.pdf"
@@ -13,14 +28,14 @@
 - title: "<b>Combining List Experiments and the Network Scale-Up Method to Improve Prevalence Estimates of Sensitive Attitudes and Behaviors</b>"
   type: "Working"
   date: 2025-04-02
-  with: "with <a href='https://imfd.cl/en/investigador/ines-fynn/'>Ines Fynn</a>, <a href='https://scholar.google.com/citations?user=wj21dxsAAAAJ&hl=en'>Verónica Pérez Bentancur</a>, and <a href='https://www.luciatiscornia.com/'>Lucía Tiscornia</a>"
+  with: "with <a href='https://www.inesfynn.com/home'>Ines Fynn</a>, <a href='https://veronicaperezbentancur.com'>Verónica Pérez Bentancur</a>, and <a href='https://www.luciatiscornia.com/'>Lucía Tiscornia</a>"
   status: "Working paper"
   pdf: "../files/research/list_nsum.pdf"
   
 - title: "<b>Criminal Governance in Unexpected Contexts: the Case of Montevideo, Uruguay</b>"
   type: "Working"
-  date: 2026-06-08
-  with: "with <a href='https://imfd.cl/en/investigador/ines-fynn/'>Ines Fynn</a>, <a href='https://scholar.google.com/citations?user=wj21dxsAAAAJ&hl=en'>Verónica Pérez Bentancur</a>, and <a href='https://www.luciatiscornia.com/'>Lucía Tiscornia</a>"
+  date: 2026-06-14
+  with: "with <a href='https://www.inesfynn.com/home'>Ines Fynn</a>, <a href='https://veronicaperezbentancur.com'>Verónica Pérez Bentancur</a>, and <a href='https://www.luciatiscornia.com/'>Lucía Tiscornia</a>"
   status: "Revise and resubmit"
   pdf: "../files/research/crevices.pdf"
 
