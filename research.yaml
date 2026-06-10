@@ -16,6 +16,7 @@
   date: 2026-06-09
   status: "Working paper"
   pdf: "../files/research/list_placebo.pdf"
+  appendix: "../files/research/list_placebo_appendix.pdf"
 
 - title: "<b>Two-Sided Sensitivity Bias in Surveys</b>"
   type: "Working"
