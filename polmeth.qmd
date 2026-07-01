@@ -1,0 +1,50 @@
+---
+title: "Recovering Estimates in Failed Placebo-Controlled List Experiments"
+author: "Gustavo Diaz<br><gustavo.diaz@northwestern.edu>"
+date: last-modified
+---
+
+{{< fa file-pdf >}} [Poster](https://gustavodiaz.org/files/research/poster_list_placebo.pdf)
+ &nbsp; {{< fa file-pdf >}} [Paper](https://gustavodiaz.org/files/research/list_placebo.pdf) 
+ &nbsp; {{< fa file-pdf >}} [Appendix](https://gustavodiaz.org/files/research/list_placebo_appendix.pdf)
+  &nbsp; {{< fa tv >}} [Slides](https://talks.gustavodiaz.org/mpsa26)
+
+# Welcome
+
+Thank you for visiting my poster! Here you will find additional information about the paper, broader project, and related work.
+
+Feel free to reach out with comments or questions. Any feedback is welcomed! I would also love to chat during the conference.
+
+You can also use the navigation bar to learn more about me and my work.
+
+# Project
+
+This paper is part of a broader [ERC starting grant](https://doi.org/10.3030/101220198) on criminal governance in unexpected contexts. Our main goal is to have a back and forth between substantive contribution and methodological innovation to measure political phenomena in hard-to-reach populations.
+
+Here are some papers, at different stages, related to the project.
+
+<!-- Needs to be updated -->
+["Criminal Governance in Unexpected Contexts: the Case of Montevideo, Uruguay"](https://gustavodiaz.org/files/research/crevices.pdf)  
+*Revise and resubmit at Latin American Politics and Society*
+
+["Combining List Experiments and the Network Scale-Up Method to Improve Prevalence Estimates of Sensitive Attitudes and Behaviors."](https://gustavodiaz.org/files/research/list_nsum.pdf)
+
+# Related work
+
+**On list experiments**
+
+2024\. ["Assessing the Validity of Prevalence Estimates in Double List Experiments."](https://doi.org/10.1017/XPS.2023.24) *Journal of Experimental Political Science* 11(2): 162-174
+
+["Two-Sided Sensitivity Bias in List Experiments: Support for Same-Sex Marriage in Argentina"](https://gustavodiaz.org/files/research/ssm_arg.pdf) (with Jordi Díez and Michelle Dion)  
+*Revise and resubmit at the Journal of Survey Statistics and Methodology*
+
+ 
+
+**On experimental design**
+
+2026\. ["Balancing Precision and Retention in Experimental Design."](https://doi.org/10.1017/pan.2025.10008) *Political Analysis* 34 (1): 139-148 (with Erin Rossiter)
+
+[Difference-in-Slopes: Causal Effects on Descriptive Associations](https://gustavodiaz.org/files/research/diff_in_slopes.pdf) (with Alexander Coppock) 
+
+
+
