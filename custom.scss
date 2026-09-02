@@ -22,6 +22,15 @@ $font-size-base:              1.1rem !default;
 $headings-font-weight:        700 !default;
 $sidebar-font-size: 1.2rem;
 
+/*-- scss:rules --*/
+.page-item .page-link {
+  background-color: $primary;
+  border-color: $primary;
+  color: #fff;
+}
 
-
-
+.page-item.active .page-link {
+  background-color: lighten($primary, 25%);
+  border-color: lighten($primary, 25%);
+  color: #fff;
+}
