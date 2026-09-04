@@ -13,3 +13,91 @@ page-layout: full
 
 :::{listings}
 :::
+
+<style>
+#listing-listings td.listing-title-cell {
+  vertical-align: top;
+}
+#listing-listings td.listing-title-cell[rowspan]:not([rowspan="1"]) {
+  vertical-align: middle;
+  border-left: 2px solid var(--bs-secondary, #ccc);
+}
+</style>
+
+<script>
+(function () {
+  function markTitleCells() {
+    // One-time setup: tag each row's title <td> so it can be found again
+    // after cells get removed/reinserted by the merge pass below.
+    document.querySelectorAll('#listing-listings tbody.list > tr').forEach(function (row) {
+      const span = row.querySelector('.listing-title');
+      if (!span) return;
+      const td = span.closest('td');
+      if (!td) return;
+      td.classList.add('listing-title-cell');
+      if (row.dataset.titleText === undefined) {
+        row.dataset.titleText = span.textContent;
+        row.dataset.titleIndex = Array.prototype.indexOf.call(row.children, td);
+      }
+    });
+  }
+
+  function restoreTitleCell(row) {
+    // Re-insert a plain, unspanned title cell if a previous merge removed it.
+    if (row.querySelector(':scope > td.listing-title-cell')) return;
+    const td = document.createElement('td');
+    td.className = 'listing-title-cell';
+    const span = document.createElement('span');
+    span.className = 'listing-title';
+    span.textContent = row.dataset.titleText || '';
+    td.appendChild(span);
+    const index = parseInt(row.dataset.titleIndex, 10) || 0;
+    row.insertBefore(td, row.children[index] || null);
+  }
+
+  function applyTitleMerge() {
+    const rows = Array.from(document.querySelectorAll('#listing-listings tbody.list > tr'));
+
+    // Reset every row to its own unspanned title cell first, so grouping
+    // is recomputed cleanly on every sort/filter/search event.
+    rows.forEach(function (row) {
+      restoreTitleCell(row);
+      row.querySelector(':scope > td.listing-title-cell').rowSpan = 1;
+    });
+
+    let group = [];
+    function flushGroup() {
+      if (group.length > 1) {
+        const head = group[0];
+        head.querySelector(':scope > td.listing-title-cell').rowSpan = group.length;
+        group.slice(1).forEach(function (row) {
+          row.querySelector(':scope > td.listing-title-cell').remove();
+        });
+      }
+      group = [];
+    }
+
+    rows.forEach(function (row) {
+      if (row.style.display === 'none') return; // filtered out, ignore for grouping
+      const title = row.dataset.titleText;
+      const groupTitle = group.length ? group[0].dataset.titleText : null;
+      if (group.length && title !== groupTitle) flushGroup();
+      group.push(row);
+    });
+    flushGroup();
+  }
+
+  function waitForListInstance() {
+    const list = window['quarto-listings'] && window['quarto-listings']['listing-listings'];
+    if (list) {
+      markTitleCells();
+      applyTitleMerge();
+      list.on('updated', applyTitleMerge);
+    } else {
+      setTimeout(waitForListInstance, 50);
+    }
+  }
+
+  document.addEventListener('DOMContentLoaded', waitForListInstance);
+})();
+</script>

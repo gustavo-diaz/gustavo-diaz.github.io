@@ -381,6 +381,92 @@ window.Quarto = {
 <div class="{listings}">
 
 </div>
+<style>
+#listing-listings td.listing-title-cell {
+  vertical-align: top;
+}
+#listing-listings td.listing-title-cell[rowspan]:not([rowspan="1"]) {
+  vertical-align: middle;
+  border-left: 2px solid var(--bs-secondary, #ccc);
+}
+</style>
+<script>
+(function () {
+  function markTitleCells() {
+    // One-time setup: tag each row's title <td> so it can be found again
+    // after cells get removed/reinserted by the merge pass below.
+    document.querySelectorAll('#listing-listings tbody.list > tr').forEach(function (row) {
+      const span = row.querySelector('.listing-title');
+      if (!span) return;
+      const td = span.closest('td');
+      if (!td) return;
+      td.classList.add('listing-title-cell');
+      if (row.dataset.titleText === undefined) {
+        row.dataset.titleText = span.textContent;
+        row.dataset.titleIndex = Array.prototype.indexOf.call(row.children, td);
+      }
+    });
+  }
+
+  function restoreTitleCell(row) {
+    // Re-insert a plain, unspanned title cell if a previous merge removed it.
+    if (row.querySelector(':scope > td.listing-title-cell')) return;
+    const td = document.createElement('td');
+    td.className = 'listing-title-cell';
+    const span = document.createElement('span');
+    span.className = 'listing-title';
+    span.textContent = row.dataset.titleText || '';
+    td.appendChild(span);
+    const index = parseInt(row.dataset.titleIndex, 10) || 0;
+    row.insertBefore(td, row.children[index] || null);
+  }
+
+  function applyTitleMerge() {
+    const rows = Array.from(document.querySelectorAll('#listing-listings tbody.list > tr'));
+
+    // Reset every row to its own unspanned title cell first, so grouping
+    // is recomputed cleanly on every sort/filter/search event.
+    rows.forEach(function (row) {
+      restoreTitleCell(row);
+      row.querySelector(':scope > td.listing-title-cell').rowSpan = 1;
+    });
+
+    let group = [];
+    function flushGroup() {
+      if (group.length > 1) {
+        const head = group[0];
+        head.querySelector(':scope > td.listing-title-cell').rowSpan = group.length;
+        group.slice(1).forEach(function (row) {
+          row.querySelector(':scope > td.listing-title-cell').remove();
+        });
+      }
+      group = [];
+    }
+
+    rows.forEach(function (row) {
+      if (row.style.display === 'none') return; // filtered out, ignore for grouping
+      const title = row.dataset.titleText;
+      const groupTitle = group.length ? group[0].dataset.titleText : null;
+      if (group.length && title !== groupTitle) flushGroup();
+      group.push(row);
+    });
+    flushGroup();
+  }
+
+  function waitForListInstance() {
+    const list = window['quarto-listings'] && window['quarto-listings']['listing-listings'];
+    if (list) {
+      markTitleCells();
+      applyTitleMerge();
+      list.on('updated', applyTitleMerge);
+    } else {
+      setTimeout(waitForListInstance, 50);
+    }
+  }
+
+  document.addEventListener('DOMContentLoaded', waitForListInstance);
+})();
+</script>
 
 
 
@@ -438,7 +524,7 @@ window.Quarto = {
 </thead>
 <tbody class="list">
 
-<tr data-index="0" data-listing-date-sort="1777093200000" data-listing-title-sort="Recovering Informative Estimates in Failed Placebo-Controlled List Experiments">
+<tr data-index="0" data-listing-date-sort="1777089600000" data-listing-title-sort="Recovering Informative Estimates in Failed Placebo-Controlled List Experiments">
 <td>
 <span class="listing-date">Apr 25, 2026</span>
 </td>
@@ -454,7 +540,7 @@ window.Quarto = {
 
 </tr>
 
-<tr data-index="1" data-listing-date-sort="1772604000000" data-listing-title-sort="Recovering Informative Estimates in Failed Placebo-Controlled List Experiments">
+<tr data-index="1" data-listing-date-sort="1772600400000" data-listing-title-sort="Recovering Informative Estimates in Failed Placebo-Controlled List Experiments">
 <td>
 <span class="listing-date">Mar 4, 2026</span>
 </td>
@@ -470,7 +556,7 @@ window.Quarto = {
 
 </tr>
 
-<tr data-index="2" data-listing-date-sort="1763618400000" data-listing-title-sort="Recovering Informative Estimates in Failed Placebo-Controlled List Experiments">
+<tr data-index="2" data-listing-date-sort="1763614800000" data-listing-title-sort="Recovering Informative Estimates in Failed Placebo-Controlled List Experiments">
 <td>
 <span class="listing-date">Nov 20, 2025</span>
 </td>
@@ -486,7 +572,7 @@ window.Quarto = {
 
 </tr>
 
-<tr data-index="3" data-listing-date-sort="1744088400000" data-listing-title-sort="Balancing Precision and Retention in Experimental Design">
+<tr data-index="3" data-listing-date-sort="1744084800000" data-listing-title-sort="Balancing Precision and Retention in Experimental Design">
 <td>
 <span class="listing-date">Apr 8, 2025</span>
 </td>
@@ -502,7 +588,7 @@ window.Quarto = {
 
 </tr>
 
-<tr data-index="4" data-listing-date-sort="1743829200000" data-listing-title-sort="Combining List Experiments and the Network Scale-Up Method">
+<tr data-index="4" data-listing-date-sort="1743825600000" data-listing-title-sort="Combining List Experiments and the Network Scale-Up Method">
 <td>
 <span class="listing-date">Apr 5, 2025</span>
 </td>
@@ -518,7 +604,7 @@ window.Quarto = {
 
 </tr>
 
-<tr data-index="5" data-listing-date-sort="1740204000000" data-listing-title-sort="Balancing Precision and Retention in Experimental Design">
+<tr data-index="5" data-listing-date-sort="1740200400000" data-listing-title-sort="Balancing Precision and Retention in Experimental Design">
 <td>
 <span class="listing-date">Feb 22, 2025</span>
 </td>
@@ -534,7 +620,7 @@ window.Quarto = {
 
 </tr>
 
-<tr data-index="6" data-listing-date-sort="1720069200000" data-listing-title-sort="Combining List Experiments and the Network Scale-Up Method">
+<tr data-index="6" data-listing-date-sort="1720065600000" data-listing-title-sort="Combining List Experiments and the Network Scale-Up Method">
 <td>
 <span class="listing-date">Jul 4, 2024</span>
 </td>
@@ -550,7 +636,7 @@ window.Quarto = {
 
 </tr>
 
-<tr data-index="7" data-listing-date-sort="1714712400000" data-listing-title-sort="The Merits of Externally Invalid Survey Experiments">
+<tr data-index="7" data-listing-date-sort="1714708800000" data-listing-title-sort="The Merits of Externally Invalid Survey Experiments">
 <td>
 <span class="listing-date">May 3, 2024</span>
 </td>
@@ -566,7 +652,7 @@ window.Quarto = {
 
 </tr>
 
-<tr data-index="8" data-listing-date-sort="1712466000000" data-listing-title-sort="How the Presence of Others Can Bias Survey Responses">
+<tr data-index="8" data-listing-date-sort="1712462400000" data-listing-title-sort="How the Presence of Others Can Bias Survey Responses">
 <td>
 <span class="listing-date">Apr 7, 2024</span>
 </td>
@@ -582,7 +668,7 @@ window.Quarto = {
 
 </tr>
 
-<tr data-index="9" data-listing-date-sort="1712206800000" data-listing-title-sort="Criminal Governance in Unexpected Contexts">
+<tr data-index="9" data-listing-date-sort="1712203200000" data-listing-title-sort="Criminal Governance in Unexpected Contexts">
 <td>
 <span class="listing-date">Apr 4, 2024</span>
 </td>
