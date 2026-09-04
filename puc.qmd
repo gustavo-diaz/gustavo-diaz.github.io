@@ -1,0 +1,22 @@
+---
+title: "Recovering Informative Estimates in Failed Placebo-Controlled List Experiments"
+author: "Gustavo Diaz<br><gustavo.diaz@northwestern.edu>"
+date: last-modified
+---
+
+# Bievenido/a
+
+¡Gracias por visitar! Aquí puede encontrar materiales relacionados con mi presentación. No dude en contactarme con preguntas o comentarios.
+
+También puede usar los enlaces en la barra de navegación para aprender más sobre mi experiencia docente y otros proyectos.
+
+# Enlaces
+
+{{< fa file-pdf >}} [Paper](https://gustavodiaz.org/files/research/list_placebo.pdf)
+
+{{< fa file-pdf >}} [Material suplementario](https://gustavodiaz.org/files/research/list_placebo_appendix.pdf)
+
+{{< fa tv >}} [Presentación](https://talks.gustavodiaz.org/puc)
+
+{{< fa file-lines >}} [Información adicional](https://talks.gustavodiaz.org/puc_extra)
+
